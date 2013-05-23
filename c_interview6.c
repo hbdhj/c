@@ -1,3 +1,6 @@
+/*
+sizeof is pre-compile
+*/
 #include <stdio.h>
 int main()  
 {

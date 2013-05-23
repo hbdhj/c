@@ -1,3 +1,7 @@
+/*
+This is for test fprintf for different output device.
+*/
+
 #include <stdio.h>
 #include <unistd.h>
 int main()  

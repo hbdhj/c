@@ -1,3 +1,6 @@
+/*
+printf formating
+*/
 #include <stdio.h>
 int main()  
 {

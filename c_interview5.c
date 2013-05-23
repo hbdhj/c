@@ -1,3 +1,6 @@
+/*
+Potential core for scanf with limit length string
+*/
 #include <stdio.h>
 int main()  
 {      

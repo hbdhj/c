@@ -1,3 +1,7 @@
+/*
+define macro
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
  

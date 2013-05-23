@@ -1,3 +1,6 @@
+/*
+i++ and ++i and if sequnce
+*/
 #include <stdio.h>
 int main()  
 {
