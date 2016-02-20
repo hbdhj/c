@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE4E40B14408CF300ABD784 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4E40A14408CF300ABD784 /* UIKit.framework */; };
+		3BE4E40D14408CF300ABD784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4E40C14408CF300ABD784 /* Foundation.framework */; };
+		3BE4E40F14408CF300ABD784 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4E40E14408CF300ABD784 /* CoreGraphics.framework */; };
+		3BE4E41114408CF300ABD784 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4E41014408CF300ABD784 /* QuartzCore.framework */; };
+		3BE4E41314408CF300ABD784 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4E41214408CF300ABD784 /* OpenGLES.framework */; };
+		3BE4E41914408CF300ABD784 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BE4E41714408CF300ABD784 /* InfoPlist.strings */; };
+		3BE4E41B14408CF300ABD784 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4E41A14408CF300ABD784 /* main.m */; };
+		3BE4E41F14408CF300ABD784 /* MultiTimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4E41E14408CF300ABD784 /* MultiTimerAppDelegate.m */; };
+		3BE4E42214408CF300ABD784 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE4E42014408CF300ABD784 /* MainWindow.xib */; };
+		3BE4E42414408CF300ABD784 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3BE4E42314408CF300ABD784 /* Shader.fsh */; };
+		3BE4E42614408CF300ABD784 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 3BE4E42514408CF300ABD784 /* Shader.vsh */; };
+		3BE4E42914408CF300ABD784 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4E42814408CF300ABD784 /* EAGLView.m */; };
+		3BE4E42C14408CF300ABD784 /* MultiTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4E42B14408CF300ABD784 /* MultiTimerViewController.m */; };
+		3BE4E42F14408CF300ABD784 /* MultiTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE4E42D14408CF300ABD784 /* MultiTimerViewController.xib */; };
+		3BE4E43714408CF400ABD784 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4E43614408CF400ABD784 /* SenTestingKit.framework */; };
+		3BE4E43814408CF400ABD784 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4E40A14408CF300ABD784 /* UIKit.framework */; };
+		3BE4E43914408CF400ABD784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4E40C14408CF300ABD784 /* Foundation.framework */; };
+		3BE4E43A14408CF400ABD784 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4E40E14408CF300ABD784 /* CoreGraphics.framework */; };
+		3BE4E44214408CF400ABD784 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BE4E44014408CF400ABD784 /* InfoPlist.strings */; };
+		3BE4E44414408CF400ABD784 /* MultiTimerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3BE4E44314408CF400ABD784 /* MultiTimerTests.h */; };
+		3BE4E44614408CF400ABD784 /* MultiTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4E44514408CF400ABD784 /* MultiTimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BE4E43B14408CF400ABD784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE4E3FD14408CF300ABD784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BE4E40514408CF300ABD784;
+			remoteInfo = MultiTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BE4E40614408CF300ABD784 /* MultiTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE4E40A14408CF300ABD784 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BE4E40C14408CF300ABD784 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BE4E40E14408CF300ABD784 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BE4E41014408CF300ABD784 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3BE4E41214408CF300ABD784 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3BE4E41614408CF300ABD784 /* MultiTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiTimer-Info.plist"; sourceTree = "<group>"; };
+		3BE4E41814408CF300ABD784 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BE4E41A14408CF300ABD784 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BE4E41C14408CF300ABD784 /* MultiTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiTimer-Prefix.pch"; sourceTree = "<group>"; };
+		3BE4E41D14408CF300ABD784 /* MultiTimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTimerAppDelegate.h; sourceTree = "<group>"; };
+		3BE4E41E14408CF300ABD784 /* MultiTimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTimerAppDelegate.m; sourceTree = "<group>"; };
+		3BE4E42114408CF300ABD784 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3BE4E42314408CF300ABD784 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		3BE4E42514408CF300ABD784 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		3BE4E42714408CF300ABD784 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		3BE4E42814408CF300ABD784 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		3BE4E42A14408CF300ABD784 /* MultiTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTimerViewController.h; sourceTree = "<group>"; };
+		3BE4E42B14408CF300ABD784 /* MultiTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTimerViewController.m; sourceTree = "<group>"; };
+		3BE4E42E14408CF300ABD784 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MultiTimerViewController.xib; sourceTree = "<group>"; };
+		3BE4E43514408CF400ABD784 /* MultiTimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE4E43614408CF400ABD784 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3BE4E43F14408CF400ABD784 /* MultiTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiTimerTests-Info.plist"; sourceTree = "<group>"; };
+		3BE4E44114408CF400ABD784 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BE4E44314408CF400ABD784 /* MultiTimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTimerTests.h; sourceTree = "<group>"; };
+		3BE4E44514408CF400ABD784 /* MultiTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BE4E40314408CF300ABD784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE4E40B14408CF300ABD784 /* UIKit.framework in Frameworks */,
+				3BE4E40D14408CF300ABD784 /* Foundation.framework in Frameworks */,
+				3BE4E40F14408CF300ABD784 /* CoreGraphics.framework in Frameworks */,
+				3BE4E41114408CF300ABD784 /* QuartzCore.framework in Frameworks */,
+				3BE4E41314408CF300ABD784 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE4E43114408CF300ABD784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE4E43714408CF400ABD784 /* SenTestingKit.framework in Frameworks */,
+				3BE4E43814408CF400ABD784 /* UIKit.framework in Frameworks */,
+				3BE4E43914408CF400ABD784 /* Foundation.framework in Frameworks */,
+				3BE4E43A14408CF400ABD784 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE4E3FB14408CF300ABD784 = {
+			isa = PBXGroup;
+			children = (
+				3BE4E41414408CF300ABD784 /* MultiTimer */,
+				3BE4E43D14408CF400ABD784 /* MultiTimerTests */,
+				3BE4E40914408CF300ABD784 /* Frameworks */,
+				3BE4E40714408CF300ABD784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BE4E40714408CF300ABD784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE4E40614408CF300ABD784 /* MultiTimer.app */,
+				3BE4E43514408CF400ABD784 /* MultiTimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BE4E40914408CF300ABD784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BE4E40A14408CF300ABD784 /* UIKit.framework */,
+				3BE4E40C14408CF300ABD784 /* Foundation.framework */,
+				3BE4E40E14408CF300ABD784 /* CoreGraphics.framework */,
+				3BE4E41014408CF300ABD784 /* QuartzCore.framework */,
+				3BE4E41214408CF300ABD784 /* OpenGLES.framework */,
+				3BE4E43614408CF400ABD784 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BE4E41414408CF300ABD784 /* MultiTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3BE4E41D14408CF300ABD784 /* MultiTimerAppDelegate.h */,
+				3BE4E41E14408CF300ABD784 /* MultiTimerAppDelegate.m */,
+				3BE4E42014408CF300ABD784 /* MainWindow.xib */,
+				3BE4E42314408CF300ABD784 /* Shader.fsh */,
+				3BE4E42514408CF300ABD784 /* Shader.vsh */,
+				3BE4E42714408CF300ABD784 /* EAGLView.h */,
+				3BE4E42814408CF300ABD784 /* EAGLView.m */,
+				3BE4E42A14408CF300ABD784 /* MultiTimerViewController.h */,
+				3BE4E42B14408CF300ABD784 /* MultiTimerViewController.m */,
+				3BE4E42D14408CF300ABD784 /* MultiTimerViewController.xib */,
+				3BE4E41514408CF300ABD784 /* Supporting Files */,
+			);
+			path = MultiTimer;
+			sourceTree = "<group>";
+		};
+		3BE4E41514408CF300ABD784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BE4E41614408CF300ABD784 /* MultiTimer-Info.plist */,
+				3BE4E41714408CF300ABD784 /* InfoPlist.strings */,
+				3BE4E41A14408CF300ABD784 /* main.m */,
+				3BE4E41C14408CF300ABD784 /* MultiTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BE4E43D14408CF400ABD784 /* MultiTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BE4E44314408CF400ABD784 /* MultiTimerTests.h */,
+				3BE4E44514408CF400ABD784 /* MultiTimerTests.m */,
+				3BE4E43E14408CF400ABD784 /* Supporting Files */,
+			);
+			path = MultiTimerTests;
+			sourceTree = "<group>";
+		};
+		3BE4E43E14408CF400ABD784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BE4E43F14408CF400ABD784 /* MultiTimerTests-Info.plist */,
+				3BE4E44014408CF400ABD784 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BE4E40514408CF300ABD784 /* MultiTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE4E44914408CF400ABD784 /* Build configuration list for PBXNativeTarget "MultiTimer" */;
+			buildPhases = (
+				3BE4E40214408CF300ABD784 /* Sources */,
+				3BE4E40314408CF300ABD784 /* Frameworks */,
+				3BE4E40414408CF300ABD784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiTimer;
+			productName = MultiTimer;
+			productReference = 3BE4E40614408CF300ABD784 /* MultiTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BE4E43414408CF300ABD784 /* MultiTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE4E44C14408CF400ABD784 /* Build configuration list for PBXNativeTarget "MultiTimerTests" */;
+			buildPhases = (
+				3BE4E43014408CF300ABD784 /* Sources */,
+				3BE4E43114408CF300ABD784 /* Frameworks */,
+				3BE4E43214408CF300ABD784 /* Resources */,
+				3BE4E43314408CF300ABD784 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BE4E43C14408CF400ABD784 /* PBXTargetDependency */,
+			);
+			name = MultiTimerTests;
+			productName = MultiTimerTests;
+			productReference = 3BE4E43514408CF400ABD784 /* MultiTimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BE4E3FD14408CF300ABD784 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3BE4E40014408CF300ABD784 /* Build configuration list for PBXProject "MultiTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BE4E3FB14408CF300ABD784;
+			productRefGroup = 3BE4E40714408CF300ABD784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE4E40514408CF300ABD784 /* MultiTimer */,
+				3BE4E43414408CF300ABD784 /* MultiTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BE4E40414408CF300ABD784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE4E41914408CF300ABD784 /* InfoPlist.strings in Resources */,
+				3BE4E42214408CF300ABD784 /* MainWindow.xib in Resources */,
+				3BE4E42414408CF300ABD784 /* Shader.fsh in Resources */,
+				3BE4E42614408CF300ABD784 /* Shader.vsh in Resources */,
+				3BE4E42F14408CF300ABD784 /* MultiTimerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE4E43214408CF300ABD784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE4E44214408CF400ABD784 /* InfoPlist.strings in Resources */,
+				3BE4E44414408CF400ABD784 /* MultiTimerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BE4E43314408CF300ABD784 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BE4E40214408CF300ABD784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE4E41B14408CF300ABD784 /* main.m in Sources */,
+				3BE4E41F14408CF300ABD784 /* MultiTimerAppDelegate.m in Sources */,
+				3BE4E42914408CF300ABD784 /* EAGLView.m in Sources */,
+				3BE4E42C14408CF300ABD784 /* MultiTimerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE4E43014408CF300ABD784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE4E44614408CF400ABD784 /* MultiTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BE4E43C14408CF400ABD784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BE4E40514408CF300ABD784 /* MultiTimer */;
+			targetProxy = 3BE4E43B14408CF400ABD784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BE4E41714408CF300ABD784 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE4E41814408CF300ABD784 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BE4E42014408CF300ABD784 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE4E42114408CF300ABD784 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3BE4E42D14408CF300ABD784 /* MultiTimerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE4E42E14408CF300ABD784 /* en */,
+			);
+			name = MultiTimerViewController.xib;
+			sourceTree = "<group>";
+		};
+		3BE4E44014408CF400ABD784 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE4E44114408CF400ABD784 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BE4E44714408CF400ABD784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BE4E44814408CF400ABD784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BE4E44A14408CF400ABD784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTimer/MultiTimer-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "MultiTimer/MultiTimer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BE4E44B14408CF400ABD784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTimer/MultiTimer-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "MultiTimer/MultiTimer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BE4E44D14408CF400ABD784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiTimer.app/MultiTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTimer/MultiTimer-Prefix.pch";
+				INFOPLIST_FILE = "MultiTimerTests/MultiTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3BE4E44E14408CF400ABD784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiTimer.app/MultiTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTimer/MultiTimer-Prefix.pch";
+				INFOPLIST_FILE = "MultiTimerTests/MultiTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BE4E40014408CF300ABD784 /* Build configuration list for PBXProject "MultiTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE4E44714408CF400ABD784 /* Debug */,
+				3BE4E44814408CF400ABD784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE4E44914408CF400ABD784 /* Build configuration list for PBXNativeTarget "MultiTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE4E44A14408CF400ABD784 /* Debug */,
+				3BE4E44B14408CF400ABD784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BE4E44C14408CF400ABD784 /* Build configuration list for PBXNativeTarget "MultiTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE4E44D14408CF400ABD784 /* Debug */,
+				3BE4E44E14408CF400ABD784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BE4E3FD14408CF300ABD784 /* Project object */;
+}
