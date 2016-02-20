@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BC419C21C783510002CFEAE /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC419C11C783510002CFEAE /* RatingControl.swift */; };
 		3BF86CFE1C777285003E1C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF86CFD1C777285003E1C2C /* AppDelegate.swift */; };
 		3BF86D001C777285003E1C2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF86CFF1C777285003E1C2C /* ViewController.swift */; };
 		3BF86D031C777285003E1C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF86D011C777285003E1C2C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BC419C11C783510002CFEAE /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		3BF86CFA1C777285003E1C2C /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF86CFD1C777285003E1C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BF86CFF1C777285003E1C2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				3BF86CFD1C777285003E1C2C /* AppDelegate.swift */,
 				3BF86CFF1C777285003E1C2C /* ViewController.swift */,
+				3BC419C11C783510002CFEAE /* RatingControl.swift */,
 				3BF86D011C777285003E1C2C /* Main.storyboard */,
 				3BF86D041C777285003E1C2C /* Assets.xcassets */,
 				3BF86D061C777285003E1C2C /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BF86D001C777285003E1C2C /* ViewController.swift in Sources */,
+				3BC419C21C783510002CFEAE /* RatingControl.swift in Sources */,
 				3BF86CFE1C777285003E1C2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +392,7 @@
 				3BF86D191C777285003E1C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF86D1A1C777285003E1C2C /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				3BF86D1C1C777285003E1C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
