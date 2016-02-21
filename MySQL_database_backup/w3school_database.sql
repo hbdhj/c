@@ -16,6 +16,54 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Table structure for table `Employees_China`
+--
+
+DROP TABLE IF EXISTS `Employees_China`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Employees_China` (
+  `E_ID` int(11) NOT NULL,
+  `E_NAME` varchar(255) NOT NULL,
+  PRIMARY KEY (`E_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Employees_China`
+--
+
+LOCK TABLES `Employees_China` WRITE;
+/*!40000 ALTER TABLE `Employees_China` DISABLE KEYS */;
+INSERT INTO `Employees_China` VALUES (1,'Zhang, Hua'),(2,'Wang, Wei'),(3,'Carter, Thomas'),(4,'Yang, Ming');
+/*!40000 ALTER TABLE `Employees_China` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Employees_USA`
+--
+
+DROP TABLE IF EXISTS `Employees_USA`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Employees_USA` (
+  `E_ID` int(11) NOT NULL,
+  `E_NAME` varchar(255) NOT NULL,
+  PRIMARY KEY (`E_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Employees_USA`
+--
+
+LOCK TABLES `Employees_USA` WRITE;
+/*!40000 ALTER TABLE `Employees_USA` DISABLE KEYS */;
+INSERT INTO `Employees_USA` VALUES (1,'Adams, John'),(2,'Bush, George'),(3,'Carter, Thomas'),(4,'Gates, Bill');
+/*!40000 ALTER TABLE `Employees_USA` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `Orders`
 --
 
@@ -25,7 +73,11 @@ DROP TABLE IF EXISTS `Orders`;
 CREATE TABLE `Orders` (
   `Company` varchar(255) NOT NULL,
   `OrderNumber` int(11) NOT NULL,
-  PRIMARY KEY (`OrderNumber`)
+  `Id_O` int(11) NOT NULL,
+  `id_p` int(11) NOT NULL,
+  PRIMARY KEY (`Id_O`),
+  KEY `id_p` (`id_p`),
+  CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`id_p`) REFERENCES `Persons` (`Id_P`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -35,7 +87,7 @@ CREATE TABLE `Orders` (
 
 LOCK TABLES `Orders` WRITE;
 /*!40000 ALTER TABLE `Orders` DISABLE KEYS */;
-INSERT INTO `Orders` VALUES ('W3School',2356),('IBM',3532),('Apple',4698),('W3School',6953);
+INSERT INTO `Orders` VALUES ('W3School',2356,1,4),('IBM',3532,2,3),('Apple',4698,3,2),('W3School',6953,4,1);
 /*!40000 ALTER TABLE `Orders` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -51,8 +103,9 @@ CREATE TABLE `Persons` (
   `LastName` varchar(255) DEFAULT NULL,
   `FirstName` varchar(255) DEFAULT NULL,
   `Address` varchar(255) DEFAULT NULL,
-  `City` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`Id_P`)
+  `City` varchar(255) DEFAULT 'Beijing',
+  PRIMARY KEY (`Id_P`),
+  KEY `PersonIndex` (`LastName`,`FirstName`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -62,7 +115,7 @@ CREATE TABLE `Persons` (
 
 LOCK TABLES `Persons` WRITE;
 /*!40000 ALTER TABLE `Persons` DISABLE KEYS */;
-INSERT INTO `Persons` VALUES (1,'Gates','Bill','Xuanwumen 10','Beijing'),(2,'Carter','Thomas','Changan Street','Beijing'),(3,'Wilson','Thomas','Champs-Elysees','LA'),(4,'Bush','George','Fifth Avenue','New Yort'),(5,'Carter','William','Xuanwumen 10','Beijing');
+INSERT INTO `Persons` VALUES (1,'Gates','Bill','Xuanwumen 10','Beijing'),(2,'Carter','Thomas','Changan Street','Beijing'),(3,'Wilson','Thomas','Champs-Elysees','LA'),(4,'Bush','George','Fifth Avenue','New Yort'),(5,'Carter','William','Xuanwumen 10','Beijing'),(6,'Wilson','Fred','Zhongshan 23','Nanjing'),(7,'Adams','John','Oxford Street','London');
 /*!40000 ALTER TABLE `Persons` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -75,4 +128,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-02-21 18:46:23
+-- Dump completed on 2016-02-21 22:00:00
