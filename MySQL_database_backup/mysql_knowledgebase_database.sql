@@ -23,9 +23,9 @@ DROP TABLE IF EXISTS `ACTIONS`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ACTIONS` (
-  `E_ID` int(11) NOT NULL,
-  `E_NAME` varchar(255) NOT NULL,
-  PRIMARY KEY (`E_ID`)
+  `A_ID` int(11) NOT NULL,
+  `A_NAME` varchar(255) NOT NULL,
+  PRIMARY KEY (`A_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -47,9 +47,9 @@ DROP TABLE IF EXISTS `OBJECTS`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `OBJECTS` (
-  `E_ID` int(11) NOT NULL,
-  `E_NAME` varchar(255) NOT NULL,
-  PRIMARY KEY (`E_ID`)
+  `O_ID` int(11) NOT NULL,
+  `O_NAME` varchar(255) NOT NULL,
+  PRIMARY KEY (`O_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -58,65 +58,60 @@ CREATE TABLE `OBJECTS` (
 --
 
 LOCK TABLES `OBJECTS` WRITE;
-/*!40000 ALTER TABLE `Employees_USA` DISABLE KEYS */;
+/*!40000 ALTER TABLE `OBJECTS` DISABLE KEYS */;
 INSERT INTO `OBJECTS` VALUES (1,'database'),(2,'table'),(3,'column'),(4,'record');
 /*!40000 ALTER TABLE `OBJECTS` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `Orders`
+-- Table structure for table `Commands`
 --
 
-DROP TABLE IF EXISTS `Orders`;
+DROP TABLE IF EXISTS `Commands`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `Orders` (
-  `Company` varchar(255) NOT NULL,
-  `OrderNumber` int(11) NOT NULL,
-  `Id_O` int(11) NOT NULL,
-  `id_p` int(11) NOT NULL,
-  PRIMARY KEY (`Id_O`),
-  KEY `id_p` (`id_p`),
-  CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`id_p`) REFERENCES `Persons` (`Id_P`)
+CREATE TABLE `Commands` (
+  `C_ID` int(11) NOT NULL,
+  `C_NAME` varchar(255) NOT NULL,
+  PRIMARY KEY (`C_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `Orders`
+-- Dumping data for table `Commands`
 --
 
-LOCK TABLES `Orders` WRITE;
-/*!40000 ALTER TABLE `Orders` DISABLE KEYS */;
-INSERT INTO `Orders` VALUES ('W3School',2356,1,4),('IBM',3532,2,3),('Apple',4698,3,2),('W3School',6953,4,1);
-/*!40000 ALTER TABLE `Orders` ENABLE KEYS */;
+LOCK TABLES `Commands` WRITE;
+/*!40000 ALTER TABLE `Commands` DISABLE KEYS */;
+INSERT INTO `Commands` VALUES (1, 'create'),(2, 'update'),(3, 'insert'),(4, 'delete'),(5, 'drop'),(6, 'alter'),(7, 'select');
+/*!40000 ALTER TABLE `Commands` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `Persons`
+-- Table structure for table `SQLs`
 --
 
-DROP TABLE IF EXISTS `Persons`;
+DROP TABLE IF EXISTS `SQLs`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `Persons` (
-  `Id_P` int(11) NOT NULL,
-  `LastName` varchar(255) DEFAULT NULL,
-  `FirstName` varchar(255) DEFAULT NULL,
-  `Address` varchar(255) DEFAULT NULL,
-  `City` varchar(255) DEFAULT 'Beijing',
-  PRIMARY KEY (`Id_P`),
-  KEY `PersonIndex` (`LastName`,`FirstName`)
+CREATE TABLE `SQLs` (
+  `S_ID` int(11) NOT NULL,
+  `A_ID` int(11) NOT NULL,
+  `C_ID` int(11) NOT NULL,
+  `O_ID` int(11) NOT NULL,
+  `Example` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`S_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `Persons`
+-- Dumping data for table `SQLs`
 --
 
-LOCK TABLES `Persons` WRITE;
-/*!40000 ALTER TABLE `Persons` DISABLE KEYS */;
-INSERT INTO `Persons` VALUES (1,'Gates','Bill','Xuanwumen 10','Beijing'),(2,'Carter','Thomas','Changan Street','Beijing'),(3,'Wilson','Thomas','Champs-Elysees','LA'),(4,'Bush','George','Fifth Avenue','New Yort'),(5,'Carter','William','Xuanwumen 10','Beijing'),(6,'Wilson','Fred','Zhongshan 23','Nanjing'),(7,'Adams','John','Oxford Street','London');
-/*!40000 ALTER TABLE `Persons` ENABLE KEYS */;
+LOCK TABLES `SQLs` WRITE;
+/*!40000 ALTER TABLE `SQLs` DISABLE KEYS */;
+INSERT INTO `SQLs` VALUES (1, 1, 1, 1, 'INSERT INTO Persons VALUES (\'Gates\', \'Bill\', \'Xuanwumen 10\', \'Beijing\')');
+/*!40000 ALTER TABLE `SQLs` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
