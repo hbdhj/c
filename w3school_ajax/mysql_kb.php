@@ -1,6 +1,6 @@
 
 <?php
-
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $con = mysql_connect("localhost","denghaijun","dhj123");
     if (!$con)
     {
@@ -40,8 +40,36 @@
                 $rowId+=1;
             }
         }
+        $ret .= ";";
+        $result = mysql_query("SELECT * FROM commands");
+        $result_num = count($result);
+        if ($result_num>0)
+        {
+            $ret.="commands:";
+            $rowId=0;
+            while($row = mysql_fetch_array($result))
+            {
+                if($rowId==0)
+                    $ret .= $row['C_NAME'];
+                else
+                    $ret .= "," . $row['C_NAME'];
+                $rowId+=1;
+            }
+        }
         mysql_close($con);
 
         echo $ret;
     }
+}
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $firstName="";
+    $lastName="";
+    if (isset($_POST['fname'])) {
+        $firstName = $_POST['fname'];             // get data
+    }
+    if (isset($_POST['lname'])) {
+        $lastName = $_POST['lname'];             // get data
+    }
+    echo "welcome ".$firstName." ".$lastName;
+}
 ?>

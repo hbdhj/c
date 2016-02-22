@@ -17,52 +17,30 @@ function load()
     {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
-            document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+            //document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
             var resultsArray=xmlhttp.responseText.split(";")
-            //alart(resultsArray.length);
-            console.log(resultsArray.length);
-
             for (var i = 0; i < resultsArray.length; i++) {
                 var recordsArray=resultsArray[i].split(":");
-                console.log(recordsArray.length);
                 var sel1=null;
-                //alart("selector = "+ recordsArray[0].toLowerCase());
-                console.log(recordsArray[0].toLowerCase());
-                console.log(recordsArray[1]);
                 switch (recordsArray[0].toLowerCase().trim()) {
                     case "actions":
                         sel1=document.getElementById("actions");
-                        console.log(sel1.nodeId);
-                        if(sel1){
-                            console.log("get actions select");
-                        }
-                        else {
-                            console.log("get actions select failed");
-                        }
                         break;
                     case "objects":
                         sel1=document.getElementById("objects");
-                        console.log(sel1.nodeId);
-                        if(sel1){
-                            console.log("get objects select");
-                        }
-                        else {
-                            console.log("get objects select failed");
-                        }
+                        break;
+                    case "commands":
+                        sel1=document.getElementById("commands");
                         break;
                     default:
                         sel=null;
                 }
 
                 if(sel1!=null){
-                    console.log(sel1.nodeName);
-
                     var records=recordsArray[1].split(",");
                     for (var j = 0; j <  records.length; j++) {
-                        console.log(records[j]);
                         var varItem = new Option(records[j], records[j]);
                         sel1.options.add(varItem);
-                        //sel.options.add(records[j]);
                     }
                 }
             }
@@ -70,6 +48,31 @@ function load()
     }
     xmlhttp.open("GET","/mysql_kb.php?",true);
     xmlhttp.send();
+}
+function getExample()
+{
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+    {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+    }
+    else
+    {// code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function()
+    {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+            document.getElementById("txtHint").innerHTML="Example: "+xmlhttp.responseText;
+
+        }
+    }
+    //xmlhttp.open("GET","/mysql_kb.php?",true);
+    //xmlhttp.send();
+    xmlhttp.open("POST","mysql_kb.php",true);
+    xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xmlhttp.send("fname=Bill&lname=Gates");
 }
 </script>
 </head>
@@ -80,8 +83,12 @@ function load()
 </select>
 <select id="objects">
 </select>
+<select id="commands">
+</select>
+<button type="button" onclick="getExample()">Get Example</button>
+</form>
 
-<p>Result: <span id="txtHint"></span></p>
+<p><span id="txtHint"></span></p>
 </body>
 
 </html>
