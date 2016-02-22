@@ -1,11 +1,11 @@
-<!DOCTYPE HTML> 
+<!DOCTYPE HTML>
 <html>
 <head>
 <style>
 .error {color: #FF0000;}
 </style>
 </head>
-<body> 
+<body>
 
 <?php
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -19,22 +19,29 @@ function test_input($data) {
 }
    if (empty($_POST["name"])) {
      $nameErr = "name is needed";
-     echo "<h2>$nameErr</h2>";
    } else {
      $name = test_input($_POST["name"]);
+     if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+       $nameErr = "Only letters and spaces allowed!";
+     }
    }
-   
+
    if (empty($_POST["email"])) {
      $emailErr = "email is needed";
-     echo "<h2>$emailErr</h2>";
    } else {
      $email = test_input($_POST["email"]);
+     if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email)) {
+       $emailErr = "invalid email address";
+     }
    }
-     
+
    if (empty($_POST["website"])) {
      $website = "";
    } else {
      $website = test_input($_POST["website"]);
+     if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
+       $websiteErr = "invalid URL";
+     }
    }
 
    if (empty($_POST["comment"])) {
@@ -45,17 +52,16 @@ function test_input($data) {
 
    if (empty($_POST["gender"])) {
      $genderErr = "gender is needed";
-      echo "<h2>$genderErr</h2>";
    } else {
      $gender = test_input($_POST["gender"]);
    }
-   
+
    if (!empty($nameErr)) {
-      echo "<h2>$nameError</h2>";
+      echo "<h2>$nameErr</h2>";
    } elseif (!empty($emailErr)) {
-      echo "<h2>$emailError</h2>";
+      echo "<h2>$emailErr</h2>";
    } elseif (! empty($genderErr)) {
-      echo "<h2>$genderError</h2>";
+      echo "<h2>$genderErr</h2>";
    } else {
       echo "<h2>Your inputs: </h2>";
       echo $name;
