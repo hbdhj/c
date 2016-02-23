@@ -1,0 +1,3251 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Newest Questions - Page 2 - Stack Overflow</title>
+    <link rel="shortcut icon" href="//cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="//cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest Questions - Page 2" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions?page=2&amp;sort=newest"/>
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="//cdn.sstatic.net/Js/stub.en.js?v=523421a95c64"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.sstatic.net/stackoverflow/all.css?v=5f731b1c466a">
+
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1456238854,"networkMetaHostname":"meta.stackexchange.com","routeName":"Questions/List","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"enableSocialMediaInSharePopup":true},"user":{"fkey":"613642d3fd5cfbacef1acac030888855","rep":1,"isRegistered":true,"userType":3,"userId":3001445,"accountId":3597087,"gravatar":"<div class=\"gravatar-wrapper-32\"><img src=\"https://www.gravatar.com/avatar/0ab461a87e8f9a064894ed4e942773ee?s=32&amp;d=identicon&amp;r=PG&amp;f=1\" alt=\"\" width=\"32\" height=\"32\"></div>","profileUrl":"http://stackoverflow.com/users/3001445/user3001445","canSeeDeletedPosts":false,"ab":{"welcome_email":{"v":"8","g":2}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"7226ead6e52b","js/moderator.en.js":"708cdca5452e","js/full-anon.en.js":"4f319a87f632","js/full.en.js":"b02448f4618e","js/wmd.en.js":"387fb6e38437","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"99311b6cc3d1","js/help.en.js":"f58b9bbdda52","js/tageditor.en.js":"d2b356d439db","js/tageditornew.en.js":"718b842f8804","js/inline-tag-editing.en.js":"de80429b1816","js/revisions.en.js":"c2bb6b44f707","js/review.en.js":"acffcef1690d","js/tagsuggestions.en.js":"2a9fc67ea337","js/post-validation.en.js":"dad9ad595458","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"98290ec762fb","js/keyboard-shortcuts.en.js":"2dcca320690b","js/external-editor.en.js":"a2b93f24c78e","js/external-editor.en.js":"a2b93f24c78e","js/snippet-javascript.en.js":"f590e314ee2d","js/snippet-javascript-codemirror.en.js":"b7ec2fc0de61"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+
+
+
+</head>
+<body class="questions-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+
+        <iframe id="adzerk-user-match" width="0" height="0" frameborder="0" scrolling="no" onload="window.AUMIframeDone=true"
+                src="https://ssum-sec.casalemedia.com/usermatch?s=183712&amp;cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D"
+                style="display: none;" marginheight="0" marginwidth="0"></iframe>
+
+
+
+
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="//stackoverflow.com">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+                    <a href="/users/logout" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:8 })"
+>log out</a>
+    </div>
+
+
+
+
+    <a href="//stackoverflow.com"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="//careers.stackoverflow.com?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+
+    <div class="header" id="your-communities-header">
+        <h3>
+                <a href="//stackexchange.com/users/3597087/?tab=accounts">your communities</a>
+        </h3>
+
+            <a href="#" id="edit-pinned-sites">edit</a>
+            <a href="#" id="cancel-pinned-sites" style="display: none;">cancel</a>
+    </div>
+    <div class="modal-content" id="your-communities-section">
+
+            <ul class="my-sites">
+                    <li>
+
+
+
+
+    <a href="//stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+            site.switch({ target_site:1, item_type:3 }),
+        site_switcher.click({ item_type:1 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+            <span class="rep-score">1</span>
+    </a>
+
+                    </li>
+            </ul>
+                <div class="pinned-site-editor-container" style="display: none;">
+                    <input id="js-site-search-txt"
+                           type="text"
+                           class="site-filter-input"
+                           value=""
+                           placeholder="Add a Stack Exchange community"/>
+                    <input type="submit" id="pin-site-btn" value="Add" disabled="disabled"/>
+                    <ul class="js-found-sites found-sites"></ul>
+                    <ul class="pinned-site-list sortable" data-custom-list="False">
+                    </ul>
+                    <input type="submit" value="Save" id="save-pinned-sites-btn" disabled="disabled"/>
+                    <a href="#" id="reset-pinned-sites">reset to default list</a>
+                </div>
+    </div>
+
+    <div class="header">
+        <h3><a href="//stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="//stackexchange.com"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 153 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="You have unread inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="">1</span>
+    </a>
+    <a href="#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button icon-achievements-unread"
+       data-unread-class="icon-achievements-unread"
+       title="You have new achievements">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <a href="/users/3001445/user3001445"
+                   class="profile-me js-gps-track"
+                   data-gps-track="profile_summary.click()">
+
+                    <div class="gravatar-wrapper-24" title="user3001445"><img src="https://www.gravatar.com/avatar/0ab461a87e8f9a064894ed4e942773ee?s=48&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="24" height="24" class="avatar-me js-avatar-me"></div>
+
+                    <div class="links-container topbar-flair">
+
+                        <span class="reputation" title="your reputation: 1">
+                            1
+                        </span>
+                    </div>
+                </a>
+                <div class="links-container">
+                    <span class="topbar-menu-links">
+
+
+
+
+    <a href="#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="//meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="http://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                        About Us
+                        <span class="item-summary">
+                            Learn more about Stack Overflow the company
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://business.stackoverflow.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                        Business
+                        <span class="item-summary">
+                            Learn more about hiring developers or posting ads with us
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="Search Q&amp;A" value="" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="/questions">Questions</a></li>
+                            <li><a id="nav-jobs" href="/jobs">Jobs</a></li>
+                        <li><a id="nav-tags" href="/tags">Tags</a></li>
+                        <li><a id="nav-users" href="/users">Users</a></li>
+                        <li><a id="nav-badges" href="/help/badges">Badges</a></li>
+                                            </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="content" class="snippet-hidden">
+
+    <div id="mainbar">
+        <div class="subheader">
+            <h1 id="h-all-questions">All Questions</h1>
+
+
+<div id="tabs">
+        <a class="youarehere" href="/questions?sort=newest" data-nav-xhref="" title="The most recently asked questions" data-value="newest">
+            newest</a>
+        <a href="/questions?sort=featured" data-nav-xhref="" title="Questions with open bounties" data-value="featured">
+<span class="bounty-indicator-tab">446</span>            featured</a>
+        <a href="/questions?sort=frequent" data-nav-xhref="" title="Questions with the most links" data-value="frequent">
+            frequent</a>
+        <a href="/questions?sort=votes" data-nav-xhref="" title="Questions with the most votes" data-value="votes">
+            votes</a>
+        <a href="/questions?sort=active" data-nav-xhref="" title="Questions that have recent activity" data-value="active">
+            active</a>
+        <a id="tab-switch" href="/unanswered" data-nav-xhref="" title="Switch to unanswered tabs" data-value="">
+            unanswered</a>
+</div>
+
+        </div>
+        <div id="questions">
+<div class="question-summary" id="question-summary-35580390">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580390/please-clarify-vagrant-behavior" class="question-hyperlink">Please clarify vagrant behavior</a></h3>
+        <div class="excerpt">
+            I have just started working with Vagrant. After starting guest machine and making some changes (e.g. installed some updates and python virtualenvs). And after few (vagrant halt and vagrant reload) ...
+        </div>
+        <div class="tags t-vagrant">
+            <a href="/questions/tagged/vagrant" class="post-tag" title="show questions tagged &#39;vagrant&#39;" rel="tag">vagrant</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:38:27Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/3975711/sergey-vorobey"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/756de1bfefa4329d2d23dd5975c24306?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/3975711/sergey-vorobey">Sergey Vorobey</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">41</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580388">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580388/how-to-convert-each-column-in-a-new-table-in-documentformat-openxml" class="question-hyperlink">How to convert each column in a new table in DocumentFormat.OpenXML</a></h3>
+        <div class="excerpt">
+            I have an issue at converting from Excel file to XML file. When I convert the info in table  tags, it converts in &lt;table1&gt;&lt;/table1&gt; &lt;table1&gt;&lt;/table1&gt; ...
+        </div>
+        <div class="tags t-cñ t-xml t-excel">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="/questions/tagged/xml" class="post-tag" title="show questions tagged &#39;xml&#39;" rel="tag">xml</a> <a href="/questions/tagged/excel" class="post-tag" title="show questions tagged &#39;excel&#39;" rel="tag">excel</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:38:18Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5660920/rodolfo-lanshore"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/RbS2J.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5660920/rodolfo-lanshore">Rodolfo Lanshore</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580387">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580387/excel-index-match-does-mismatch" class="question-hyperlink">Excel Index Match does mismatch</a></h3>
+        <div class="excerpt">
+            I'm having a problem with Excel 2010 INDEX/MATCH and I do not understand why it's happening
+
+I've one spreadsheet with multiple tabs
+
+On the tab Routing there is an entry on line 208 with the value ...
+        </div>
+        <div class="tags t-excel t-excel-2010">
+            <a href="/questions/tagged/excel" class="post-tag" title="show questions tagged &#39;excel&#39;" rel="tag">excel</a> <a href="/questions/tagged/excel-2010" class="post-tag" title="show questions tagged &#39;excel-2010&#39;" rel="tag">excel-2010</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:38:16Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/1780134/niteowls"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/249b709e7f36a0de556034e916ba0a7d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/1780134/niteowls">NiteOwls</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">91</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580386">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="14 views">
+    14 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580386/timepicker-on-edittext-click" class="question-hyperlink">TimePicker on EditText click</a></h3>
+        <div class="excerpt">
+            How to set a Timepicker on EditText Click in android.
+
+I have searched the following links but it doesn't work as the showDialog() is now depricated.
+
+TimePicker Dialog from clicking EditText
+
+...
+        </div>
+        <div class="tags t-android t-timepicker">
+            <a href="/questions/tagged/android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="/questions/tagged/timepicker" class="post-tag" title="show questions tagged &#39;timepicker&#39;" rel="tag">timepicker</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:38:09Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/3790366/pravinsingh-waghela"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/O1Jgy.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/3790366/pravinsingh-waghela">Pravinsingh Waghela</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">597</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span><span title="28 bronze badges"><span class="badge3"></span><span class="badgecount">28</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580382">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="24 views">
+    24 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580382/find-repeated-words-in-a-string-between-in-r" class="question-hyperlink">Find repeated words in a string between &ldquo;/&rdquo; in R</a></h3>
+        <div class="excerpt">
+            Assume the following vector:
+
+x &lt;- c("/default/img/irs/irs/irs/irs/irs/irs/irs/irs/irs/irs/irs/irs/IRS.html/", "something/repeat/repeat_this")
+
+
+I want to check whether a word enclosed by / is ...
+        </div>
+        <div class="tags t-regex t-r">
+            <a href="/questions/tagged/regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a> <a href="/questions/tagged/r" class="post-tag" title="show questions tagged &#39;r&#39;" rel="tag">r</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:55Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5635580/sotos"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/79995e3a80e20ecbde1eb60767b491a3?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5635580/sotos">Sotos</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">462</span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580380">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580380/how-many-white-keys-are-between-two-keys" class="question-hyperlink">How many white keys are between two keys?</a></h3>
+        <div class="excerpt">
+            Let's take a look at these types:
+
+public enum KeyTone : int
+{
+    C = 0,
+    Cs = 1,
+    D = 2,
+    Ds = 3,
+    E = 4,
+    F = 5,
+    Fs = 6,
+    G = 7,
+    Gs = 8,
+    A = 9,
+    As = 10,
+...
+        </div>
+        <div class="tags t-algorithm">
+            <a href="/questions/tagged/algorithm" class="post-tag" title="show questions tagged &#39;algorithm&#39;" rel="tag">algorithm</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:48Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/453803/spook"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/vPNHD.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/453803/spook">Spook</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 12984" dir="ltr">13k</span><span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span><span title="39 silver badges"><span class="badge2"></span><span class="badgecount">39</span></span><span title="76 bronze badges"><span class="badge3"></span><span class="badgecount">76</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580379">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580379/post-request-with-asynctask" class="question-hyperlink">POST Request with AsyncTask</a></h3>
+        <div class="excerpt">
+            I'm trying to insert data into a MySQL database via an android application and a PHP script.
+
+I'm using this code from here:
+How to add parameters to HttpURLConnection using POST
+
+I also added the ...
+        </div>
+        <div class="tags t-php t-android t-mysql t-android-asynctask">
+            <a href="/questions/tagged/php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="/questions/tagged/android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="/questions/tagged/mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> <a href="/questions/tagged/android-asynctask" class="post-tag" title="show questions tagged &#39;android-asynctask&#39;" rel="tag">android-asynctask</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:43Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/4273588/gintoki"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/VZx6O.png?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/4273588/gintoki">Gintoki</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580378">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="8 views">
+    8 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580378/tablesorter-not-working-tried-existing-solutions" class="question-hyperlink">Tablesorter not working, tried existing solutions</a></h3>
+        <div class="excerpt">
+            I am having trouble implementing Tablesorter 2.0. I wish to sort the table using this library and if possible filter using the widget. Below is my code
+
+JavaScript: My include libraries
+
+&lt;%@page ...
+        </div>
+        <div class="tags t-javascript t-jquery t-html t-css t-tablesorter">
+            <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="/questions/tagged/jquery" class="post-tag" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a> <a href="/questions/tagged/html" class="post-tag" title="show questions tagged &#39;html&#39;" rel="tag">html</a> <a href="/questions/tagged/css" class="post-tag" title="show questions tagged &#39;css&#39;" rel="tag">css</a> <a href="/questions/tagged/tablesorter" class="post-tag" title="show questions tagged &#39;tablesorter&#39;" rel="tag">tablesorter</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:41Z" class="relativetime">9 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/4955323/nickpomroy"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/0db7450cdb0fa82dc4c4998fca6fb7ec?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/4955323/nickpomroy">NickPomroy</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580376">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580376/shopify-rails-proxy-shopify-app-input-form" class="question-hyperlink">Shopify rails proxy shopify_app input form</a></h3>
+        <div class="excerpt">
+            Hei,
+
+It seems like I've read entire docs and forum so I thought maybe you could help me out. I am planning on opening Shopify store with car parts. I want to build an app, displayed on my shops front ...
+        </div>
+        <div class="tags t-ruby-on-rails t-shopify">
+            <a href="/questions/tagged/ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="/questions/tagged/shopify" class="post-tag" title="show questions tagged &#39;shopify&#39;" rel="tag">shopify</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:33Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/4958465/peter-jay"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/db94e6d0c13796bf926d5bfc32bdcfc0?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/4958465/peter-jay">Peter Jay</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580374">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="18 views">
+    18 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580374/how-to-align-horizontally-an-icon-with-css" class="question-hyperlink">How to align horizontally an icon with css?</a></h3>
+        <div class="excerpt">
+            I have this html markup, I would like to center horizontally an icon I have in a sprite, it have 15 % for the icon anc 85% for the info-data class. I would like to align center the icon.
+
+&lt;div ...
+        </div>
+        <div class="tags t-html t-css">
+            <a href="/questions/tagged/html" class="post-tag" title="show questions tagged &#39;html&#39;" rel="tag">html</a> <a href="/questions/tagged/css" class="post-tag" title="show questions tagged &#39;css&#39;" rel="tag">css</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:25Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/2112420/user2112420"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/61740ff720cd7d315808e2ed3bf58632?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/2112420/user2112420">user2112420</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">111</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580373">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580373/android-studio-font-blurry" class="question-hyperlink">Android Studio font blurry</a></h3>
+        <div class="excerpt">
+            I had both Android Studio and Intellij installed in my mac, however the font on Intellij looks OK but Android Studio looks blurry, tried many settings and re-install it still not work, does anyone ...
+        </div>
+        <div class="tags t-android-studio">
+            <a href="/questions/tagged/android-studio" class="post-tag" title="show questions tagged &#39;android-studio&#39;" rel="tag"><img src="//i.stack.imgur.com/xqoqk.png" height="16" width="18" alt="" class="sponsor-tag-img">android-studio</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:21Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/2715992/drainet"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/fc5d4042c812691ca418251f6239b250?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/2715992/drainet">drainet</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580372">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="3 views">
+    3 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580372/how-to-set-3d-coordinate-system-by-pyopengl" class="question-hyperlink">How to set 3D coordinate system by PyOpenGL</a></h3>
+        <div class="excerpt">
+            How to set 3D coordinate system by PyOpenGL in Python? Just like fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.set_zlim(-1,1) in matplotlib.
+And how to plot 3D curves?
+Anybody can ...
+        </div>
+        <div class="tags t-python t-pyopengl">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/pyopengl" class="post-tag" title="show questions tagged &#39;pyopengl&#39;" rel="tag">pyopengl</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:18Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5790343/richard-l"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/6b1c2364c6be0b475b2cc38e87fd7231?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5790343/richard-l">Richard.L</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">25</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580371">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580371/create-animation-and-interaction-using-html5" class="question-hyperlink">Create animation and interaction using html5</a></h3>
+        <div class="excerpt">
+            I have this webpage http://bonsai.com.ec/dvs/ What I need is to make this section (the corporate values circle) animated so the user can click on people, environment, Integrity... also the talent ...
+        </div>
+        <div class="tags t-javascript t-jquery t-css t-html5">
+            <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="/questions/tagged/jquery" class="post-tag" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a> <a href="/questions/tagged/css" class="post-tag" title="show questions tagged &#39;css&#39;" rel="tag">css</a> <a href="/questions/tagged/html5" class="post-tag" title="show questions tagged &#39;html5&#39;" rel="tag">html5</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:17Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/2734472/atrik"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/7b003ed0ab22ea004cc3793ff74cbfc1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/2734472/atrik">atrik</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">390</span><span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580367">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="5 views">
+    5 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580367/how-to-test-command-line-app-with-rspec" class="question-hyperlink">How to test command line app with rspec</a></h3>
+        <div class="excerpt">
+            Such as if I want to test echo 1 to be 1
+
+expect { `echo 1` }.to output("1").to_stdout
+
+
+does not work, it says it outputs nothing to stdout, while
+
+expect { print 1 }.to output("1").to_stdout
+
+
+works ...
+        </div>
+        <div class="tags t-ruby t-rspec">
+            <a href="/questions/tagged/ruby" class="post-tag" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a> <a href="/questions/tagged/rspec" class="post-tag" title="show questions tagged &#39;rspec&#39;" rel="tag">rspec</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:06Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/675154/delta"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/23da6806cab4830b5d1b15ef2a410541?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/675154/delta">delta</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">138</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580366">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="3 views">
+    3 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580366/apache-drill-jdbc-execution-from-jboss-server" class="question-hyperlink">Apache Drill JDBC execution from Jboss Server</a></h3>
+        <div class="excerpt">
+            Below error is getting thrown when I am invoking drill jdbc code from jboss server. The same piece of code is executing fine while connecting it from standalone java class.
+
+19:51:51,720 INFO  ...
+        </div>
+        <div class="tags t-apache-drill">
+            <a href="/questions/tagged/apache-drill" class="post-tag" title="show questions tagged &#39;apache-drill&#39;" rel="tag">apache-drill</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:37:02Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5146768/abhishek-agrawal"><div class="gravatar-wrapper-32"><img src="https://lh5.googleusercontent.com/-exC4tGFpq1g/AAAAAAAAAAI/AAAAAAAAA64/M0NtyFqPgfY/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5146768/abhishek-agrawal">Abhishek Agrawal</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">23</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580364">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="5 views">
+    5 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580364/how-can-i-connect-cloud66-with-jenkins-to-run-a-cucumber-test-after-a-deploy" class="question-hyperlink">How can I connect Cloud66 with Jenkins to run a cucumber test after a deploy?</a></h3>
+        <div class="excerpt">
+            I have a rails server app running in Cloud66 and I want my Jenkins CI to start running a test every time there is a deploy in Cloud66.
+
+Is it possible to do this? How?
+
+Thanks!
+
+        </div>
+        <div class="tags t-jenkins t-cucumber t-jenkins-plugins t-webhooks t-cloud66">
+            <a href="/questions/tagged/jenkins" class="post-tag" title="show questions tagged &#39;jenkins&#39;" rel="tag">jenkins</a> <a href="/questions/tagged/cucumber" class="post-tag" title="show questions tagged &#39;cucumber&#39;" rel="tag">cucumber</a> <a href="/questions/tagged/jenkins-plugins" class="post-tag" title="show questions tagged &#39;jenkins-plugins&#39;" rel="tag">jenkins-plugins</a> <a href="/questions/tagged/webhooks" class="post-tag" title="show questions tagged &#39;webhooks&#39;" rel="tag">webhooks</a> <a href="/questions/tagged/cloud66" class="post-tag" title="show questions tagged &#39;cloud66&#39;" rel="tag">cloud66</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:36:58Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/881203/tiago"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/tDvWy.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/881203/tiago">Tiago</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580362">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580362/ansible-with-items-refer-to-different-list" class="question-hyperlink">Ansible with_items refer to different list</a></h3>
+        <div class="excerpt">
+            I would appreciate if someone could help me.
+
+I have the following task:
+
+https://gist.github.com/anonymous/1f33615218086b9a0512
+
+following variables:
+...
+        </div>
+        <div class="tags t-ansible-2ûx">
+            <a href="/questions/tagged/ansible-2.x" class="post-tag" title="show questions tagged &#39;ansible-2.x&#39;" rel="tag">ansible-2.x</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:36:52Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5968840/vadim-lungu"><div class="gravatar-wrapper-32"><img src="https://lh5.googleusercontent.com/-t8XX5ehIdtw/AAAAAAAAAAI/AAAAAAAADKk/k-YM2QEG-NU/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5968840/vadim-lungu">Vadim Lungu</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580361">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="9 views">
+    9 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580361/excel-function-with-vlookup-left-and-substitute" class="question-hyperlink">Excel function with vlookup, left and substitute</a></h3>
+        <div class="excerpt">
+            So I need a function that allows me to convert a 00:90:7f:b3:ff:02 to 00907fb3ff02
+then from there to the first six characters to = 00907f. After that I need it to do a vlookup to a second worksheet ...
+        </div>
+        <div class="tags t-excel t-vba">
+            <a href="/questions/tagged/excel" class="post-tag" title="show questions tagged &#39;excel&#39;" rel="tag">excel</a> <a href="/questions/tagged/vba" class="post-tag" title="show questions tagged &#39;vba&#39;" rel="tag">vba</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:36:51Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5969076/stevo"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/73c64bd689f70f1e1b9a685db3af6400?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5969076/stevo">stevo</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580355">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580355/django-httpresponse-open-file-object-in-default-editor" class="question-hyperlink">Django HttpResponse - open file object in default editor</a></h3>
+        <div class="excerpt">
+            Take the following code snippet of a Django view
+
+def serve_file(request)
+    path = 'C:/path_to_file/test.html'
+    file_name = os.path.basename(path)
+    response = HttpResponse(path)
+    ...
+        </div>
+        <div class="tags t-django t-windows t-httpresponse">
+            <a href="/questions/tagged/django" class="post-tag" title="show questions tagged &#39;django&#39;" rel="tag">django</a> <a href="/questions/tagged/windows" class="post-tag" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a> <a href="/questions/tagged/httpresponse" class="post-tag" title="show questions tagged &#39;httpresponse&#39;" rel="tag">httpresponse</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:36:36Z" class="relativetime">10 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/135675/ruth"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/34c42fe5a173815369944d3d313ae063?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/135675/ruth">Ruth</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">978</span><span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span><span title="22 silver badges"><span class="badge2"></span><span class="badgecount">22</span></span><span title="37 bronze badges"><span class="badge3"></span><span class="badgecount">37</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580352">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="13 views">
+    13 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580352/jasmine-wait-async-library-to-load-completely-before-performing-tests" class="question-hyperlink">Jasmine - Wait Async library to load completely before performing tests</a></h3>
+        <div class="excerpt">
+            My project contains an external library that use async XMLHttpRequest to load data. The loading time can vary between 200ms to 10000ms.
+
+I would like Jasmine to perform the tests only when that ...
+        </div>
+        <div class="tags t-javascript t-asynchronous t-jasmine">
+            <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="/questions/tagged/asynchronous" class="post-tag" title="show questions tagged &#39;asynchronous&#39;" rel="tag">asynchronous</a> <a href="/questions/tagged/jasmine" class="post-tag" title="show questions tagged &#39;jasmine&#39;" rel="tag">jasmine</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:36:19Z" class="relativetime">11 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/1914034/below-the-radar"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/7umtD.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/1914034/below-the-radar">Below the Radar</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1,492</span><span title="11 silver badges"><span class="badge2"></span><span class="badgecount">11</span></span><span title="45 bronze badges"><span class="badge3"></span><span class="badgecount">45</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580346">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580346/cakephp-load-name-field-of-related-model-on-view" class="question-hyperlink">CakePHP: Load name field of related model on view</a></h3>
+        <div class="excerpt">
+            Guys I have a simple but boring question...
+I have the following scenario:
+
+Solicitation -&gt; HasMany -&gt; Destiny
+
+Destiny -&gt; BelongsTo -&gt; City
+
+
+My problem is on the view, I want to retrieve ...
+        </div>
+        <div class="tags t-php t-oop t-cakephp t-associations">
+            <a href="/questions/tagged/php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="/questions/tagged/oop" class="post-tag" title="show questions tagged &#39;oop&#39;" rel="tag">oop</a> <a href="/questions/tagged/cakephp" class="post-tag" title="show questions tagged &#39;cakephp&#39;" rel="tag">cakephp</a> <a href="/questions/tagged/associations" class="post-tag" title="show questions tagged &#39;associations&#39;" rel="tag">associations</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:36:06Z" class="relativetime">11 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/1746575/lucas-loyola"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/a8b65d9124a879e35b30df73dcf1c4ba?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/1746575/lucas-loyola">Lucas Loyola</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580340">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580340/netbeans-not-importing-javax-on-new-enterprise-application-with-existing-resourc" class="question-hyperlink">Netbeans not importing javax on New Enterprise application with existing resources</a></h3>
+        <div class="excerpt">
+            I am following a tutorial from a book with netbeans and when i create a new project with Enterprise application with existing resources to use the examples given, in all the java files that use javax ...
+        </div>
+        <div class="tags t-java t-netbeans">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged &#39;java&#39;" rel="tag">java</a> <a href="/questions/tagged/netbeans" class="post-tag" title="show questions tagged &#39;netbeans&#39;" rel="tag">netbeans</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:35:47Z" class="relativetime">11 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/4872985/t4l0n"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/bdsrW.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/4872985/t4l0n">T4l0n</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">155</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580339">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580339/viewport-units-calculations-not-properly-calculated" class="question-hyperlink">Viewport units calculations not properly calculated</a></h3>
+        <div class="excerpt">
+            Why there is a difference between manually calculated height, and height calculated by the browser, using vh units. Because of this miscalculations i've got a problem at sub pixel level.
+
+"1vh ...
+        </div>
+        <div class="tags t-javascript t-css t-viewport-units t-subpixel">
+            <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="/questions/tagged/css" class="post-tag" title="show questions tagged &#39;css&#39;" rel="tag">css</a> <a href="/questions/tagged/viewport-units" class="post-tag" title="show questions tagged &#39;viewport-units&#39;" rel="tag">viewport-units</a> <a href="/questions/tagged/subpixel" class="post-tag" title="show questions tagged &#39;subpixel&#39;" rel="tag">subpixel</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:35:45Z" class="relativetime">11 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/4166976/chudy444"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/100000247200866/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/4166976/chudy444">Chudy444</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580334">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="12 views">
+    12 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580334/how-to-pass-other-parameters-to-owin-login" class="question-hyperlink">How to pass other parameters to OWIN Login?</a></h3>
+        <div class="excerpt">
+            I've got an ASP.NET Web API site, which is doing OWIN authentication, passing username and password, which magically appear in my GrantResourceOwnerCredentials method, inside the UserName and Password ...
+        </div>
+        <div class="tags t-cñ t-aspûnet-web-api t-owin">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="/questions/tagged/asp.net-web-api" class="post-tag" title="show questions tagged &#39;asp.net-web-api&#39;" rel="tag">asp.net-web-api</a> <a href="/questions/tagged/owin" class="post-tag" title="show questions tagged &#39;owin&#39;" rel="tag">owin</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:35:37Z" class="relativetime">11 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/7850/shaul-behr"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/Eql2x.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/7850/shaul-behr">Shaul Behr</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 11233" dir="ltr">11.2k</span><span title="37 gold badges"><span class="badge1"></span><span class="badgecount">37</span></span><span title="156 silver badges"><span class="badge2"></span><span class="badgecount">156</span></span><span title="253 bronze badges"><span class="badge3"></span><span class="badgecount">253</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580335">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580335/xcode-file-mobileprovisioning-is-disabled-to-be-installed" class="question-hyperlink">XCode: file.mobileprovisioning is disabled to be installed</a></h3>
+        <div class="excerpt">
+            I have an iOS app which is ready to be loaded to the App Store using Application Loader. In https://developer.apple.com/ I have just created a new Development Provisioning Profile whose name is ...
+        </div>
+        <div class="tags t-ios t-xcode t-provisioning-profile t-ios-provisioning">
+            <a href="/questions/tagged/ios" class="post-tag" title="show questions tagged &#39;ios&#39;" rel="tag">ios</a> <a href="/questions/tagged/xcode" class="post-tag" title="show questions tagged &#39;xcode&#39;" rel="tag">xcode</a> <a href="/questions/tagged/provisioning-profile" class="post-tag" title="show questions tagged &#39;provisioning-profile&#39;" rel="tag">provisioning-profile</a> <a href="/questions/tagged/ios-provisioning" class="post-tag" title="show questions tagged &#39;ios-provisioning&#39;" rel="tag">ios-provisioning</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:35:37Z" class="relativetime">11 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/2424546/lory-lory"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/5c405c9dc9e456b23ca41ad73192f94a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/2424546/lory-lory">Lory Lory</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">866</span><span title="9 silver badges"><span class="badge2"></span><span class="badgecount">9</span></span><span title="26 bronze badges"><span class="badge3"></span><span class="badgecount">26</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580333">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="7 views">
+    7 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580333/if-third-character-not-isnumeric" class="question-hyperlink">If third character Not Isnumeric</a></h3>
+        <div class="excerpt">
+            First time using this site, hopefully you guys can help me out some.
+
+I'm working on a project that displays text on a monitor as a reference but running into some logic trouble.
+
+Someone clicks a ...
+        </div>
+        <div class="tags t-vbûnet">
+            <a href="/questions/tagged/vb.net" class="post-tag" title="show questions tagged &#39;vb.net&#39;" rel="tag">vb.net</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:35:36Z" class="relativetime">11 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5968913/holi4683"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f6b8b23a767df0afd11546350f21486f?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5968913/holi4683">holi4683</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580331">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="3 views">
+    3 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580331/built-and-static-linked-boost-modules-causes-a-bunch-of-linker-errors-with-shutd" class="question-hyperlink">Built and static linked boost modules causes a bunch of linker errors with shutdown_service()</a></h3>
+        <div class="excerpt">
+            I'm trying to get select boost modules built and into my code as static libraries for what we need for our project. I seem to be able to get them to build using their Boost.Build system, and my ...
+        </div>
+        <div class="tags t-cçç t-boost t-static-linking t-autotools">
+            <a href="/questions/tagged/c%2b%2b" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="/questions/tagged/boost" class="post-tag" title="show questions tagged &#39;boost&#39;" rel="tag">boost</a> <a href="/questions/tagged/static-linking" class="post-tag" title="show questions tagged &#39;static-linking&#39;" rel="tag">static-linking</a> <a href="/questions/tagged/autotools" class="post-tag" title="show questions tagged &#39;autotools&#39;" rel="tag">autotools</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:35:29Z" class="relativetime">12 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/3282410/mikealeonetti"><div class="gravatar-wrapper-32"><img src="https://graph.facebook.com/1148414897/picture?type=large" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/3282410/mikealeonetti">mikealeonetti</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">305</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580329">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="17 views">
+    17 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580329/php-convert-multi-dimensions-array-into-2-dimensions-array" class="question-hyperlink">PHP convert multi-dimensions array into 2 dimensions array</a></h3>
+        <div class="excerpt">
+            I have a array with 3 dimensions and 2 dimensions arrays as child elements (depending on how it is been generated). Regardless of the dimension, I want to have a two dimensions array as the result.
+I ...
+        </div>
+        <div class="tags t-php t-arrays">
+            <a href="/questions/tagged/php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="/questions/tagged/arrays" class="post-tag" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:35:19Z" class="relativetime">12 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/1364571/peter"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/bc31de50a65b8bcbe83e5e4923083f14?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/1364571/peter">Peter</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">36</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580327">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580327/archiving-multiple-files-in-unix-using-tar-and-gzip" class="question-hyperlink">Archiving multiple files in Unix using tar and gzip</a></h3>
+        <div class="excerpt">
+            I have requirement to archive multiple files keeping the original files using tar and gzip. I cannot take risk with the files I have.
+
+For example:
+
+Files to be archived are:
+
+ls
+1.doc
+2.doc
+3.doc
+...
+        </div>
+        <div class="tags t-unix t-gzip t-tar">
+            <a href="/questions/tagged/unix" class="post-tag" title="show questions tagged &#39;unix&#39;" rel="tag">unix</a> <a href="/questions/tagged/gzip" class="post-tag" title="show questions tagged &#39;gzip&#39;" rel="tag">gzip</a> <a href="/questions/tagged/tar" class="post-tag" title="show questions tagged &#39;tar&#39;" rel="tag">tar</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:35:11Z" class="relativetime">12 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/3611976/techvolcano"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e0ba9cae14fc2675101624702ef35887?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/3611976/techvolcano">TechVolcano</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">59</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580326">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580326/pass-2-dimentinal-arrayor-array-of-objects-via-request-form" class="question-hyperlink">Pass 2 dimentinal array(or array of objects) via Request.Form?</a></h3>
+        <div class="excerpt">
+            I'm using ASP.NET Web forms, and I need to pass 2D array, or array of objects using javascript ajax to the server.
+
+        </div>
+        <div class="tags t-javascript t-cñ t-aspûnet t-ajax">
+            <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="/questions/tagged/asp.net" class="post-tag" title="show questions tagged &#39;asp.net&#39;" rel="tag">asp.net</a> <a href="/questions/tagged/ajax" class="post-tag" title="show questions tagged &#39;ajax&#39;" rel="tag">ajax</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:35:05Z" class="relativetime">12 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5589027/misha-husiuk"><div class="gravatar-wrapper-32"><img src="https://lh6.googleusercontent.com/-wSuqlJXFODM/AAAAAAAAAAI/AAAAAAAAABk/RjgQisyDaSE/photo.jpg?sz=32" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5589027/misha-husiuk">Misha Husiuk</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">3</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580323">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="3 views">
+    3 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580323/jboss-6-starrtup-failed-hsqldb-out-of-memorry-issue" class="question-hyperlink">JBoss 6 Starrtup failed : HSQLDB - out of memorry issue</a></h3>
+        <div class="excerpt">
+            Please explain why I am not able to start JBoss server if I am adding any EAR file. While starrting I am getting an error like this:
+
+Deployment ...
+        </div>
+        <div class="tags t-sql t-out-of-memory t-jboss6ûx">
+            <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged &#39;sql&#39;" rel="tag">sql</a> <a href="/questions/tagged/out-of-memory" class="post-tag" title="show questions tagged &#39;out-of-memory&#39;" rel="tag">out-of-memory</a> <a href="/questions/tagged/jboss6.x" class="post-tag" title="show questions tagged &#39;jboss6.x&#39;" rel="tag">jboss6.x</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:34:37Z" class="relativetime">12 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/1440703/nev"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/rzUwx.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/1440703/nev">NEV</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">116</span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580320">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="2 views">
+    2 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580320/add-annotations-with-chartkick" class="question-hyperlink">Add annotations with Chartkick</a></h3>
+        <div class="excerpt">
+            I want to add annotations to my time series chart.
+From Google's documentation:
+data.addColumn({type:'string', role:'annotation'});
+
+How can I pass these column properties through Chartkick?
+
+&lt;%= ...
+        </div>
+        <div class="tags t-ruby-on-rails t-google-visualization t-chartkick">
+            <a href="/questions/tagged/ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="/questions/tagged/google-visualization" class="post-tag" title="show questions tagged &#39;google-visualization&#39;" rel="tag">google-visualization</a> <a href="/questions/tagged/chartkick" class="post-tag" title="show questions tagged &#39;chartkick&#39;" rel="tag">chartkick</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:34:28Z" class="relativetime">13 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/4982406/sso777"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/57c1027ce78f9a5ed0d038bc9f0eed45?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/4982406/sso777">sso777</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580317">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="3 views">
+    3 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580317/google-sheets-you-do-not-have-permission-to-call-searchfiles" class="question-hyperlink">Google Sheets: You do not have permission to call searchFiles</a></h3>
+        <div class="excerpt">
+            I am having problems calling a script from Google sheets.  The purpose of this script is to search through my google drive for a particular serial number and return all of the files that the serial ...
+        </div>
+        <div class="tags t-google-spreadsheet">
+            <a href="/questions/tagged/google-spreadsheet" class="post-tag" title="show questions tagged &#39;google-spreadsheet&#39;" rel="tag">google-spreadsheet</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:34:24Z" class="relativetime">13 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5969074/user17357"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/85be397e1306546596acb226a2fa4849?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5969074/user17357">user17357</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580316">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580316/laravel-5-package-development-clarity" class="question-hyperlink">Laravel 5 package development clarity</a></h3>
+        <div class="excerpt">
+            Ive been reading a few articles on the net about package development but cant quite wrap my head around the basic setup. Ive written jQuery plugins with releases and published to Bower in the passed ...
+        </div>
+        <div class="tags t-laravel-5 t-package">
+            <a href="/questions/tagged/laravel-5" class="post-tag" title="show questions tagged &#39;laravel-5&#39;" rel="tag">laravel-5</a> <a href="/questions/tagged/package" class="post-tag" title="show questions tagged &#39;package&#39;" rel="tag">package</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:34:19Z" class="relativetime">13 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/2612103/wancieho"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/f2418a1783c4dfafa43a96add7d93081?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/2612103/wancieho">Wancieho</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">57</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580315">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580315/change-from-basichttp-binding-to-custom-binding-causes-404-error" class="question-hyperlink">Change from basicHttp binding to custom binding causes 404 error</a></h3>
+        <div class="excerpt">
+            From my WCF client I need to call a 3rd party soap service implemented in java. That service requires SSL security and message signature together. It uses soap 1.1.
+
+Initially I used basicHttp binding ...
+        </div>
+        <div class="tags t-wcf t-ssl t-soap t-wcf-binding t-wcf-security">
+            <a href="/questions/tagged/wcf" class="post-tag" title="show questions tagged &#3#39;wcf&#39;" rel="tag">wcf</a> <a href="/questions/tagged/ssl" class="post-tag" title="show questions tagged &#39;ssl&#39;" rel="tag">ssl</a> <a href="/questions/tagged/soap" class="post-tag" title="show questions tagged &#39;soap&#39;" rel="tag">soap</a> <a href="/questions/tagged/wcf-binding" class="post-tag" title="show questions tagged &#39;wcf-binding&#39;" rel="tag">wcf-binding</a> <a href="/questions/tagged/wcf-security" class="post-tag" title="show questions tagged &#39;wcf-security&#39;" rel="tag">wcf-security</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:34:13Z" class="relativetime">13 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/1025581/eldog"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/xKha9.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/1025581/eldog">ElDog</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">943</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580312">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580312/how-can-i-kill-a-process-in-a-shell-script" class="question-hyperlink">how can I kill a process in a shell script</a></h3>
+        <div class="excerpt">
+            My bash script has:
+
+ps aux | grep foo.jar | grep -v grep | awk '{print $2}' | xargs kill
+
+
+However, I get the following when running:
+
+usage: kill [ -s signal | -p ] [ -a ] pid ...
+       kill -l [ ...
+        </div>
+        <div class="tags t-linux t-bash">
+            <a href="/questions/tagged/linux" class="post-tag" title="show questions tagged &#39;linux&#39;" rel="tag">linux</a> <a href="/questions/tagged/bash" class="post-tag" title="show questions tagged &#39;bash&#39;" rel="tag">bash</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:34:03Z" class="relativetime">13 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/2395365/user2395365"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/1ed1daf36c58b81ba6bde7f7b48673f7?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/2395365/user2395365">user2395365</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">120</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580309">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580309/how-to-drop-hive-partitions-with-setting-limit" class="question-hyperlink">How to drop hive partitions with setting limit</a></h3>
+        <div class="excerpt">
+            I have a drop alter query , i want to set limit for it.
+Query is :
+alter table dim_known_hosts drop if exists PARTITION (dimensional_partition_folder&lt;'2016_01_04_00_30');
+It drops all partition ...
+        </div>
+        <div class="tags t-hive">
+            <a href="/questions/tagged/hive" class="post-tag" title="show questions tagged &#39;hive&#39;" rel="tag">hive</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:45Z" class="relativetime">13 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5777227/mohit-rane"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/64c04a83885e4f8dc6e26ecf1a4f5441?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5777227/mohit-rane">Mohit Rane</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">15</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580307">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="10 views">
+    10 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580307/check-condition-coverage-in-python-for-specific-function" class="question-hyperlink">check condition coverage in python, for specific function</a></h3>
+        <div class="excerpt">
+            If I have this function:
+
+def abs(angle, speed, load):
+  if angle &lt; 20 or angle &gt;50:
+      breaks = True
+      if speed &gt; 80 and load &lt;= 50:
+          abs_on = True
+  else:
+      abs_on = ...
+        </div>
+        <div class="tags t-python">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:39Z" class="relativetime">13 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5969070/yairbd"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c3e55a88712b952e3975ba658ed0fbdc?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5969070/yairbd">yairbd</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580301">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580301/q-js-is-undefined-while-trying-to-resolve-promise-from-aurelia-breeze-in-test" class="question-hyperlink">&ldquo;Q js is undefined.&rdquo; while trying to resolve promise from aurelia-breeze in test method(karma+jasmine)</a></h3>
+        <div class="excerpt">
+            I am consistently getting an error while trying to resolve a promise from aurelia-breeze in a test method for an aurelia(typescript + breeze) application.
+
+Testing framework used is karma+jasmine.
+
+...
+        </div>
+        <div class="tags t-typescript t-breeze t-karma-jasmine t-q t-aurelia">
+            <a href="/questions/tagged/typescript" class="post-tag" title="show questions tagged &#39;typescript&#39;" rel="tag">typescript</a> <a href="/questions/tagged/breeze" class="post-tag" title="show questions tagged &#39;breeze&#39;" rel="tag">breeze</a> <a href="/questions/tagged/karma-jasmine" class="post-tag" title="show questions tagged &#39;karma-jasmine&#39;" rel="tag">karma-jasmine</a> <a href="/questions/tagged/q" class="post-tag" title="show questions tagged &#39;q&#39;" rel="tag">q</a> <a href="/questions/tagged/aurelia" class="post-tag" title="show questions tagged &#39;aurelia&#39;" rel="tag">aurelia</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:28Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5122882/jithin-joy"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/fa29cc9473662b01ba46c28cd4efbd37?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5122882/jithin-joy">Jithin Joy</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">71</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580299">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="4 views">
+    4 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580299/image-transfer-on-ilce-7-ilce-600-and-other-non-supported-devices" class="question-hyperlink">Image Transfer on ILCE-7, ILCE-600, and other non-supported Devices</a></h3>
+        <div class="excerpt">
+            According to Sony's documentation, the "Transferring Images" API methods are not supported on the ILCE-7, ILCE-600, and various other devices (see footnote #21 at ...
+        </div>
+        <div class="tags t-camera t-sony t-sony-camera-api">
+            <a href="/questions/tagged/camera" class="post-tag" title="show questions tagged &#39;camera&#39;" rel="tag">camera</a> <a href="/questions/tagged/sony" class="post-tag" title="show questions tagged &#39;sony&#39;" rel="tag"><img src="//i.stack.imgur.com/kupZ4.jpg" height="16" width="18" alt="" class="sponsor-tag-img">sony</a> <a href="/questions/tagged/sony-camera-api" class="post-tag" title="show questions tagged &#39;sony-camera-api&#39;" rel="tag"><img src="//i.stack.imgur.com/kupZ4.jpg" height="16" width="18" alt="" class="sponsor-tag-img">sony-camera-api</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:22Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/233326/joe-longstreet"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/c2Eiz.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/233326/joe-longstreet">Joe Longstreet</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">75</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580298">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="20 views">
+    20 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580298/how-to-replace-string-containing-special-german-character-with-function" class="question-hyperlink">How to replace string containing special german character with function</a></h3>
+        <div class="excerpt">
+            I have a language file written in PHP which looks similiar to:
+
+$lang['start_date']='Start';
+$lang['end_date']='Deadline';
+
+
+it is mainly in german and now i have problems with characters like ...
+        </div>
+        <div class="tags t-php t-regex">
+            <a href="/questions/tagged/php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="/questions/tagged/regex" class="post-tag" title="show questions tagged &#39;regex&#39;" rel="tag">regex</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:21Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/3323790/iviike"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/527b6cda4eb917d902fea508dc7e918f?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/3323790/iviike">IVIike</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580297">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580297/android-database-sqlite-sqliteexception-no-such-column-subjectname" class="question-hyperlink">android.database.sqlite.SQLiteException: no such column: subjectName</a></h3>
+        <div class="excerpt">
+            when I run this code i get an error saying "E/SQLiteLog: (1) no such column: subjectName".
+I've seen other posts about this error but none have helped me so far.
+
+ String[] column = new String[] { ...
+        </div>
+        <div class="tags t-android t-sqlite t-android-sqlite">
+            <a href="/questions/tagged/android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="/questions/tagged/sqlite" class="post-tag" title="show questions tagged &#39;sqlite&#39;" rel="tag">sqlite</a> <a href="/questions/tagged/android-sqlite" class="post-tag" title="show questions tagged &#39;android-sqlite&#39;" rel="tag">android-sqlite</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:20Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5968821/josh-saunders"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/c8bab439393918c91e3efa8bbb387bda?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5968821/josh-saunders">Josh Saunders</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580296">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="19 views">
+    19 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580296/what-am-i-doing-wrong-in-matplotlib" class="question-hyperlink">What am I doing wrong in matplotlib?</a></h3>
+        <div class="excerpt">
+            import matplotlib.pyplot as plt
+
+android = [82.8, 84.8, 79.8, 69.3]
+android2 = [float(i) for i in android]
+
+ios = [13.9,11.6,12.9,16.6]
+ios2 = [float(i) for i in ios]
+
+win = [2.6,2.5,3.4,3.1]
+win2 = ...
+        </div>
+        <div class="tags t-python t-matplotlib">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/matplotlib" class="post-tag" title="show questions tagged &#39;matplotlib&#39;" rel="tag">matplotlib</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:17Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5969050/sanan"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/55ad4c6b86695fc5faafed58055f24f9?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5969050/sanan">sanan</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580295">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="16 views">
+    16 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580295/why-mean-not-working-in-reduce" class="question-hyperlink">why mean not working in Reduce?</a></h3>
+        <div class="excerpt">
+            There are two examples of function Reduce() in Hadley Wickham's book Advanced R. Both work well.
+
+Reduce(`+`, 1:3) # -&gt; ((1 + 2) + 3)
+Reduce(sum, 1:3) # -&gt; sum(sum(1, 2), 3)
+
+
+However, when ...
+        </div>
+        <div class="tags t-r">
+            <a href="/questions/tagged/r" class="post-tag" title="show questions tagged &#39;r&#39;" rel="tag">r</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:13Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/4771675/gl-li"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/fead898528f89ea98edd4c914421efaf?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/4771675/gl-li">GL_Li</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">265</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580294">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+        <div class="views " title="15 views">
+    15 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580294/get-percentage-of-common-column-between-two-row-in-sql" class="question-hyperlink">get percentage of common column between two row in SQL</a></h3>
+        <div class="excerpt">
+            I have a table like this :
+
+Pseudo |eyes   |hair   |gender
+-------|-------|-------|-------
+mat01  |brown  |black  |male
+Alex   |blue   |black  |male
+
+
+And i need to get the percentage of exactly same ...
+        </div>
+        <div class="tags t-sql t-row">
+            <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged &#39;sql&#39;" rel="tag">sql</a> <a href="/questions/tagged/row" class="post-tag" title="show questions tagged &#39;row&#39;" rel="tag">row</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:12Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5969069/dodormeur"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e6461116ee65ac0bb46d813db422f07a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5969069/dodormeur">Dodormeur</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580291">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="2 views">
+    2 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580291/webapp-on-tomcat-not-responding" class="question-hyperlink">Webapp on Tomcat not responding</a></h3>
+        <div class="excerpt">
+            I have a installed Tomcat7 on my Windows Server. And I have a war-file to deploy Java application with REST to my Tomcat. I have no problems to go to Application Manager and to deploy my app. But I ...
+        </div>
+        <div class="tags t-windows t-rest t-tomcat t-tomcat7">
+            <a href="/questions/tagged/windows" class="post-tag" title="show questions tagged &#39;windows&#39;" rel="tag">windows</a> <a href="/questions/tagged/rest" class="post-tag" title="show questions tagged &#39;rest&#39;" rel="tag">rest</a> <a href="/questions/tagged/tomcat" class="post-tag" title="show questions tagged &#39;tomcat&#39;" rel="tag">tomcat</a> <a href="/questions/tagged/tomcat7" class="post-tag" title="show questions tagged &#39;tomcat7&#39;" rel="tag">tomcat7</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:05Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5413925/dropper"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e512b08eca489aecffe11d4873ebdfb5?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5413925/dropper">Dropper</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">10</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580288">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580288/using-acts-as-taggable-on-multiple-tags" class="question-hyperlink">Using Acts-As-Taggable on Multiple Tags</a></h3>
+        <div class="excerpt">
+            Quick question.
+
+I'm trying to use the Acts-As-Taggable gem to search for multiple tags at the same time. The trick is, I want to search for any posts containing at least one of the tags. I've ...
+        </div>
+        <div class="tags t-ruby-on-rails t-acts-as-taggable-on">
+            <a href="/questions/tagged/ruby-on-rails" class="post-tag" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a> <a href="/questions/tagged/acts-as-taggable-on" class="post-tag" title="show questions tagged &#39;acts-as-taggable-on&#39;" rel="tag">acts-as-taggable-on</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:03Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5183103/matt-thomas"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/373dbc879fa968430b47cdf16724f36a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5183103/matt-thomas">Matt Thomas</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">58</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580287">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="11 views">
+    11 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580287/how-do-i-ignore-table-storage-resource-not-found-exceptions-without-using-table" class="question-hyperlink">How do I ignore table storage resource not found exceptions without using table contexts?</a></h3>
+        <div class="excerpt">
+            In my C# application I am initializing a CloudTable instance via the following code:
+
+        var account = CloudStorageAccount.Parse(connectionString);
+        var client = ...
+        </div>
+        <div class="tags t-cñ t-azure-table-storage">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a> <a href="/questions/tagged/azure-table-storage" class="post-tag" title="show questions tagged &#39;azure-table-storage&#39;" rel="tag">azure-table-storage</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:33:03Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/231002/kalldrexx"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/e75162db7f21527c1e20da48be36f622?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/231002/kalldrexx">KallDrexx</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 11962" dir="ltr">12k</span><span title="13 gold badges"><span class="badge1"></span><span class="badgecount">13</span></span><span title="86 silver badges"><span class="badge2"></span><span class="badgecount">86</span></span><span title="188 bronze badges"><span class="badge3"></span><span class="badgecount">188</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580280">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="2 views">
+    2 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580280/cant-log-into-azure-virtual-machine-created-w-resource-manager" class="question-hyperlink">Can&#39;t Log into Azure Virtual Machine created w/ Resource Manager</a></h3>
+        <div class="excerpt">
+            I just created a VM in Azure using the Resource Manager model. And I can't RDP to it.  The machine is running.  The error I receive is:
+
+Your credentials did not work
+
+
+I have tried the following user ...
+        </div>
+        <div class="tags t-security t-azure t-virtual-machine t-rdp">
+            <a href="/questions/tagged/security" class="post-tag" title="show questions tagged &#39;security&#39;" rel="tag">security</a> <a href="/questions/tagged/azure" class="post-tag" title="show questions tagged &#39;azure&#39;" rel="tag">azure</a> <a href="/questions/tagged/virtual-machine" class="post-tag" title="show questions tagged &#39;virtual-machine&#39;" rel="tag">virtual-machine</a> <a href="/questions/tagged/rdp" class="post-tag" title="show questions tagged &#39;rdp&#39;" rel="tag">rdp</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:32:45Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/1840823/casey-crookston"><div class="gravatar-wrapper-32"><img src="https://i.stack.imgur.com/e57C0.jpg?s=32&amp;g=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/1840823/casey-crookston">Casey Crookston</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">610</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div><div class="question-summary" id="question-summary-35580279">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+        <div class="views " title="6 views">
+    6 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/35580279/how-to-create-multi-value-attribute-in-a-hdf5-file-using-c-api" class="question-hyperlink">How to create multi-value attribute in a HDF5 file using C++ API</a></h3>
+        <div class="excerpt">
+            I'm trying to create an attribute based on a native type (float, int...) but which contains 2,3 or more values (equivalent to a pair or a n-uplet).
+
+I don't want to create an array ! I want to create ...
+        </div>
+        <div class="tags t-cçç t-hdf5">
+            <a href="/questions/tagged/c%2b%2b" class="post-tag" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a> <a href="/questions/tagged/hdf5" class="post-tag" title="show questions tagged &#39;hdf5&#39;" rel="tag">hdf5</a>
+        </div>
+        <div class="started fr">
+            <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2016-02-23 14:32:43Z" class="relativetime">14 mins ago</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="/users/5061637/aurelien"><div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/25fd26c204332932606f307d55e64562?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="/users/5061637/aurelien">Aurelien</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">16</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>                            <br class="cbt" />
+
+                    </div>
+
+        <br class="cbt" />
+<div class="page-sizer fr">
+            <a href="/questions?pagesize=15&sort=newest" title="show 15 items per page" class="page-numbers ">15</a>
+            <a href="/questions?pagesize=30&sort=newest" title="show 30 items per page" class="page-numbers ">30</a>
+            <a href="/questions?pagesize=50&sort=newest" title="show 50 items per page" class="page-numbers current">50</a>
+        <span class="page-numbers desc">per page</span>
+    </div><div class="pager fl">
+
+
+
+
+
+        <a href="/questions?page=1&amp;sort=newest" rel="prev" title="go to page 1"> <span class="page-numbers prev">prev </span> </a>
+        <a href="/questions?page=1&amp;sort=newest" title="go to page 1"> <span class="page-numbers">1</span> </a>
+ <span class="page-numbers current">2</span>         <a href="/questions?page=3&amp;sort=newest" title="go to page 3"> <span class="page-numbers">3</span> </a>
+        <a href="/questions?page=4&amp;sort=newest" title="go to page 4"> <span class="page-numbers">4</span> </a>
+        <a href="/questions?page=5&amp;sort=newest" title="go to page 5"> <span class="page-numbers">5</span> </a>
+ <span class="page-numbers dots">…</span>         <a href="/questions?page=222507&amp;sort=newest" title="go to page 222507"> <span class="page-numbers">222507</span> </a>
+        <a href="/questions?page=3&amp;sort=newest" rel="next" title="go to page 3"> <span class="page-numbers next"> next</span> </a>
+
+    </div>
+    </div>
+    <div id="sidebar">
+            <div class="module" id="questions-count">
+                <div class="summarycount al">11,125,329</div>
+                <p>questions</p>
+            </div>
+
+<div class="module community-bulletin" data-tracker="cb=1">
+    <div class="related">
+                <div class="bulletin-title">
+                    Hot Meta Posts
+                </div>
+                <hr />
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <span title="Vote score (upvotes - downvotes)">12</span>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://meta.stackoverflow.com/questions/317431/how-to-ask-questions-about-complex-systems-without-being-too-broad" class="question-hyperlink">How to ask questions about complex systems without being too broad?</a>
+                </div>
+                <br class="cbt" />
+            </div>
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <span title="Vote score (upvotes - downvotes)">5</span>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://meta.stackoverflow.com/questions/317436/jobs-there-is-a-bug-on-the-list-of-benefits-offered-by-a-company" class="question-hyperlink">Jobs: there is a bug on the list of benefits offered by a company</a>
+                </div>
+                <br class="cbt" />
+            </div>
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <span title="Vote score (upvotes - downvotes)">7</span>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://meta.stackoverflow.com/questions/317476/at-what-point-does-an-answer-become-an-advert" class="question-hyperlink">At what point does an answer become an advert?</a>
+                </div>
+                <br class="cbt" />
+            </div>
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <span title="Vote score (upvotes - downvotes)">39</span>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://meta.stackoverflow.com/questions/317395/what-problem-does-refusing-duplicate-titles-solve" class="question-hyperlink">What problem does refusing duplicate titles solve?</a>
+                </div>
+                <br class="cbt" />
+            </div>
+    </div>
+</div>
+
+
+<div class="module" id="interesting-tags">
+
+        <h4 id="h-interesting-tags">Favorite Tags</h4>
+        <a id="edit-interesting">edit</a>
+        <div id="interestingTags"><a href="/questions/tagged/ios" class="post-tag" title="show questions tagged &#39;ios&#39;" rel="tag">ios</a> <a href="/questions/tagged/swift" class="post-tag" title="show questions tagged &#39;swift&#39;" rel="tag">swift</a> <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a> <a href="/questions/tagged/python" class="post-tag" title="show questions tagged &#39;python&#39;" rel="tag">python</a> <a href="/questions/tagged/php" class="post-tag" title="show questions tagged &#39;php&#39;" rel="tag">php</a> <a href="/questions/tagged/mysql" class="post-tag" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a> </div>
+        <span id="add-interesting"></span>
+        <a id="addInterestingTag" class="dno">Add a favorite tag</a><br />
+        <p id="tag-subscriptions" class="ar dno" style="margin-top: 10px;"><a href="http://stackexchange.com/filters">advanced tag subscriptions &#187;</a></p>
+        <div id="ignored-wrapper" class="dno">
+            <h4 id="h-ignored-tags">Ignored Tags</h4>
+
+            <div id="ignoredTags">
+            </div>
+            <span id="add-ignored"></span>
+            <a id="addIgnoredTag">Add an ignored tag</a>
+            <div class="dno">
+
+                <div><input type="radio" name="hideIgnored" id="hideIgnoredTrue"/><label for="hideIgnoredTrue">&nbsp;Hide questions in your ignored tags</label></div>
+                <div><input type="radio" name="hideIgnored" id="hideIgnoredFalse" checked="checked" /><label for="hideIgnoredFalse">&nbsp;Gray out questions in your ignored tags</label></div>
+            </div>
+        </div>
+            <p id="tag-pref-prefs" class="ar dno" style="margin-top: 10px;"><a href="/users/preferences/3001445">set tag preferences &#187;</a></p>
+</div>
+
+<script>
+    StackExchange.ready(function() {
+        StackExchange.tagPreferences.applyPrefs(true, []);
+    });
+</script>
+        <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk1439761120",[5,17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1439761120">
+            </div>
+        <div id="hireme">
+            <script>
+;"use strict";var _extends=Object.assign||function(n){for(var i,r,t=1;t<arguments.length;t++){i=arguments[t];for(r in i)Object.prototype.hasOwnProperty.call(i,r)&&(n[r]=i[r])}return n};(function(n){function f(){return(new Date).getTime()}function ut(n,t){return n.split(/\&/g).reduce(function(n,t){var i=t.split("=");return n[v(i[0])]=v(i[1]),n},t||{})}function ft(n,t){return Object.keys(n).filter(function(n){return t.indexOf(n)!==-1}).map(function(t){return u(t)+"="+u(n[t])}).join("&")}function y(n){return i.querySelectorAll(n)}function r(n){return i.querySelector(n)}function p(n,t,r){var u=i.createElement("script"),e="onreadystatechange",o="onload",f="readyState",s=!1;u.async=!0;u.src=n;typeof t=="function"&&(u[o]=u[e]=function(){s||u[f]&&u[f]!=="loaded"&&u[f]!=="complete"||(s=!0,typeof t=="function"&&t(u),u[o]=u[e]=null,r&&u.parentNode.removeChild(u))});tt.appendChild(u)}function w(n){var t=i.createElement("link");t.type="text/css";t.rel="stylesheet";t.href=n;it.appendChild(t)}function b(){return[].map.call(y(".post-taglist .post-tag"),function(n){return n.innerText})}function et(){var n=t.StackExchange,i="options",r="user";return n&&n[i]&&n[i][r]&&n[i][r].accountId}function ot(n){var t,i;return n=ut(s.hash?s.hash.substr(1):"",n||{}),t=n.ac||n.accountId||et(),t&&(n.ac=t),n.tags||(i=b(),i.length>0&&(n.tags=i.join(";"))),n}function k(n){return n.innerHTML.replace(/\s+$/g,"")}function st(n,t,i,u){var c=r(n);if(c===null)return function(){};var h=null,s=null,l=f(),a=function a(){k(c)?(o(h),u(!1,f()-l)):s=e(a,t)};return s=e(a,t),i&&(h=e(function(){o(s);u(!0,f()-l)},i)),function(){o(s);o(h)}}function ht(){var t="careers1",i="careers3",u=!g()||r("#careersadsdoublehigh"),f=u?1:2,n=[f+"=hireme"];return r("#"+t)&&n.push("5="+t),r("#"+i)&&n.push("6="+i),n.join("&")}function d(n,i){var r=ot(_extends({},nt,{zones:ht()})),u,e;n&&(r.azt=1);i&&(r.lw=i);typeof t.innerWidth=="number"&&(r.bw=t.innerWidth);u=["zones","ip","ac","eng","prov","tags","theme","at","remote","seed","lw","azt","sysadmin","bw","nocpm"];e=l+"?"+ft(r,u);c=f();p(e)}function ct(n){function h(){u.forEach(w);e.forEach(function(n){lt(n,i[n],s,o)});typeof t.clc_after_load=="function"&&t.clc_after_load()}var i=n.cr,r=n.h,u=n.st,e=Object.keys(i),o=c?f()-c:0,s="//"+r+"/ct";h()}function lt(n,t,i,f){var h=t.cl,c=t.cn,o=t.an,l=t.utm,s=(h||[]).join(" "),e=r("#"+n);e&&(s&&(e.className+=" "+s),e.innerHTML=c.replace("&pt=0","&pt="+(f||0)),e.onmousedown=function(n){for(var t=n.target,r,f,s;t.tagName!=="A"&&t!==e;)t=t.parentNode;t!==e&&(r=[],o&&r.push("an="+o),f=[].filter.call(t.attributes,function(n){return/^data-/.test(n.name)}),f.length>0&&f.forEach(function(n){var t=n.name.replace(/^data-/,"");r.push(u(t)+"="+u(n.value))}),r.push("utm="+u(rt+l)),s="",r.length>0&&(s="?"+r.join("&")),t.href=i+s)})}function g(){return y(h).length>0}function at(n){var t=i.createElement("a");return t.href=n,t.host}function vt(){var t,n;g()?(n=st(h,20,t,d),e(function(){var u=r(h),t;k(u)||(u.parentNode.removeChild(u),typeof n=="function"&&n(),t=i.createElement("img"),t.src="//"+at(l)+"/to.gif",t.style.display="none",i.body.appendChild(t))},2e3)):d()}var l=n.u,a=n.o,nt=a===undefined?{}:a,t=window,s=t.location,u=t.encodeURIComponent,v=t.decodeURIComponent,i=t.document,tt=i.body,it=i.getElementsByTagName("head")[0],e=t.setTimeout,o=t.clearTimeout,rt="&utm_source="+s.hostname+"&utm_medium=ad&utm_campaign=",h="#sidebar [id^=adzerk].everyonelovesstackoverflow",c=0;t.clc={init:ct,load:vt,ls:p,as:w,tags:b}}).call(null, {"u":"//clc.stackoverflow.com/p.js"});"use strict";var allowedHosts=["stackoverflow.com","serverfault.com"];(allowedHosts[0]==="*"||allowedHosts.indexOf(location.hostname)!==-1)&&window.clc.load();            </script>
+        </div>
+
+
+            <div class="module js-gps-related-tags" id="related-tags">
+
+<h4 id="h-related-tags">Related Tags</h4>
+        <div>
+            <a href="/questions/tagged/javascript" class="post-tag no-tag-menu" title="show questions tagged &#39;javascript&#39;" rel="tag">javascript</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1057507</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/java" class="post-tag no-tag-menu" title="show questions tagged &#39;java&#39;" rel="tag">java</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1018113</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/c%23" class="post-tag no-tag-menu" title="show questions tagged &#39;c#&#39;" rel="tag">c#</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">913272</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/php" class="post-tag no-tag-menu" title="show questions tagged &#39;php&#39;" rel="tag">php</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">879483</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/android" class="post-tag no-tag-menu" title="show questions tagged &#39;android&#39;" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">795052</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/jquery" class="post-tag no-tag-menu" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">708332</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/python" class="post-tag no-tag-menu" title="show questions tagged &#39;python&#39;" rel="tag">python</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">537418</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/html" class="post-tag no-tag-menu" title="show questions tagged &#39;html&#39;" rel="tag">html</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">506923</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/c%2b%2b" class="post-tag no-tag-menu" title="show questions tagged &#39;c++&#39;" rel="tag">c++</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">429159</span></span>
+        </div>
+        <div>
+            <a href="/questions/tagged/ios" class="post-tag no-tag-menu" title="show questions tagged &#39;ios&#39;" rel="tag">ios</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">411449</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/mysql" class="post-tag no-tag-menu" title="show questions tagged &#39;mysql&#39;" rel="tag">mysql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">377963</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/css" class="post-tag no-tag-menu" title="show questions tagged &#39;css&#39;" rel="tag">css</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">369711</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/sql" class="post-tag no-tag-menu" title="show questions tagged &#39;sql&#39;" rel="tag">sql</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">316960</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/asp.net" class="post-tag no-tag-menu" title="show questions tagged &#39;asp.net&#39;" rel="tag">asp.net</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">281461</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/objective-c" class="post-tag no-tag-menu" title="show questions tagged &#39;objective-c&#39;" rel="tag">objective-c</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">252637</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/ruby-on-rails" class="post-tag no-tag-menu" title="show questions tagged &#39;ruby-on-rails&#39;" rel="tag">ruby-on-rails</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">234267</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/.net" class="post-tag no-tag-menu" title="show questions tagged &#39;.net&#39;" rel="tag">.net</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">226891</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/iphone" class="post-tag no-tag-menu" title="show questions tagged &#39;iphone&#39;" rel="tag">iphone</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">210711</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/c" class="post-tag no-tag-menu" title="show questions tagged &#39;c&#39;" rel="tag">c</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">209654</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/arrays" class="post-tag no-tag-menu" title="show questions tagged &#39;arrays&#39;" rel="tag">arrays</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">168875</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/sql-server" class="post-tag no-tag-menu" title="show questions tagged &#39;sql-server&#39;" rel="tag">sql-server</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">156308</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/angularjs" class="post-tag no-tag-menu" title="show questions tagged &#39;angularjs&#39;" rel="tag">angularjs</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">154157</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/ruby" class="post-tag no-tag-menu" title="show questions tagged &#39;ruby&#39;" rel="tag">ruby</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">153985</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/json" class="post-tag no-tag-menu" title="show questions tagged &#39;json&#39;" rel="tag">json</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">145177</span></span>
+        </div>
+        <div class="dno js-hidden">
+            <a href="/questions/tagged/ajax" class="post-tag no-tag-menu" title="show questions tagged &#39;ajax&#39;" rel="tag">ajax</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">138960</span></span>
+        </div>
+        <a href="#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="related_tags.click({ item_type:2 })">
+            more related tags
+        </a>
+        <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script>
+
+            </div>
+
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="//stackexchange.com/questions?tab=hot"
+           class="js-gps-track"
+           data-gps-track="posts_hot_network.click({ item_type:1, location:9 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li >
+                <div class="favicon favicon-outdoors" title="The Great Outdoors Stack Exchange"></div><a href="http://outdoors.stackexchange.com/questions/11001/why-arent-there-any-electric-stoves" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:395 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why aren&#39;t there any electric stoves?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-mechanics" title="Motor Vehicle Maintenance &amp; Repair Stack Exchange"></div><a href="http://mechanics.stackexchange.com/questions/26409/what-are-the-specifications-that-describe-a-change-in-look-for-seat-leon" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:224 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What are the specifications that describe a change in look (for SEAT Leon)?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-programmers" title="Programmers Stack Exchange"></div><a href="http://programmers.stackexchange.com/questions/310838/arguments-against-error-suppression" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:131 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Arguments against error suppression
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/120201/has-any-marvel-or-dc-comic-ever-shown-graphic-nudity" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Has any Marvel or DC comic ever shown graphic nudity?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/309133/what-is-a-word-similar-to-amateur-yet-having-a-strong-connotation-of-someone-w" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is a word similar to &quot;amateur&quot; yet having a strong connotation of someone who likes something?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/36510/why-would-robots-use-verbal-communication" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why would robots use verbal communication?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-chinese" title="Chinese Language Stack Exchange"></div><a href="http://chinese.stackexchange.com/questions/17284/why-is-the-character-%e6%bc%a2-built-in-such-a-weird-way" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:371 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why is the character 漢 built in such a weird way?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/76045/can-a-character-gain-two-levels-with-the-same-encounter" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Can a character gain two levels with the same encounter?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/73811/thats-a-prime-almost" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    That&#39;s a prime... almost
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1666880/how-to-prove-b-c-if-ab-ac-cancellation-law-in-groups" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How to prove b=c if ab=ac (cancellation law in groups)?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/35561075/if-two-objects-are-declared-in-a-single-line-in-what-order-are-they-constructed" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    If two objects are declared in a single line, in what order are they constructed?
+                </a>
+
+            </li>
+            <li >
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/35576390/when-creating-arrays-java-which-form-is-preferable-intlargesmall-or-int-sm" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    When creating arrays java which form is preferable, int[large][small] or int [small][large], is there a differnce at a low level?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/76040/why-can-i-not-sneak-attack-with-magic-missile" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why can I not sneak attack with Magic Missile?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-stats" title="Cross Validated"></div><a href="http://stats.stackexchange.com/questions/198061/why-the-sudden-fascination-with-tensors" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:65 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Why the sudden fascination with tensors?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/295466/latex-compiles-a-to-%c3%a4" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    LaTeX compiles &lt;&quot; a&gt; to &lt;&#228;&gt;
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/73867/adding-up-the-digits-and-the-digits-reversed" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Adding up the digits and the digits reversed
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/309197/what-is-the-correct-term-for-misleading-investigations" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    What is the correct term for &#39;misleading&#39; investigations?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/265172/check-last-time-sh-file-used" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:106 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Check last time .sh file used
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="http://aviation.stackexchange.com/questions/25506/is-is-possible-to-use-non-hydraulic-fluids-in-a-hydraulic-system-in-an-emergency" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:528 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is is possible to use non-hydraulic fluids in a hydraulic system in an emergency?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-mechanics" title="Motor Vehicle Maintenance &amp; Repair Stack Exchange"></div><a href="http://mechanics.stackexchange.com/questions/26375/is-disabling-the-airbag-inflators-a-task-that-an-amateur-can-tackle" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:224 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is disabling the airbag inflators a task that an amateur can tackle?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/63838/is-it-acceptable-to-extend-deadlines-for-coursework-delayed-due-to-student-activ" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is it acceptable to extend deadlines for coursework delayed due to student activism?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/76068/how-can-an-experienced-gm-improve-without-watching-other-gms" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    How can an experienced GM improve without watching other GMs?
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-sharepoint" title="SharePoint Stack Exchange"></div><a href="http://sharepoint.stackexchange.com/questions/172017/sharepoint-2013-hiding-ribbon-control" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:232 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    SharePoint 2013 hiding ribbon control
+                </a>
+
+            </li>
+            <li class="dno js-hidden">
+                <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="http://english.stackexchange.com/questions/308992/is-there-a-word-for-a-person-who-is-always-hungry" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })">
+                    Is there a word for &#39;a person who is always hungry&#39;?
+                </a>
+
+            </li>
+    </ul>
+
+        <a href="#"
+           class="show-more js-show-more js-gps-track"
+           data-gps-track="posts_hot_network.click({ item_type:3, location:9 })">
+            more hot questions
+        </a>
+</div>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                    <a href="http://stackoverflow.com/company/about">about us</a>
+                        <a href="/tour">tour</a>
+                    <a href="/help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackoverflow.com/company/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="//stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="//serverfault.com" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="//superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="//webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="//askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="//webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="//gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="//tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="//unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="//apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="//wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="//gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="//electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="//android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="//security.stackexchange.com" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="//drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="//sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="//ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="//mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="//salesforce.stackexchange.com" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="//expressionengine.stackexchange.com" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="//scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="//graphicdesign.stackexchange.com" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="//movies.stackexchange.com" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="//cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="//diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="//money.stackexchange.com" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="//academia.stackexchange.com" title="academics and those enrolled in higher education">Academia</a></li>
+
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="//skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="//judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="//travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="//christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="//gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="//bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="//rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="//stats.stackexchange.com" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="//cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="//physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="//mathoverflow.net" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="//chemistry.stackexchange.com" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="//biology.stackexchange.com" title="biology researchers, academics, and students">Biology</a></li>
+
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="//meta.stackexchange.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="//area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="//careers.stackoverflow.com">Stack Overflow Careers</a></li>
+
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &#169; 2016 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a>
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2016.2.23.3283
+            </div>
+
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () {
+            setTimeout(function () { $("#adzerk-user-match").remove(); }, window.AUMIframeDone ? 0 : 2000);
+        ados_setKeywords('x-user-registered');; ados_load();
+    });
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1', {'userId': '3597087' });
+                ga('set', 'dimension1', '3597087');                 ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+
+    </body>
+</html>
