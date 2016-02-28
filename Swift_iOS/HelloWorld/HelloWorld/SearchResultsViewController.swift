@@ -48,9 +48,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             trackName = rowData["trackName"] as? String {
             //trackName = rowData["Name"] as? String {
                 // Get the formatted price string for display in the subtitle
-                //cell.detailTextLabel?.text = formattedPrice
+                cell.detailTextLabel?.text = formattedPrice
                 // Update the imageView cell to use the downloaded image data
-                //cell.imageView?.image = UIImage(data: imgData)
+                cell.imageView?.image = UIImage(data: imgData)
                 // Update the textLabel text to use the trackName from the API
                 cell.textLabel?.text = trackName
         }
