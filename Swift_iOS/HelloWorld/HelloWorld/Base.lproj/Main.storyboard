@@ -29,12 +29,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="appsTableView" destination="nhS-ct-hx6" id="wU7-s5-RQA"/>
+                        <outlet property="appsTableView" destination="nhS-ct-hx6" id="uJz-G0-tlZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="245" y="225"/>
+            <point key="canvasLocation" x="243" y="215"/>
         </scene>
     </scenes>
 </document>
