@@ -9,10 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, APIControllerProtocol {
-
-    @IBOutlet weak var appsTableView: UITableView!
     var tableData = []
     let api = APIController()
+    let kCellIdentifier: String = "SearchResultCell"
+    @IBOutlet weak var appsTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,8 +31,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(kCellIdentifier)!
         
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "MyTestCell")
         //print(indexPath.row)
         //print(self.tableData[indexPath.row])
         if let rowData: NSDictionary = self.tableData[indexPath.row] as? NSDictionary,
@@ -62,6 +62,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             self.tableData = results
             self.appsTableView!.reloadData()
         })
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        // Get the row data for the selected row
+        if let rowData = self.tableData[indexPath.row] as? NSDictionary,
+            // Get the name of the track for this row
+            name = rowData["trackName"] as? String,
+            // Get the price of the track on this row
+            formattedPrice = rowData["formattedPrice"] as? String {
+                let alert = UIAlertController(title: name, message: formattedPrice, preferredStyle: .Alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+                self.presentViewController(alert, animated: true, completion: nil)
+        }
     }
 }
 
