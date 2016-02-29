@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  HelloWorld
+//  iTunesPreviewTutorial
 //
-//  Created by denghaijun on 16/2/28.
-//  Copyright © 2016年 denghaijun. All rights reserved.
+//  Created by Jameson Quave on 4/16/15.
+//  Copyright (c) 2015 JQ Software LLC. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
         print("Hello World")
         return true
     }

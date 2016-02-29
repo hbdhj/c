@@ -1,26 +1,23 @@
 //
-//  ViewController.swift
-//  HelloWorld
+//  SearchResultsViewController.swift
+//  iTunesPreviewTutorial
 //
-//  Created by denghaijun on 16/2/28.
-//  Copyright © 2016年 denghaijun. All rights reserved.
+//  Created by Jameson Quave on 4/16/15.
+//  Copyright (c) 2015 JQ Software LLC. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, APIControllerProtocol {
-    //  var tableData = []
+class SearchResultsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, APIControllerProtocol  {
     var albums = [Album]()
-    var api : APIController!
+    var api: APIController!
     let kCellIdentifier: String = "SearchResultCell"
     var imageCache = [String:UIImage]()
     @IBOutlet weak var appsTableView: UITableView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         api = APIController(delegate: self)
-        //api.searchItunesFor("google")
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         api.searchItunesFor("Beatles")
     }
@@ -30,15 +27,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Dispose of any resources that can be recreated.
     }
 
-    func tableView(tableView: UITableView, numberOfRowsInSection section:    Int) -> Int {
-        //return tableData.count
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return albums.count
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(kCellIdentifier)!
         let album = self.albums[indexPath.row]
-        
+
         // Get the formatted price string for display in the subtitle
         cell.detailTextLabel?.text = album.price
         // Update the textLabel text to use the title from the Album model
@@ -51,6 +47,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let thumbnailURLString = album.thumbnailImageURL
         let thumbnailURL = NSURL(string: thumbnailURLString)!
         
+        // If this image is already cached, don't re-download
         if let img = imageCache[thumbnailURLString] {
             cell.imageView?.image = img
         }
@@ -59,18 +56,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             // We should perform this in a background thread
             let request: NSURLRequest = NSURLRequest(URL: thumbnailURL)
             let mainQueue = NSOperationQueue.mainQueue()
-            //NSURLConnection.sendAsynchronousRequest(request, queue: mainQueue, completionHandler: { (response, data, error) -> Void in
-            let session = NSURLSession.sharedSession()
-            var task = session.dataTaskWithRequest(request, completionHandler: {(data, response, error) -> Void in
-            if error == nil {
-                // Convert the downloaded data in to a UIImage object
-                let image = UIImage(data: data!)
-                // Store the image in to our cache
-                self.imageCache[thumbnailURLString] = image
-                print("reset the image")
-                // Update the cell
-                dispatch_async(dispatch_get_main_queue(), {
-                    if let cellToUpdate = tableView.cellForRowAtIndexPath(indexPath) {
+            NSURLConnection.sendAsynchronousRequest(request, queue: mainQueue, completionHandler: { (response, data, error) -> Void in
+                if error == nil {
+                    // Convert the downloaded data in to a UIImage object
+                    let image = UIImage(data: data!)
+                    // Store the image in to our cache
+                    self.imageCache[thumbnailURLString] = image
+                    // Update the cell
+                    dispatch_async(dispatch_get_main_queue(), {
+                        if let cellToUpdate = tableView.cellForRowAtIndexPath(indexPath) {
                             cellToUpdate.imageView?.image = image
                         }
                     })
@@ -79,42 +73,32 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     print("Error: \(error!.localizedDescription)")
                 }
             })
-            task.resume()
         }
-        
         return cell
     }
-
+    
     func didReceiveAPIResults(results: NSArray) {
         dispatch_async(dispatch_get_main_queue(), {
             self.albums = Album.albumsWithJSON(results)
-            //self.tableData = results
             self.appsTableView!.reloadData()
             UIApplication.sharedApplication().networkActivityIndicatorVisible = false
         })
     }
 
-    /*
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        // Get the row data for the selected row
-        //if let rowData = self.tableData[indexPath.row] as? NSDictionary,
-        if let rowData = self.albums[indexPath.row] as? NSDictionary,
-        // Get the name of the track for this row
-            name = rowData["trackName"] as? String,
-            // Get the price of the track on this row
-            formattedPrice = rowData["formattedPrice"] as? String {
-                let alert = UIAlertController(title: name, message: formattedPrice, preferredStyle: .Alert)
-                alert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
-                self.presentViewController(alert, animated: true, completion: nil)
-        }
-    }
-    */
-    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let detailsViewController: DetailsViewController = segue.destinationViewController as? DetailsViewController {
-            var albumIndex = appsTableView!.indexPathForSelectedRow!.row
-            var selectedAlbum = self.albums[albumIndex]
+            let albumIndex = appsTableView!.indexPathForSelectedRow!.row
+            let selectedAlbum = self.albums[albumIndex]
             detailsViewController.album = selectedAlbum
         }
     }
+    
+    func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        cell.layer.transform = CATransform3DMakeScale(0.1,0.1,1)
+        UIView.animateWithDuration(0.25, animations: {
+            cell.layer.transform = CATransform3DMakeScale(1,1,1)
+        })
+    }
+    
 }
+
