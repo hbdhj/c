@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1632E11C833D6900EF8D71 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1632E01C833D6900EF8D71 /* Album.swift */; };
+		3B1632E31C833DF700EF8D71 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1632E21C833DF700EF8D71 /* DetailsViewController.swift */; };
 		3B30607F1C82B40100D593F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B30607E1C82B40100D593F0 /* AppDelegate.swift */; };
 		3B3060811C82B40100D593F0 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3060801C82B40100D593F0 /* SearchResultsViewController.swift */; };
 		3B3060841C82B40100D593F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3060821C82B40100D593F0 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B1632E01C833D6900EF8D71 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		3B1632E21C833DF700EF8D71 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3B30607B1C82B40100D593F0 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B30607E1C82B40100D593F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B3060801C82B40100D593F0 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
@@ -84,8 +88,10 @@
 				3B9ED1A11C83101800E717B1 /* APIController.swift */,
 				3B3060821C82B40100D593F0 /* Main.storyboard */,
 				3B3060851C82B40100D593F0 /* Assets.xcassets */,
+				3B1632E01C833D6900EF8D71 /* Album.swift */,
 				3B3060871C82B40100D593F0 /* LaunchScreen.storyboard */,
 				3B30608A1C82B40100D593F0 /* Info.plist */,
+				3B1632E21C833DF700EF8D71 /* DetailsViewController.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -205,6 +211,8 @@
 				3B3060811C82B40100D593F0 /* SearchResultsViewController.swift in Sources */,
 				3B30607F1C82B40100D593F0 /* AppDelegate.swift in Sources */,
 				3B9ED1A21C83101800E717B1 /* APIController.swift in Sources */,
+				3B1632E11C833D6900EF8D71 /* Album.swift in Sources */,
+				3B1632E31C833DF700EF8D71 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,8 +13,12 @@ protocol APIControllerProtocol {
 }
 
 class APIController {
-    var delegate: APIControllerProtocol?
+    var delegate: APIControllerProtocol
 
+    init(delegate: APIControllerProtocol) {
+        self.delegate = delegate
+    }
+    
     func searchItunesFor(searchTerm: String) {
 
         // The iTunes API wants multiple terms separated by + symbols, so replace spaces with + signs
@@ -24,8 +28,9 @@ class APIController {
         if let escapedSearchTerm = itunesSearchTerm.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding) {
             //if let escapedSearchTerm = itunesSearchTerm.stringByAddingPercentEncodingWithAllowedCharacters() {
             //{
-            let urlPath = "http://itunes.apple.com/search?term=\(escapedSearchTerm)&media=software"
+            //let urlPath = "http://itunes.apple.com/search?term=\(escapedSearchTerm)&media=software"
             //let urlPath = "http://localhost/json.php"
+            let urlPath = "https://itunes.apple.com/search?term=\(escapedSearchTerm)&media=music&entity=album"
             let url = NSURL(string: urlPath)
             let session = NSURLSession.sharedSession()
 
@@ -39,7 +44,7 @@ class APIController {
                             dispatch_async(dispatch_get_main_queue(), {
                                 //self.tableData = results
                                 //self.appsTableView!.reloadData()
-                                self.delegate?.didReceiveAPIResults(results)
+                                self.delegate.didReceiveAPIResults(results)
                             })
                         }
                     }
