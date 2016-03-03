@@ -1,7 +1,9 @@
-#include <stdio.h>
+// semaphore key words ftok semget semop
 //ipcsemaphore.c
 //To compile : gcc -o sem ipcsemaphore.c
 //To run : ./sem
+
+#include <stdio.h>
 #include <sys/types.h>
 #include <sys/ipc.h>
 #include <sys/sem.h>
@@ -29,12 +31,10 @@ int main()
        die("ftok");
 
     /* set up semaphore */
-
     printf("\nsemget: Setting up semaphore: semget(%#lx, %\
                     %#o)\n",key, nsems, semflg);
     if ((semid = semget(key, nsems, semflg)) == -1)
         die("semget: semget failed");
-
 
     if ((pid = fork()) < 0)
         die("fork");
@@ -43,7 +43,6 @@ int main()
     {
         /* child */
         i = 0;
-
 
         while (i  < 3)  /* allow for 3 semaphore sets */
         {
@@ -88,7 +87,6 @@ int main()
                 sops[0].sem_op = -1; /* Give UP COntrol of track */
                 sops[0].sem_flg = SEM_UNDO | IPC_NOWAIT; /* take off semaphore, asynchronous  */
 
-
                 if ((j = semop(semid, sops, nsops)) == -1)
                 {
                     perror("semop: semop failed");
@@ -122,7 +120,7 @@ int main()
 
             /* Recap the call to be made. */
 
-             printf("\nsemop:Parent Calling semop(%d, &sops, %d) with:", semid, nsops);
+            printf("\nsemop:Parent Calling semop(%d, &sops, %d) with:", semid, nsops);
             for (j = 0; j < nsops; j++)
             {
                 printf("\n\tsops[%d].sem_num = %d, ", j, sops[j].sem_num);

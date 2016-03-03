@@ -1,3 +1,4 @@
+// socket client key words socket connect send recv close
 #include <stdio.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>

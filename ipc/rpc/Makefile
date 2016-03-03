@@ -1,3 +1,4 @@
+# rpc key words rpcgen
 BIN = server client
 GEN = date_clnt.c date_svc.c date_xdr.c date.h
 RPCGEN = rpcgen

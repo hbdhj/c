@@ -1,3 +1,5 @@
+
+// socket server key words socket bind listen accept send recv close
 #include <stdio.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
