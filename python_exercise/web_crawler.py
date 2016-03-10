@@ -16,9 +16,11 @@ def create_data_files(project_name, base_url):
     if not os.path.isfile(crawled):
         write_file(crawled, '')
 
-#create a new
+#create a new file
 def write_file(path, data):
-
+    f = open(path, 'a')
+    f.write(data)
+    f.close()
 
 # add data to an existing file
 def append_to_file(path, data):
