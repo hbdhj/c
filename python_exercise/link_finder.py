@@ -13,7 +13,7 @@ class LinkFinder(HTMLParser):
         pass
 
     def handle_starttag(self, tag, attrs):
-        print(tag)
+        #print(tag)
         if tag == 'a':
             for (attribute, value) in  attrs:
                 if attribute == 'href':
@@ -25,4 +25,4 @@ class LinkFinder(HTMLParser):
 
 #finder =  LinkFinder()
 #finder.feed("<html><head><title>Test</title></head>"
-            "<body><h1>parse me!</h1></body></html>")
+#            "<body><h1>parse me!</h1></body></html>")

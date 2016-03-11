@@ -23,7 +23,6 @@ class Spider:
         self.boot()
         self.crawl_page("First spider", Spider.base_url)
 
-    @staticmethod
     def boot(self):
         create_project_dir(Spider.project_name)
         create_data_files(Spider.project_name, Spider.base_url)

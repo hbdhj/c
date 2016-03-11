@@ -3,14 +3,14 @@ import os
 
 # each website you crawl is a seperate project folder
 def create_project_dir(directory):
-    if not os.path.exist(directory):
+    if not os.path.exists(directory):
         print("Creating project "+ directory)
         os.makedirs(directory)
 
 # create queue and crawled files (if not created)
 def create_data_files(project_name, base_url):
-    queue = project_name + 'queue.txt'
-    crawled = project_name + 'crawled.txt'
+    queue = project_name + '/queue.txt'
+    crawled = project_name + '/crawled.txt'
     if not os.path.isfile(queue):
         write_file(queue, base_url)
     if not os.path.isfile(crawled):
@@ -45,5 +45,5 @@ def file_to_set(filename):
 def set_to_file(links, file):
     delete_file_content(file)
     for link in sorted(links):
-        append_to_file(link, file)
+        append_to_file(file,  link)
 
