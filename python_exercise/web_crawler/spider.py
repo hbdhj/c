@@ -1,6 +1,7 @@
 from urllib.request import urlopen
 from link_finder import LinkFinder
 from general import *
+import sys
 
 class Spider:
 
@@ -14,6 +15,7 @@ class Spider:
     crawled = set()
 
     def __init__(self, project_name, base_url, domain_name):
+        print('spider.py line 17')
         Spider.project_name = project_name
         Spider.base_url = base_url
         Spider.domain_name = domain_name
@@ -24,6 +26,7 @@ class Spider:
         self.crawl_page("First spider", Spider.base_url)
 
     def boot(self):
+        print('spider.py line 28')
         create_project_dir(Spider.project_name)
         create_data_files(Spider.project_name, Spider.base_url)
         Spider.queue = file_to_set(Spider.queue_file)
@@ -31,6 +34,7 @@ class Spider:
 
     @staticmethod
     def crawl_page(thread_name, page_url):
+        print('spider.py line 36')
         if page_url not in Spider.crawled:
             print(thread_name + " crawling " + page_url)
             print("Queue " + str(len(Spider.queue)) + " | Crawled " + str(len(Spider.crawled)))
@@ -44,13 +48,22 @@ class Spider:
         html_string = ''
         try:
             response = urlopen(page_url)
-            if response.getheader('Content-Type') == 'text/html':
-                html_bytes = response.read()
-                html_string = html_bytes.decode("utf-8")
-
+            #if response.getheader('Content-Type') == 'text/html':
+            html_bytes = response.read()
+            html_string = html_bytes.decode("utf-8")
+            print('page_url = '+page_url)
+            urlElems = page_url.split('/')
+            fileName = Spider.project_name +'/'+urlElems[-1]+'.html'
+            print("save to "+fileName)
+            with open(fileName, 'w') as f:
+                f.write(html_string)
+            #else:
+            #    print('Failed to get Content-Type')
             finder = LinkFinder(Spider.base_url, page_url)
             finder.feed(html_string)
         except:
+            e = sys.exc_info()[0]
+            print(e)
             print('Error: can not crawl page')
             return set()
         return finder.page_links()
