@@ -1,6 +1,6 @@
 import sys
-import requests
-from bs4 import BeautifulSoup
+#import requests
+#from bs4 import BeautifulSoup
 import operator
 import os, os.path
 
@@ -23,7 +23,7 @@ def countWordsInAllFilesUnderDir(dirName):
                 if entry.name.startswith('.'):
                     print("skip hiden directory or file: "+entry.name)
                 elif entry.is_file() and entry.name[-4:]=='.txt':
-                    print(entry.name)
+                    #print(entry.name)
                     fileName = dirName + '/' + entry.name
                     with open(fileName, 'rt') as f:
                         try:
@@ -34,8 +34,25 @@ def countWordsInAllFilesUnderDir(dirName):
                                     word_list.append(each_word)
                         except UnicodeDecodeError:
                             print("error to decode file "+fileName)
-    clean_up_list(word_list)
-    create_dictionary(word_list)
+    clean_word_list = clean_up_list(word_list)
+    word_freq_dict = create_dictionary(clean_word_list)
+    sorted_word_freq_dict= sorted(word_freq_dict.items(), key=lambda d:len(d[0]), reverse = False)
+    #print(sorted_word_freq_dict)
+    with open('bbc_news_freq_word.txt', 'w') as f:
+        for word, freq in sorted_word_freq_dict:
+            if len(word)>2 and len(word)<8 and freq > 4:
+                #print(word)
+                f.write(word + '   ')
+
+    '''
+    uniq_word_list = list(word_freq_dict.keys())
+    #print(uniq_word_list)
+    uniq_word_list.sort(key=len, reverse=False)
+    for word in uniq_word_list:
+        if len(word)>2 and len(word)<7:
+            print(word)
+    print('')
+    '''
 
 def countWordsInTxt(fileName):
     word_list = []
@@ -45,8 +62,8 @@ def countWordsInTxt(fileName):
             for each_word in words:
                 #print(entry.name)
                 word_list.append(each_word)
-    clean_up_list(word_list)
-    create_dictionary(word_list)
+    clean_word_list = clean_up_list(word_list)
+    create_dictionary(clean_word_list)
 
 def clean_up_list(word_list):
     clean_word_list = []
@@ -56,6 +73,7 @@ def clean_up_list(word_list):
             word = word.replace(symbols[i], '')
         if len(word) > 0:
             clean_word_list.append(word)
+    return clean_word_list
 
 def create_dictionary(clean_word_list):
     word_count = {}
@@ -65,8 +83,10 @@ def create_dictionary(clean_word_list):
         else:
             word_count[word] = 1
 
-    for word, count in sorted(word_count.items(), key=operator.itemgetter(1)):
-        print(word, count)
+    #for word, count in sorted(word_count.items(), key=operator.itemgetter(1)):
+    #    print(word, count)
+
+    return word_count
 #
 #start('https://buckysroom.org/tops.php?type=text&period=this-month')
 if __name__ == "__main__":

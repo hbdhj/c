@@ -1,5 +1,6 @@
 from urllib.request import urlopen
 from link_finder import LinkFinder
+from HTMLToTXTConverter import HTMLToTXTConverter
 from general import *
 import sys
 
@@ -61,6 +62,14 @@ class Spider:
             #    print('Failed to get Content-Type')
             finder = LinkFinder(Spider.base_url, page_url)
             finder.feed(html_string)
+
+            converter = HTMLToTXTConverter()
+            converter.feed(html_string)
+            fileName = Spider.project_name +'/'+urlElems[-1]+'.txt'
+            print("save to "+fileName)
+            with open(fileName, 'w') as f:
+                f.write(converter.getText())
+
         except:
             e = sys.exc_info()[0]
             print(e)
