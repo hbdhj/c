@@ -1,23 +1,29 @@
 import threading
+import sys
+import configparser
+
 from queue import Queue
 
 from spider import Spider
 from domain import *
 from general import *
 
-PROJECT_NAME = 'bbcnews'
-HOMEPAGE = "http://www.bbc.com/news"
+config = configparser.RawConfigParser()
+#config.read('bbcnews.ini')
+config.read(sys.argv[1])
+
+PROJECT_NAME = config.get('PROJECT', 'PROJECT_NAME')
+HOMEPAGE = config.get('PROJECT', 'HOMEPAGE')
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
 CRAWLED_FILE = PROJECT_NAME + '/crawled.txt'
-NUMBER_OF_THREADS = 4
+NUMBER_OF_THREADS=int(config.get('DEFAULT', 'NUMBER_OF_THREADS'))
 
 # the thread queue
 queue = Queue()
 
 # First spider for the home page
 Spider(PROJECT_NAME, HOMEPAGE, DOMAIN_NAME)
-
 
 # Create a worker thread (will die when main exists)
 def create_workers():
