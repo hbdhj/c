@@ -3,6 +3,7 @@ import sys
 #from bs4 import BeautifulSoup
 import operator
 import os, os.path
+from filesindir import getAllFilesUnderDir
 
 def countWordsInUrl(url):
     word_list = []
@@ -19,24 +20,23 @@ def countWordsInUrl(url):
 def countWordsInAllFilesUnderDir(dirName):
     word_list = []
     if os.path.exists(dirName):
-            for entry in os.scandir(dirName):
-                if entry.name.startswith('.'):
-                    print("skip hiden directory or file: "+entry.name)
-                elif entry.is_file() and entry.name[-4:]=='.txt':
-                    #print(entry.name)
-                    fileName = dirName + '/' + entry.name
-                    with open(fileName, 'rt') as f:
-                        try:
-                            for line in f:
-                                words = line.lower().split()
-                                for each_word in words:
-                                    #print(each_word)
-                                    word_list.append(each_word)
-                        except UnicodeDecodeError:
-                            print("error to decode file "+fileName)
+        files_list = getAllFilesUnderDir(dirName, 'txt')
+
+    for fileName in files_list:
+        with open(fileName, 'rt') as f:
+            try:
+                for line in f:
+                    words = line.lower().split()
+                    for each_word in words:
+                        #print(each_word)
+                        word_list.append(each_word)
+            except UnicodeDecodeError:
+                print("error to decode file "+fileName)
+
     clean_word_list = clean_up_list(word_list)
     word_freq_dict = create_dictionary(clean_word_list)
     sorted_word_freq_dict= sorted(word_freq_dict.items(), key=lambda d:len(d[0]), reverse = False)
+
     #print(sorted_word_freq_dict)
     with open('bbc_news_freq_word.txt', 'w') as f:
         for word, freq in sorted_word_freq_dict:
