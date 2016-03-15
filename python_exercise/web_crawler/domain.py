@@ -1,7 +1,5 @@
 from urllib.parse import urlparse
 
-
-
 # Get domain name (example.com)
 def get_domain_name(url):
     try:
@@ -16,5 +14,3 @@ def get_sub_domain_name(url):
         return urlparse(url).netloc
     except:
         return ''
-
-#print(get_domain_name("https://mobile.mail.thenewboston.com/index.php"))

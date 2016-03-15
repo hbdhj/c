@@ -44,16 +44,6 @@ def countWordsInAllFilesUnderDir(dirName):
                 #print(word)
                 f.write(word + '   ')
 
-    '''
-    uniq_word_list = list(word_freq_dict.keys())
-    #print(uniq_word_list)
-    uniq_word_list.sort(key=len, reverse=False)
-    for word in uniq_word_list:
-        if len(word)>2 and len(word)<7:
-            print(word)
-    print('')
-    '''
-
 def countWordsInTxt(fileName):
     word_list = []
     with open(fileName, 'rt') as f:
@@ -82,9 +72,6 @@ def create_dictionary(clean_word_list):
             word_count[word] += 1
         else:
             word_count[word] = 1
-
-    #for word, count in sorted(word_count.items(), key=operator.itemgetter(1)):
-    #    print(word, count)
 
     return word_count
 #
