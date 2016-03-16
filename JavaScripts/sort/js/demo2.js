@@ -8,6 +8,9 @@ function func() {
     //获取字符串，存入数组
     S = document.getElementsByName("string")[0].value.split("");
     //依据数组元素，完成对象数组
+    Rect = [];
+    track_insert = [];
+    cons = 0;
     for (var i = 0; i < S.length; i++)
     {
         var rect = {
@@ -19,11 +22,13 @@ function func() {
         }
         Rect.push(rect);
     }
+    console.log("Rect initliazed");
     insertSort(S);
+    console.log("Run Insert Sort");
 }
 
 function insertSort(arr) {
-    var i = 1,    j, key, temp;
+    var i = 1, j, key, temp;
     for (; i < arr.length; i++)
     {
         j = i;
@@ -34,7 +39,8 @@ function insertSort(arr) {
             {
                 arr[j + 1] = arr[j];
                 arr[j] = key;
-                //当数据有交换时，记录下标                track_insert.push(j);
+                //当数据有交换时，记录下标
+                track_insert.push(j);
             } else {
                 break;
             }
@@ -45,13 +51,15 @@ function insertSort(arr) {
 function update() {
     if (cons > track_insert.length) {
         return;
-    }    if (cons == 0) {
+    }
+    if (cons == 0) {
         cnt = track_insert[cons];
+        console.log(cnt);
         Rect[cnt].target_x = Rect[cnt + 1].x;
         Rect[cnt + 1].target_x = Rect[cnt].x;
         cons += 1;
-        console.log(cnt);
-    }    if (Rect[cnt].x == Rect[cnt].target_x) {
+    }
+    if (Rect[cnt].x == Rect[cnt].target_x) {
         if (cons == track_insert.length) {
             cons += 1;
             return;
@@ -74,9 +82,15 @@ function draw(context) {
     context.clearRect(0, 0, context.canvas.width, context.canvas.height);
     for (var i = 0; i < Rect.length; i++) {
         if ((Rect[i].x - Rect[i].target_x) >= 2 || (Rect[i].x - Rect[i].target_x) < -2) {
-            context.fillStyle = "yellow";            context.fillRect(Rect[i].x, Rect[i].y, 25, 25);            context.fillStyle = "blue";            context.fillText(Rect[i].text, Rect[i].x + 10, Rect[i].y + 15);
+            context.fillStyle = "yellow";
+            context.fillRect(Rect[i].x, Rect[i].y, 25, 25);
+            context.fillStyle = "blue";
+            context.fillText(Rect[i].text, Rect[i].x + 10, Rect[i].y + 15);
         } else {
-            context.strokeStyle = "blue";            context.strokeRect(Rect[i].x, Rect[i].y, 25, 25);            context.fillStyle = "blue";            context.fillText(Rect[i].text, Rect[i].x + 10, Rect[i].y + 15);
+            context.strokeStyle = "blue";
+            context.strokeRect(Rect[i].x, Rect[i].y, 25, 25);
+            context.fillStyle = "blue";
+            context.fillText(Rect[i].text, Rect[i].x + 10, Rect[i].y + 15);
         }
     }
     context.fillText("插入排序", 40, 80);
