@@ -13,11 +13,11 @@ int test()
     for(int i=0;i<10000;i++)
         output[i]=1;
     printf("%d\n", output[7]);
-	return 0;
+    return 0;
 }
 
 int main()
 {
-	test();
-	return 0;
+    test();
+    return 0;
 }
