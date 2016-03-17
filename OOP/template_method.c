@@ -5,12 +5,12 @@ function(T &t){
 
 class myclass{
 public:
-	void print(){
-		printf("xxxxxxxxxxxxxxxxxxx");
-	}
+    void print(){
+        printf("xxxxxxxxxxxxxxxxxxx");
+    }
 };
 
 int main(){
-	myclass myc;
-	function(myc);
+    myclass myc;
+    function(myc);
 }

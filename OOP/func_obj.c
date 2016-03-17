@@ -1,16 +1,16 @@
 class function{
 public:
-	function():x(0){
-	}
+    function():x(0){
+    }
 private:
-	int x;
+    int x;
 public:
-	void operator()(){
-		cout<<"xxxxxxxxxxxxxxxx"<<endl;
-	}
+    void operator()(){
+        cout<<"xxxxxxxxxxxxxxxx"<<endl;
+    }
 }
 
 int main(){
-	function fun;
-	fun();
+    function fun;
+    fun();
 }
