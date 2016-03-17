@@ -22,7 +22,7 @@ if(len(sys.argv)>=3):
 else:
     tmp_path = os.getcwd()
 
-cookie = {"Cookie": "_T_WM=8896e0c9abfb7aaef0a4d51b4ca96dfd; SUB=_2A2577sBZDeRxGedK61IR8irMzT2IHXVZEOARrDV6PUJbrdANLW2tkW1LHesX74IqlqKAy_6jr3W4d5CV8qdBwQ..; SUHB=0ftfpZSheQ5PkH; SSOLoginState=1458221065; gsid_CTandWM=4u4NCpOz5cD8s2JCtQU5S5Sd20Z"}
+cookie = {"Cookie": "#the cookie -  get from chrome"}
 url = 'http://weibo.cn/u/%d?filter=1&amp;page=1'%user_id
 print(url)
 html = requests.get(url, cookies = cookie).content
