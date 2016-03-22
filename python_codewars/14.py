@@ -1,3 +1,5 @@
+# Sexy Primes <3
+
 def is_merge(s, part1, part2):
     if len(part1)==0:
         if s==part2:

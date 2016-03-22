@@ -1,3 +1,5 @@
+# Knapsack Part 1 - The Greedy Solution
+
 def knapsack(capacity, items):
     # Be greedy!
     ret = [];

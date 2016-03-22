@@ -1,3 +1,5 @@
+# ASCII hex converter
+
 class Converter():
     @staticmethod
     def to_ascii(h):

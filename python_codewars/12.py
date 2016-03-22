@@ -1,3 +1,5 @@
+# Pascal's Triangle #2
+
 def pascal(p):
     #your code here
     if p==1:
