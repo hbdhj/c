@@ -58,7 +58,7 @@ function showDemo() {
         num[0][j]=j
     for (i = 1; i<= chars1.length; i++)
         for (j = 1; j<= chars2.length; j++)
-            if(str1[i-1]==str1[j-1])
+            if(str1[i-1]==str2[j-1])
                 num[i][j] = num[i-1][j-1]
             else
                 num[i][j]= Math.min(num[i][j-1], num[i-1][j], num[i-1][j-1])+1
