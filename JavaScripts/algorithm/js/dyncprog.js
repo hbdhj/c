@@ -10,6 +10,19 @@ var row = 0;
 var col = 0;
 var type = 0
 
+function canvas_arrow(ctx, fromx, fromy, tox, toy){
+    var headlen = 10;   // length of head in pixels
+    var angle = Math.atan2(toy-fromy,tox-fromx);
+    ctx.moveTo(fromx, fromy);
+    ctx.lineTo(tox, toy);
+    ctx.stroke();
+    ctx.lineTo(tox-headlen*Math.cos(angle-Math.PI/6),toy-headlen*Math.sin(angle-Math.PI/6));
+    ctx.stroke();
+    ctx.moveTo(tox, toy);
+    ctx.lineTo(tox-headlen*Math.cos(angle+Math.PI/6),toy-headlen*Math.sin(angle+Math.PI/6));
+    ctx.stroke();
+}
+
 function drawFirstRow(ctx) {
     //console.log(row, str1.length, num.length)
     ctx.fillText(num[row][0].toString(), space*(row+2.2), space*2.8);
@@ -43,6 +56,40 @@ function drawMatrix(ctx) {
     //console.log(row, str1.length, col, str2.length)
     if ((row <= str1.length)&&(col <= str2.length))
     {
+        /*if (num[row][col]==num[row-1][col-1])
+        {
+            canvas_arrow(ctx, space*(row+1.8), space*(col+1.8), space*(row+2.2), space*(col+2.2));
+        }
+        if (num[row][col]==num[row-1][col-1]+1)
+        {
+            canvas_arrow(ctx, space*(row+1.2), space*(col+1.8), space*(row+2.2), space*(col+2.8));
+        }
+        if (num[row][col]==num[row-1][col]+1)
+        {
+            canvas_arrow(ctx, space*(row+2.2), space*(col+1.8), space*(row+2.2), space*(col+2.8));
+        }
+        if (num[row][col]==num[row][col-1]+1)
+        {
+            canvas_arrow(ctx, space*(row+1.2), space*(col+2.8), space*(row+2.2), space*(col+2.8));
+        }*/
+        if(str1[row-1]==str2[col-1])
+            canvas_arrow(ctx, space*(row+1.8), space*(col+1.8), space*(row+2.2), space*(col+2.2));
+        else
+        {
+            if ((num[row-1][col-1]<=num[row-1][col])&&(num[row-1][col-1]<= num[row][col-1]))
+            {
+                canvas_arrow(ctx, space*(row+1.8), space*(col+1.8), space*(row+2.2), space*(col+2.2));
+            }
+            else if ((num[row][col-1]<=num[row-1][col])&&(num[row][col-1]<= num[row-1][col-1]))
+            {
+                canvas_arrow(ctx, space*(row+2.5), space*(col+1.8), space*(row+2.5), space*(col+2.2));
+            }
+            else if ((num[row-1][col]<=num[row][col-1])&&(num[row-1][col]<= num[row-1][col-1]))
+            {
+                canvas_arrow(ctx, space*(row+1.8), space*(col+2.5), space*(row+2.2), space*(col+2.5));
+            }
+
+        }
         ctx.fillText(num[row][col].toString(), space*(row+2.2), space*(col+2.8));
         col++;
         if (col>str2.length)
@@ -116,9 +163,9 @@ function showDemo() {
     for (i = 1; i<= str1.length; i++)
         for (j = 1; j<= str2.length; j++)
             if(str1[i-1]==str2[j-1])
-                num[i][j] = num[i-1][j-1]
+                num[i][j] = num[i-1][j-1];
             else
-                num[i][j]= Math.min(num[i][j-1], num[i-1][j], num[i-1][j-1])+1
+                num[i][j]= Math.min(num[i][j-1], num[i-1][j], num[i-1][j-1])+1;
     ctx.font = 'bold 30pt Calibri';
     col = 0;
     row = 0;
