@@ -1,15 +1,73 @@
 
+var str1;
+var str2;
+var num = [];
+var drawFirstRowId;
+var drawFirstColId;
+var refreshMatrixId;
+var space = 50;
+var row = 0;
+var col = 0;
+var type = 0
+
+function drawFirstRow(ctx) {
+    //console.log(row, str1.length, num.length)
+    ctx.fillText(num[row][0].toString(), space*(row+2.2), space*2.8);
+    row++
+    if( row>str1.length )
+    {
+        clearInterval(drawFirstRowId);
+        col = 1;
+        drawFirstColId = setInterval(function() {
+            drawFirstCol(ctx);
+        }, 200);
+    }
+}
+
+function drawFirstCol(ctx) {
+    //console.log(col, str2.length, num[0].length)
+    ctx.fillText(num[0][col].toString(), space*2.2, space*(col+2.8));
+    col++
+    if( col>str2.length )
+    {
+        clearInterval(drawFirstColId);
+        row = 1;
+        col = 1;
+        refreshMatrixId = setInterval(function() {
+            drawMatrix(ctx);
+        }, 200);
+    }
+}
+
+function drawMatrix(ctx) {
+    //console.log(row, str1.length, col, str2.length)
+    if ((row <= str1.length)&&(col <= str2.length))
+    {
+        ctx.fillText(num[row][col].toString(), space*(row+2.2), space*(col+2.8));
+        col++;
+        if (col>str2.length)
+        {
+            col = 1;
+            row ++;
+        }
+    }
+    else {
+        clearInterval(refreshMatrixId);
+    }
+
+}
+
 function showDemo() {
     // get input strings
-    var str1 = document.getElementById("str1").value
-    var str2 = document.getElementById("str2").value
+    str1 = document.getElementById("str1").value
+    str2 = document.getElementById("str2").value
     if (str1.length<1 || str2.length<1)
         return
     // create canvas
     var c = document.getElementById("mycanvas");
     var row = str1.length+2
     var col = str2.length+2
-    var space = 50
+
     c.width = space*(row+2);
     c.height = space*(col+2);
     var ctx = c.getContext("2d");
@@ -28,48 +86,43 @@ function showDemo() {
     }
     // fill str1 to row 1
     var chars1 = str1.split("")
-    for (var i = 0; i < chars1.length; i++)
+    for (var i = 0; i < str1.length; i++)
     {
         ctx.font = 'bold 30pt Calibri';
         ctx.fillText(chars1[i], space*(i+3.2), space*1.8);
     }
     // fill str2 to col 1
     var chars2 = str2.split("")
-    for (var i = 0; i < chars2.length; i++)
+    for (var i = 0; i < str2.length; i++)
     {
         ctx.font = 'bold 30pt Calibri';
         ctx.fillText(chars2[i], space*1.2, space*(i+3.8));
     }
-    //
-    num = []
-    for (i = 0; i<= chars1.length; i++)
+    // init the empty matrix
+    for (i = 0; i<= str1.length; i++)
     {
         row = []
-        for (j = 0; j<= chars2.length; j++)
+        for (j = 0; j<= str2.length; j++)
         {
             row.push(0)
         }
         //console.log(num.toString())
         num.push(row)
     }
-    for (i = 0; i<= chars1.length; i++)
+    for (i = 0; i<= str1.length; i++)
         num[i][0]=i
-    for (j = 0; j<= chars2.length; j++)
+    for (j = 0; j<= str2.length; j++)
         num[0][j]=j
-    for (i = 1; i<= chars1.length; i++)
-        for (j = 1; j<= chars2.length; j++)
+    for (i = 1; i<= str1.length; i++)
+        for (j = 1; j<= str2.length; j++)
             if(str1[i-1]==str2[j-1])
                 num[i][j] = num[i-1][j-1]
             else
                 num[i][j]= Math.min(num[i][j-1], num[i-1][j], num[i-1][j-1])+1
-    for (i = 0; i<= chars1.length; i++)
-        console.log(i.toString()+' = '+num[i].toString())
-    for (i = 0; i<= chars1.length; i++)
-    {
-        for (j = 0; j<= chars2.length; j++)
-        {
-            ctx.font = 'bold 30pt Calibri';
-            ctx.fillText(num[i][j].toString(), space*(i+2.2), space*(j+2.8));
-        }
-    }
+    ctx.font = 'bold 30pt Calibri';
+    col = 0;
+    row = 0;
+    drawFirstRowId = setInterval(function() {
+        drawFirstRow(ctx);
+    }, 200);
 }
