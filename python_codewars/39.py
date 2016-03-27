@@ -33,6 +33,10 @@ def createSubSpiral(dim, num):
 
 
 def createSpiral(N):
+    if type(N)!=int:
+        return []
+    elif N==0:
+        return []
     return createSubSpiral(N, N)
 
 def printMatrix(mtrx):
