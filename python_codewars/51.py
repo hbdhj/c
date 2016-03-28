@@ -1,19 +1,33 @@
 # Bowling score calculator
+
 def bowling_score(rolls):
     "Compute the total score for a player's game of bowling."
-    scores = 0
-    frame_id = 0
-    for num in rolls:
-        print(num)
-        plus_next = True
-        plus_next2 = False
-        next_in_frame = False
+    scores = 0 #total score
+    frame_num = 0 # current frame id
+    next_in_frame = False # the next elem is in this frame
+    multiple=[1]*len(rolls)
+    for id in range(len(rolls)):
+        num = rolls[id]
+        #print(id, num, scores, next_in_frame, frame_num, multiple)
+        scores += num*multiple[id]
         if num==10:
-            plus_next2 = True
             frame_num += 1
+            next_in_frame = False
+            if frame_num < 10:
+                if id<len(rolls)-1:
+                    multiple[id+1]+=1
+                if id<len(rolls)-2:
+                    multiple[id+2]+=1
         else:
-            next_in_frame = True
-            if
+            if next_in_frame == False: # new frame
+                next_in_frame = True
+            else: # same frame
+                frame_num += 1
+                next_in_frame = False
+                if num+rolls[id-1] == 10 and frame_num<10:
+                    if id < len(rolls):
+                        multiple[id+1]+=1
+    #print(scores)
     return scores
 
 assert( 0 == bowling_score( [0]*20 ) )
