@@ -1,19 +1,19 @@
+# Ookkk, Ok, O? Ook, Ok, Ooo!
+
 def okkOokOo(s):
-    translate={"Ok, Ook, Ooo":'H', 
-               "Okk, Ook, Ok":'e',
-               "Okk, Okk, Oo":'l', 
-               "Okk, Okkkk":'o',
-               "Ok, Ok, Okkk":'W',
-               "Okkk, Ook, O":'r',
-               "Okk, Ook, Oo":'d',
-               "Ook, Ooook":'!'};
     if s[-1]=='!':
         s=s[:-1];
     split_res=s.split('?');
     ret="";
     for word in split_res:
-        if word.strip() in translate.keys():
-            ret+=translate[word.strip()];
+        ascii_code=0
+        for letter in word.lower():
+            if letter=='k':
+                ascii_code=ascii_code*2+1
+            if letter=='o':
+                ascii_code*=2
+            print(word, letter, ascii_code)
+        ret+=chr(ascii_code)
     print(ret)
     return ret
 
