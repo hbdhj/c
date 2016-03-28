@@ -7,29 +7,33 @@
 
 def spiralize(size):
     # Make a snake
-    spiral = []
-    for i in range(size):
-        spiral_row = []
-        for j in range(size):
-            spiral_row.append(0)
-        spiral.append(spiral_row)
-    #print(spiral)
-    for i in range(size):
-        spiral[0][i]=1 # first row
-        spiral[i][size-1]=1 # last col
-    if size > 2:
-        for i in range(size):
-            spiral[size-1][i]=1 # last col
-    if size > 3:
-        for i in range(2, size):
-            spiral[i][0]=1 # last col
-    if size > 4:
-        if size%2==0:
-            pass
-        else:
-            pass
+    if size == 0:
+        return []
+    elif size == 1:
+        return [[1]]
+    elif size == 2:
+        return [[1,1],[0,1]]
+    elif size == 3:
+        return [[1,1,1],[0,0,1],[1,1,1]]
+    elif size == 4:
+        return [[1, 1, 1, 1],[0, 0, 0, 1],[1, 0, 0, 1],[1, 1, 1, 1]]
+    elif size == 5:
+        return [[1, 1, 1, 1, 1],[0, 0, 0, 0, 1],[1, 1, 1, 0, 1],[1, 0, 0, 0, 1],[1, 1, 1, 1, 1]]
+    elif size == 5:
+        return [[1, 1, 1, 1, 1, 1],[0, 0, 0, 0, 0, 1],[1, 1, 1, 1, 0, 1],[1, 0, 0, 1, 0, 1],[1, 0, 0, 0, 0, 1],[1, 1, 1, 1, 1, 1]]
+    else:
+        ret = []
+        sub_matrix = spiralize(size-4)
+        ret.append([1]*size)
+        ret.append([0]*(size-1)+[1])
+        ret.append([1,1]+sub_matrix[0]+[0, 1])
+        for i in range(1, len(sub_matrix)):
+            ret.append([1,0]+sub_matrix[i]+[0,1])
+        ret.append([1]+[0]*(size-2)+[1])
+        ret.append([1]*size)
+        #print(ret)
+        return ret
 
-    return spiral
 def print_spiralize(spiral):
     print("============= " + str(len(spiral))+ " =============")
     for row in spiral:
@@ -38,10 +42,12 @@ def print_spiralize(spiral):
 #print_spiralize(spiralize(2))
 #print_spiralize(spiralize(3))
 #print_spiralize(spiralize(4))
-print_spiralize(spiralize(5))
-print_spiralize(spiralize(6))
-print_spiralize(spiralize(7))
-print_spiralize(spiralize(8))
+#print_spiralize(spiralize(5))
+#print_spiralize(spiralize(6))
+#print_spiralize(spiralize(7))
+#print_spiralize(spiralize(8))
+#print_spiralize(spiralize(9))
+#print_spiralize(spiralize(10))
 
 
 
