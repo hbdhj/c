@@ -14,31 +14,28 @@ def get_pins(observed):
     #print("====================")
     map = { '0':['0','8'],
             '1':['1','2','4'],
-            '2':['1','2','5','3'],
+            '2':['1','2','3','5'],
             '3':['2','3','6'],
             '4':['1','4','5','7'],
             '5':['2','4','5','6','8'],
-            '6':['1','2','4'],
+            '6':['3','5','6','9'],
             '7':['4','7','8'],
             '8':['0', '5','7','8','9'],
             '9':['6','8','9']}
-    num = 1
-    for ch in observed:
-        num *= len(map[ch])
-    #print(num)
-    ret = []
-    l = len(observed)
-    for n in range(num):
-        #print(n)
-        ret_str=''
-        for i in range(l):
-            c = observed[l-i-1]
-            #print(c)
-            ret_str= map[c][n%len(map[c])] + ret_str
-        #print(ret_str)
-        ret.append(ret_str)
-    return(ret)
+    if len(observed)==1:
+        return map[observed]
+    else:
+        ret = []
+        sub_ret = get_pins(observed[1:])
+        #print(sub_ret)
+        for ch1 in map[observed[0]]:
+            for ch2 in sub_ret:
+                ret.append(ch1+ch2)
+        #print(ret)
+        return ret
 
 #print(get_pins('8'))
-#print(get_pins('11'))
-print(get_pins('369'))
+#assert(sorted(get_pins('11'))==sorted(["11", "22", "44", "12", "21", "14", "41", "24", "42"]))
+#print(get_pins('369'))
+#['236', '238', '239', '256', '258', '259', '266', '268', '269', '296', '298', '299', '336', '338', '339', '356', '358', '359', '366', '368', '369', '396', '398', '399', '636', '638', '639', '656', '658', '659', '666', '668', '669', '696', '698', '699']
+
