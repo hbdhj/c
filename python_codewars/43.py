@@ -1,10 +1,11 @@
 # Function iteration
 
-def create_iterator(func, n):
+def create_iterator(func, num):
     # TODO: Write code here to return a function
     # that executes *func*, *n* times on a supplied input
     def multiple_func(p):
         ret = p
+        n = num
         while n>0:
             ret=func(ret)
             n-=1
