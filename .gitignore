@@ -1,0 +1,6 @@
+# ignore object file
+*.o
+*.out
+
+#ignore java .class
+*.class
