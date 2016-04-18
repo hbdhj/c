@@ -2,5 +2,7 @@
 *.o
 *.out
 
+DERIVED/
+
 #ignore java .class
 *.class
