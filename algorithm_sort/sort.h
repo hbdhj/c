@@ -1,12 +1,7 @@
 // the general method for sort
-#include "stdio.h"
 
-void printList(int *pDataArray, int iDataNum)
-{
-    for (int i = 0; i < iDataNum - 1; i++)
-        printf("%d ", pDataArray[i]);
-    printf("%d\n", pDataArray[iDataNum-1]);
-}
+//#include <stdbool.h>
+#include "stdio.h"
 
 void DataSwap(int* data1, int* data2)
 {
@@ -15,6 +10,16 @@ void DataSwap(int* data1, int* data2)
     *data2 = temp;
 }
 
-// the input array
-int testArray[] = {1,3,2,6,4,7,8,5,9,0};
-int dataNum = sizeof(testArray)/sizeof(int);
+void printList(int *pDataArray, int iDataNum)
+{
+    for (int i = 0; i < iDataNum - 1; i++)
+        printf("%d ", pDataArray[i]);
+    printf("%d\n", pDataArray[iDataNum-1]);
+}
+
+void printDataSwap(char cl, int l, char cr, int r)
+{
+    printf("%c = %d, %c = %d\n", cl, l, cr, r);
+}
+
+void sort(int* pDataArray, int iDataNum);
