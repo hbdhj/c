@@ -25,11 +25,3 @@ void FrontInsertSort(int* pDataArray, int iDataNum)
         }
     }
 }
-
-int main()
-{
-    printList(testArray, dataNum);
-    FrontInsertSort(testArray, dataNum);
-    printList(testArray, dataNum);
-    return 0;
-}
