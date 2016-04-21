@@ -40,3 +40,5 @@ shared memory = ftok shmget shmat shmdt
 signal = signal
 socket client = socket connect send recv close
 socket server = socket bind listen accept send recv close
+socket server select = socket bind listen select accept sock_gets sock_puts close
+socket server epoll = socket epoll_ctl bind listen epoll_wait accept read write close
