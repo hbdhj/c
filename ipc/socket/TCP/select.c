@@ -1,19 +1,3 @@
-/*
-   PLEASE READ THE FILE NB-APOLOGY!!!!  There are some things you should
-   know about this source before you read it.  Thanks.
-
-
-   Quang Ngo alerted me to a bug where the variable listnum in deal_with_data()
-   wasn't being passed in by parameter, thus it was always garbage. I have
-   quick-fixed this in the code below. - Spencer (October 12, 1999)
-
-
-   Non blocking server demo
-   By Vic Metcalfe (vic@acm.org)
-   For the unix-socket-faq
-*/
-
-//#include "sockhelp.h"
 #include <ctype.h>
 #include <sys/time.h>
 #include <fcntl.h>
