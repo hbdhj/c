@@ -13,10 +13,17 @@
    For the unix-socket-faq
 */
 
-#include "sockhelp.h"
+//#include "sockhelp.h"
 #include <ctype.h>
 #include <sys/time.h>
 #include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+#include <string.h>
 
 int sock;            /* The socket file descriptor for our "listening"
                    	socket */
@@ -26,8 +33,7 @@ fd_set socks;        /* Socket file descriptors we want to wake
             up for, using select() */
 int highsock;         /* Highest #'d file descriptor, needed for select() */
 
-void setnonblocking(sock)
-int sock;
+void setnonblocking(int sock)
 {
     int opts;
 
@@ -98,7 +104,7 @@ void handle_new_connection() {
     if (connection != -1) {
         /* No room left in the queue! */
         printf("\nNo room left for new client.\n");
-        sock_puts(connection,"Sorry, this server is too busy.
+        sock_puts(connection,"Sorry, this server is too busy.\
                     Try again later!\r\n");
         close(connection);
     }
@@ -106,7 +112,8 @@ void handle_new_connection() {
 
 void deal_with_data(
     int listnum            /* Current item in connectlist for for loops */
-    ) {
+    ) 
+{
     char buffer[80];     /* Buffer for socket reads */
     char *cur_char;      /* Used in processing buffer */
 
@@ -158,9 +165,7 @@ void read_socks() {
     } /* for (all entries in queue) */
 }
 
-int main (argc, argv)
-int argc;
-char *argv[];
+int main (int argc, char *argv[])
 {
     char *ascport;  /* ASCII version of the server port */
     int port;       /* The port number after conversion from ascport */
