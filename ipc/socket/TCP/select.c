@@ -180,13 +180,10 @@ int main (int argc, char *argv[])
     setnonblocking(sock);
 
     /* Get the address information, and bind it to the socket */
-    ascport = argv[1]; /* Read what the user gave us */
-    port = atoport(ascport); /* Use function from sockhelp to
-                                    convert to an int */
     memset((char *) &server_address, 0, sizeof(server_address));
     server_address.sin_family = AF_INET;
     server_address.sin_addr.s_addr = htonl(INADDR_ANY);
-    server_address.sin_port = port;
+    server_address.sin_port = htons(atoi(argv[1]));
     if (bind(sock, (struct sockaddr *) &server_address,
       sizeof(server_address)) < 0 ) {
         perror("bind");
