@@ -9,6 +9,7 @@
 #include <unistd.h>
 #include <string.h>
 
+#define BUFFSIZE 80
 int sock;            /* The socket file descriptor for our "listening"
                    	socket */
 int connectlist[5];  /* Array of connected sockets so we know who
@@ -16,6 +17,8 @@ int connectlist[5];  /* Array of connected sockets so we know who
 fd_set socks;        /* Socket file descriptors we want to wake
             up for, using select() */
 int highsock;         /* Highest #'d file descriptor, needed for select() */
+
+const char* BUSY = "Sorry, this server is too busy. Try again later!\r\n";
 
 void setnonblocking(int sock)
 {
@@ -88,8 +91,7 @@ void handle_new_connection() {
     if (connection != -1) {
         /* No room left in the queue! */
         printf("\nNo room left for new client.\n");
-        sock_puts(connection,"Sorry, this server is too busy.\
-                    Try again later!\r\n");
+        send(connection, BUSY, sizeof(BUSY), 0);
         close(connection);
     }
 }
@@ -98,10 +100,9 @@ void deal_with_data(
     int listnum            /* Current item in connectlist for for loops */
     ) 
 {
-    char buffer[80];     /* Buffer for socket reads */
+    char buffer[BUFFSIZE];     /* Buffer for socket reads */
     char *cur_char;      /* Used in processing buffer */
-
-    if (sock_gets(connectlist[listnum],buffer,80) < 0) {
+    if (recv(connectlist[listnum], buffer, BUFFSIZE, 0) < 0) {
         /* Connection closed, close this end
            and free up entry in connectlist */
         printf("\nConnection lost: FD=%d;  Slot=%d\n",
@@ -117,8 +118,8 @@ void deal_with_data(
             cur_char[0] = toupper(cur_char[0]);
             cur_char++;
         }
-        sock_puts(connectlist[listnum],buffer);
-        sock_puts(connectlist[listnum],"\n");
+        write(connectlist[listnum], buffer, BUFFSIZE);
+        //sock_puts(connectlist[listnum], "\n");
         printf("responded: %s\n",buffer);
     }
 }

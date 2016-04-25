@@ -7,10 +7,12 @@
 #include <string.h>
 #include <unistd.h>
 #include <netinet/in.h>
+#include <signal.h>
 
 #define MAXPENDING 5    /* Max connection requests */
 #define BUFFSIZE 32
-void Die(char *mess) { perror(mess); exit(1); }
+
+void Die(const char *mess) { perror(mess); exit(1); }
 
 void HandleClient(int sock) {
     char buffer[BUFFSIZE];
@@ -40,6 +42,13 @@ void HandleClient(int sock) {
     close(sock);
 }
 
+void  SIGINT_handler(int sig)
+{
+    signal(sig, SIG_IGN);
+    printf("From SIGINT: just got a %d (SIGINT ^C) signal\n", sig);
+    signal(sig, SIGINT_handler);
+}
+
 int main(int argc, char *argv[]) {
     int serversock, clientsock;
     struct sockaddr_in echoserver, echoclient;
@@ -47,6 +56,11 @@ int main(int argc, char *argv[]) {
     if (argc != 2) {
         fprintf(stderr, "USAGE: echoserver <port>\n");
         exit(1);
+    }
+
+    if (signal(SIGINT, SIGINT_handler) == SIG_ERR) {
+        fprintf(stderr, "SIGINT install error\n");
+        _exit(1);
     }
 
     /* Create the TCP socket */
