@@ -1,3 +1,33 @@
+/*
+
+Insertion Sort - Part 2
+
+Sample Input #1
+
+6
+1 4 3 5 6 2
+
+Sample Output #1
+
+1 4 3 5 6 2 
+1 3 4 5 6 2 
+1 3 4 5 6 2 
+1 3 4 5 6 2 
+1 2 3 4 5 6 
+
+Sample Input #2
+
+5
+2 3 4 5 1
+
+Sample Output #2
+
+2 3 4 5 1
+2 3 4 5 1
+2 3 4 5 1
+1 2 3 4 5
+
+*/
 #include <map>
 #include <set>
 #include <list>
