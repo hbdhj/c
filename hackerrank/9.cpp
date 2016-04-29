@@ -31,8 +31,8 @@ Sample Output
 #include <algorithm>
 using namespace std;
 
-void printVector(vector <int>  ar) {
-    for(int arr_i = 0; arr_i < ar.size(); arr_i++){
+void printVector(int*  ar, int start, int end) {
+    for(int arr_i = start; arr_i < end; arr_i++){
         cout<<ar[arr_i]<<" ";
     }
     cout<<endl;
@@ -56,24 +56,24 @@ void quick_sort(int*  ar, int ll, int rr) {
 				ar[r--] = ar[l];
 		}
 		ar[l] = p;
-			ar[l] = p;
 		
-		printVector(ar);
+		printVector(ar, ll, rr);
+
+		quick_sort(ar, ll, l - 1);
+        quick_sort(ar, l + 1, rr);
 	}
 }
 
 int main(void) {
-   vector <int>  _ar;
-   int _ar_size;
-   cin >> _ar_size;
-    
-     for(int _ar_i=0; _ar_i<_ar_size; _ar_i++) {
-        int _ar_tmp;
-        cin >> _ar_tmp;
-        _ar.push_back(_ar_tmp); 
+    int _ar_size;
+    cin >> _ar_size;
+    int  _ar[_ar_size];
+
+    for(int _ar_i=0; _ar_i<_ar_size; _ar_i++) {
+        cin >> _ar[_ar_i];
     }
 
-   quick_sort(_ar);
+    quick_sort(_ar, 0, _ar_size-1);
    
-   return 0;
+    return 0;
 }

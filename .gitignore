@@ -1,6 +1,9 @@
 # ignore object file
 *.o
 *.out
+*.autotools
+*.cproject
+*.project
 
 DERIVED/
 
