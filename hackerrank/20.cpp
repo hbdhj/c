@@ -1,16 +1,18 @@
 /*
 
-StringStream
+Operator Overloading
 
 Sample Input
 
-23,4,56
+1
+2 2
+2 2 2 2
+1 2 3 4
 
 Sample Output
 
-23
-4
-56
+3 4 
+5 6
 
 */
 
