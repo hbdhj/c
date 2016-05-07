@@ -18,12 +18,12 @@ Sample Output:
 #include <stdbool.h>
 
 int main(){
-    int n; 
+    int n;
     int ret = 0;
     scanf("%d",&n);
     int arr[n];
     for(int arr_i = 0; arr_i < n; arr_i++){
-       scanf("%d",&arr[arr_i]);
+        scanf("%d",&arr[arr_i]);
         ret += arr[arr_i];
     }
     printf("%d\n", ret);
