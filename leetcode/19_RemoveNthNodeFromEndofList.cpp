@@ -10,9 +10,9 @@ public:
         if(!head)
             return head;
         ListNode *p1 = head, *p2 = head;
-        int i=0;
-        while(i<n)
-            p2 = p2->next, i++;
+
+        for(int i=0; i<n; i++)
+            p2 = p2->next;
         if(p2 == NULL)
             return head->next;
         while(p2->next)
