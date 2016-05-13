@@ -1,24 +1,12 @@
-#include <iostream>
-using namespace std;
+#include <stdlib.h>
 
-class Solution {
-public:
-    int lengthOfLastWord(string s) {
-        int end = s.length()-1;
-        while (((s[end]<'A') || (s[end]>'Z')) && ((s[end]<'a') || (s[end]>'z')))
-            end--;
-        int start = end;
-        for (; start>=0; start--) {
-            if (((s[start]<'A') || (s[start]>'Z')) && ((s[start]<'a') || (s[start]>'z')))
-                break;
-        }
-        return end - start;
-    }
-};
+int* plusOne(int* digits, int digitsSize, int* returnSize) {
+    returnSize = digitsSize;
+    ret = digits;
+}
 
 int main()
 {
-    Solution s;
-    cout<<s.lengthOfLastWord("hello World")<<endl;
-    cout<<s.lengthOfLastWord("a ")<<endl;
+    int i;
+    plusOne([9,9,9], 3, &i);
 }

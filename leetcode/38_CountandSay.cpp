@@ -8,37 +8,43 @@ using namespace std;
 class Solution {
 public:
     string countAndSay(int n) {
-        if (n==0)
-            return "10";
-        stack<pair<int, int> > num_stack;
-        int c=n%10;
-        while(n) {
-            if (num_stack.empty()) {
-                num_stack.push(pair<int, int>(n%10, 1));
-            } else {
-                if (n%10==num_stack.top().first) {
-                    num_stack.top().second++;
+        string pre_calc[] = {"1", "11", "21", "1211", "111221"};
+        if ((n<6)&&(n>0))
+            return pre_calc[n-1];
+        else {
+            string former = countAndSay(n-1);
+            char check = former[0];
+            int count = 1;
+            string ret = "";
+            char buffer[10];
+            for (int i=1; i<former.length(); i++) {
+                if (former[i]!=check) {
+                    snprintf(buffer, 10, "%d", count);
+                    ret += buffer;
+                    ret += check;
+                    //cout<<"i = "<<i<<", check = "<<check<<", former["<<i<<"] = "<<former[i]<<", count = "<<count<<", ret = "<<ret<<endl;
+                    check = former[i];
+                    count=1;
                 } else {
-                    num_stack.push_back(pair<int, int>(n%10, 1));
-                }    
+                    count++;
+                }
             }
-            n = n/10;
+            snprintf(buffer, 10, "%d", count);
+            ret += buffer;
+            ret += check;
+            return ret;
         }
-        string ret = "";
-        char buffer[10];
-        while(num_stack.empty()==false) {
-            itoa(num_stack.top().second, buffer, 10);
-            ret+=buffer;
-            itoa(num_stack.top().first, buffer, 10);
-            ret+=buffer;
-            num_stack.pop();
-        }
-        return ret;
     }
 };
 
 int main()
 {
     Solution s;
-    cout<<s.countAndSay(111221)<<endl;
+    cout<<s.countAndSay(1)<<endl;
+    cout<<s.countAndSay(2)<<endl;
+    cout<<s.countAndSay(3)<<endl;
+    cout<<s.countAndSay(4)<<endl;
+    cout<<s.countAndSay(5)<<endl;
+    cout<<s.countAndSay(6)<<endl;
+    cout<<s.countAndSay(7)<<endl;
 }
