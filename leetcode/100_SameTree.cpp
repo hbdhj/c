@@ -30,7 +30,7 @@ TreeNode* createTreeFromArray(int* arr, int len) {
     TreeNode** tree = new TreeNode*[len];
     TreeNode* root = new TreeNode(arr[0]);
     tree[0] = root;
-    for (int i = 0; i<len; i++) {
+    for (int i = 1; i<len; i++) {
         if (arr[i]!='#')
             tree[i] = new TreeNode(arr[i]);
         if (i%2) {
