@@ -61,4 +61,6 @@ int main()
     ListNode *l1 = new ListNode(2);
     ListNode *l2 = new ListNode(1);
     cout<<s.mergeTwoLists(l1, l2)<<endl;
+
+    return 0;
 }

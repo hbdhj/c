@@ -33,4 +33,6 @@ int main()
     cout<<s.strStr("b", "b")<<endl;
     cout<<s.strStr("abc", "b")<<endl;
     cout<<s.strStr("mississippi", "mississippi")<<endl;
+
+    return 0;
 }

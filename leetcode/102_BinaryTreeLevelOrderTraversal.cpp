@@ -21,6 +21,7 @@ public:
             return ret;
         list.push_back(root);
         vector<int> first_level(1, root->val);
+        ret.push_back(first_level);
         int start = 0;
         bool gotChild = (list[start]->left!=NULL)||(list[start]->right!=NULL);
         while (gotChild) {
