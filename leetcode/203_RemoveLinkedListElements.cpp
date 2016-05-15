@@ -1,11 +1,4 @@
-#include <iostream>
-using namespace std;
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+#include "common.h"
 
 class Solution {
 public:
@@ -27,46 +20,23 @@ public:
     }
 };
 
-ListNode* createTreeFromArray(int* arr, int len) {
-    if (sizeof(arr)==0)
-        return NULL;
-    ListNode* head = NULL;
-    for (int i = len - 1; i>=0; i--) {
-        ListNode* pNode = new ListNode(arr[i]);
-        pNode->next = head;
-        head = pNode;
-    }
-    return head;
-};
-
-void printTree(ListNode* head) {
-    ListNode* tmp = head;
-    while (tmp!=NULL) {
-        cout << tmp->val;
-        if (tmp->next)
-            cout<<" -> ";
-        tmp = tmp->next;
-    }
-    cout<<endl;
-};
-
 int UnitTest1() {
     Solution s;
     int vals[] = {1, 2, 6, 3, 4, 5, 6};
-    ListNode* root = createTreeFromArray(vals, 7);
-    printTree(root);
+    ListNode* root = createListFromArray(vals, 7);
+    printList(root);
     s.removeElements(root, 6);
-    printTree(root);
+    printList(root);
     return 0;
 };
 
 int UnitTest2() {
     Solution s;
     int vals[] = {1};
-    ListNode* root = createTreeFromArray(vals, 1);
-    printTree(root);
+    ListNode* root = createListFromArray(vals, 1);
+    printList(root);
     s.removeElements(root, 1);
-    printTree(root);
+    printList(root);
     return 0;
 };
 

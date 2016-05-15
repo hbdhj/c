@@ -1,11 +1,5 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
+#include "common.h"
+
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -22,3 +16,8 @@ public:
         return head;
     }
 };
+
+int main()
+{
+    return 0;
+}
