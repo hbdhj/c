@@ -38,6 +38,17 @@ void printList(ListNode* head) {
     cout<<endl;
 };
 
+void printVector(vector<int> v) {
+    if (v.size()==0)
+        cout<<"[]"<<endl;
+    cout<<"[";
+    int sz = v.size();
+    for (int i=0; i<sz-1; i++) {
+        cout<<v[i]<<", ";
+    }
+    cout<<v[sz-1]<<"]"<<endl;
+};
+
 TreeNode* createTreeFromArray(int* arr, int len) {
     if (sizeof(arr)==0)
         return NULL;
@@ -55,3 +66,21 @@ TreeNode* createTreeFromArray(int* arr, int len) {
     }
     return root;
 };
+
+int getLinkLength(ListNode *head) {
+    int ret = 0;
+    ListNode* p = head;
+    while(p!=NULL) {
+        ret++;
+        p=p->next;
+    }
+    return ret;
+}
+
+ListNode* listWalk(ListNode *head, int n) {
+    ListNode* p = head;
+    while((n--)&&(p!=NULL)) {
+        p=p->next;
+    }
+    return p;
+}
