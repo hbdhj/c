@@ -1,0 +1,3 @@
+i am an apple.
+u are an orange.
+he is a bird.
