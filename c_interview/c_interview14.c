@@ -9,5 +9,12 @@ Return 'acdb'as the results
 */
 
 string completeString(string str) {
-    
+    map<int vector<int> > pos;
+    for (int i=0; i<str.length(); i++) {
+        map[str[i]].push_back(i);
+    }
+    for (int i=0; i<str.length(); i++) {
+        map[str[i]].push_back(i);
+    }
+
 }
