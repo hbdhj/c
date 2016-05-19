@@ -42,3 +42,8 @@ FROM
 WHERE
     trigger_schema = 'database_name'
         AND trigger_name = 'trigger_name';
+        
+SHOW TRIGGERS FROM classicmodels;
+
+-- delete trigger
+DROP TRIGGER employees.before_employees_update;
