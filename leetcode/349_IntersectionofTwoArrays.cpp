@@ -1,9 +1,9 @@
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        vector<int> inter;
+        vector<int> ret;
         if(nums1.empty()||nums2.empty())
-            return inter;
+            return ret;
         int i = 0, j = 0;
         int l1 = nums1.size(), l2 = nums2.size();
         map<int,int>m1;
@@ -22,14 +22,10 @@ public:
             map<int, int>::iterator it1 = m1.find(it2->first);
             if(it1!=m1.end())  
             {
-                int tmp = (it1->second)> (it2->second)? (it2->second):(it1->second);  
-                for(int k = 0; k < tmp ; k++)
-                {
-                    inter.push_back(it1->first);
-                }
+                ret.push_back(it1->first);
             }
             ++it2;
         }
-        return inter;
+        return ret;
     }
 };
