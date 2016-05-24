@@ -50,7 +50,7 @@ public:
                 }
             }
         }
-        cout<<max1<<", "<<pos1<<", "<<max2<<", "<<pos2<<endl;
+        //cout<<max1<<", "<<pos1<<", "<<max2<<", "<<pos2<<endl;
         if ((max1*2+1)>(max2*2+2))
             return s.substr(pos1-max1+1, max1*2-1);
         else
