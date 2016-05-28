@@ -66,6 +66,10 @@ enum I{
     pen
 };
 
+class J {
+
+};
+
 int main(int argc, char** argv)
 {
     char c[10];
@@ -82,5 +86,6 @@ int main(int argc, char** argv)
     printf("sizeof(a union) = %lu\n", sizeof(G));
     printf("sizeof(another union) = %lu\n", sizeof(H));
     printf("sizeof(a enum) = %lu\n", sizeof(I));
+    printf("sizeof(a empty class) = %lu\n", sizeof(J));
     exit(0);
 }
