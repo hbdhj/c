@@ -7,40 +7,32 @@ The Coin Change Problem
 #include <vector>
 #include <iostream>
 #include <algorithm>
+#include <cstring>
 
 using namespace std;
 
-int coinChange(vector<int> coins, int amount) {
-    int ret = 0;
-    int o_amount = amount;
-    if (amount<=0) {
-        ret = 1;
-    } else if (coins.size()==1) {
-        ret = amount%coins[0]==0?1:0;
-    } else {
-        vector<int>::reverse_iterator rit;
-        for (rit=coins.rbegin(); rit != coins.rend(); ++rit) {
-            vector<int> lessCoins;
-            for (int i = 0; i<coins.size()-1; i++) {
-                lessCoins.push_back(coins[i]);
-            }
-            while (amount>=0) {
-                ret+=coinChange(lessCoins, amount);
-                amount-=(*rit);
+#define MAX_N 256
+#define MAX_M 64
+
+long long f[MAX_N];
+int c[MAX_M];
+int m, n;
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    cin >> n >> m;
+    for (int i = 0; i < m; i++)
+        cin >> c[i];
+
+    memset(f, 0, sizeof(f));
+    f[0] = 1;
+    for (int i = m - 1; i >= 0; i--) {
+        for (int j = 1; j <= n; j++) {
+            if (j >= c[i]) {
+                f[j] += f[j - c[i]];
             }
         }
     }
-    return ret;
-}
-
-int main() {
-    int amount, num, coin;
-    cin>>amount>>num;
-    vector<int> coins;
-    for(int i=0; i<num; i++) {
-        cin>>coin;
-        coins.push_back(coin);
-    }
-    cout<<coinChange(coins, amount);
+    cout << f[n] << endl;
     return 0;
 }
