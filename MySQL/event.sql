@@ -28,3 +28,16 @@ DO
 SELECT * FROM messages;
 
 SHOW EVENTS FROM classicmodels;
+
+CREATE EVENT test_event_03
+ON SCHEDULE EVERY 1 MINUTE
+STARTS CURRENT_TIMESTAMP
+ENDS CURRENT_TIMESTAMP + INTERVAL 1 HOUR
+DO
+   INSERT INTO messages(message,created_at)
+   VALUES('Test MySQL recurring Event',NOW());
+   
+SELECT * FROM messages;
+
+	
+DROP EVENT [IF EXIST] test_event_03;

@@ -13,7 +13,7 @@ CALL GetAllProducts();
 DELIMITER //
 CREATE PROCEDURE CountProducts()
     BEGIN
-    DECLARE total_products INT DEFAULT 0
+    DECLARE total_products INT DEFAULT 0;
  
     SELECT COUNT(*) INTO total_products
     FROM products;
