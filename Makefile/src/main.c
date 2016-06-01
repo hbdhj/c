@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "hello.h"
 
-main() {
+int main() {
   char* text = "Hello World!\n";
   print(text);
+  return 0;
 }
