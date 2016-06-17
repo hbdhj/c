@@ -4,22 +4,25 @@ using namespace std;
 class Solution {
 public:
     string addBinary(string a, string b) {
-        int shrtLen, lngLen;
-        string shrtStr, lngStr, ret;
-        if (b.length()>a.length()) {
-            shrt = a.length();
-            lngLen = b.length();
-            shrtStr = a;
-            lngStr = b;
-        } else if (b.length()<=a.length()) {
-            shrt = b.length();
-            lngLen = a.length();
-            shrtStr = b;
-            lngStr = a;
+        string rev_a = reverse(a);
+        string rev_b = reverse(b);
+        string ret = addReverseBinary(rev_a, rev_b);
+        return reverse(ret);
+    }
+
+    string addReverseBinary(string a, string b) {
+        string longStr = a.length()>b.length()?a:b;
+        string shortStr = a.length()>b.length()?b:a;
+        string ret = a.length()>b.length()?a
+    }
+
+    string reverse(string a) {
+        string ret = a;
+        int len = a.length();
+        for (int i = 0; i<len; i++) {
+            ret[i]=a[len-i-1];
         }
-        for (int i=shrt-1; i>=0; i--) {
-            lngStr[] = shrtStr[i] + lngStr[]
-        }
+        return ret;
     }
 };
 
