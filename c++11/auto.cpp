@@ -28,6 +28,7 @@ int main()
     std::cout << "type of c: " << typeid(c).name() << '\n';
 
     auto my_lambda = [](int x) { return x + 3; };
+    std::cout << "type of my_lambda: " << typeid(my_lambda).name() << '\n';
     std::cout << "my_lambda: " << my_lambda(5) << '\n';
 
     auto my_fun = get_fun(2);
@@ -35,4 +36,5 @@ int main()
     std::cout << "my_fun: " << my_fun(3) << '\n';
 
 //  auto int x; // error as of C++11: "auto" is no longer a storage-class specifier
+    return 0;
 }
