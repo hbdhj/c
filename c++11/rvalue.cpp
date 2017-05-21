@@ -26,14 +26,14 @@ public:
             m_data[i] = other.m_data[i];
     }
     // C++ 98
-    /*Intvec& operator=(const Intvec& other)
+    Intvec& operator=(const Intvec& other)
     {
         log("copy assignment operator");
         Intvec tmp(other);
         std::swap(m_size, tmp.m_size);
         std::swap(m_data, tmp.m_data);
         return *this;
-    }*/
+    }
     // C++ 11
     Intvec& operator=(Intvec&& other)
     {
