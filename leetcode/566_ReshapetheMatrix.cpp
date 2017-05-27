@@ -6,20 +6,22 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int> > matrixReshape(vector<vector<int> >& nums, int r, int c) {
+        int cur_r = nums.size();
+        int cur_c = nums[0].size();
+        if (cur_r * cur_c != r * c)
+            return nums;
         vector<vector<int> > ret;
         for (int i=0; i<r; i++)
         {
             vector<int> row(c);
             ret.push_back(row);
         }
-        int cur_r = nums.size();
-        int cur_c = nums[0].size();
         for(int i = 0; i<r*c; i++)
         {
-            if (i<cur_r*cur_c)
+            //if (i<cur_r*cur_c)
                 ret[i/c][i%c] = nums[i/cur_c][i%cur_c];
-            else
-                ret[i/c][i%c] = 0;
+            //else
+            //    ret[i/c][i%c] = 0;
         }
 
         for(int i = 0; i<r; i++)

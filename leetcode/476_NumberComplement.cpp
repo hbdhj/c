@@ -13,7 +13,7 @@ public:
                 ret+=1<<bit;
             bit++;
             num = num>>1;
-            cout<<"bit = "<<bit<<", num = "<<num<<", ret = "<<ret<<endl;
+            //cout<<"bit = "<<bit<<", num = "<<num<<", ret = "<<ret<<endl;
         }
         return ret;
     }
