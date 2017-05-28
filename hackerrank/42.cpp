@@ -16,96 +16,110 @@ Sample Output
 9
 
 */
-#include <cmath>
-#include <cstdio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
-#include <list>
+#include <vector>
+#include <map>
 
 using namespace std;
 
-class MinHeap
-{
-private:
-    list<int> values;
-public:
-    MinHeap()
-    {
-    };
+// Map to maintain the index of values in the heap.
+map<int, int> value_index;
+int heap[500002], heap_size = 0;
 
-    void add(int value)
+void insert_val(int val)
+{
+    if(heap_size == 0)
     {
-        if (values.size())
+        heap[++heap_size] = val;
+        value_index[val] = heap_size;
+        return;
+    }
+    heap[++heap_size] = val;
+    value_index[val] = heap_size;
+    int iter = heap_size;
+    while(iter > 1)
+    {
+        if(heap[iter] < heap[iter/2])
         {
-            bool inserted = false;
-            for (list<int>::iterator it=values.begin(); it!=values.end(); ++it)
-            {
-                if (*it>value)
-                {
-                    values.insert(it, value);
-                    break;
-                }
-            }
-            if (inserted==false)
-                values.push_back(value);
+            value_index[heap[iter]] = iter/2;
+            value_index[heap[iter/2]] = iter;
+            int temp = heap[iter];
+            heap[iter] = heap[iter/2];
+            heap[iter/2] = temp;
+            iter /= 2;
         }
         else
-            values.push_front(value);
-    };
+            break;
+    }
+}
 
-    void remove(int value)
+void delete_val(int val)
+{
+    int index = value_index[val];
+    value_index[val] = 0;
+    value_index[heap[heap_size]] = index;
+    heap[index] = heap[heap_size--];
+    while(true)
     {
-        values.remove(value);
-    };
+        int left_child = 2*index, right_child = 2*index + 1;;
+        if(left_child <= heap_size)
+        {
+            if(right_child <= heap_size)
+            {
+                if(heap[index] > heap[left_child] || heap[index] > heap[right_child])
+                {
+                    int swap_index = (heap[left_child] < heap[right_child])? left_child:right_child;
+                    value_index[heap[swap_index]] = index;;
+                    value_index[heap[index]] = swap_index;;
+                    int temp = heap[index];
+                    heap[index] = heap[swap_index];
+                    heap[swap_index] = temp;
+                    index = swap_index;
+                }
+                else
+                    break;
+            }
+            else
+            {
+                if(heap[index] > heap[left_child])
+                {
+                    value_index[heap[left_child]] = index;
+                    value_index[heap[index]] = left_child;
+                    int temp = heap[index];
+                    heap[index] = heap[left_child];
+                    heap[left_child] = temp;
+                    index = left_child;
+                }
+                else
+                    break;
+            }
+        }
+        else
+            break;
+    }
+}
 
-    int min()
+int main()
+{
+    int queries;
+    cin>>queries;
+    while(queries--)
     {
-        if (values.size())
+        int type, val;
+        cin>>type;
+        if(type == 1) // insert
         {
-            return values.front();
+            cin>>val;
+            insert_val(val);
         }
-        return -1;
-    };
-
-    void print()
-    {
-        for (list<int>::iterator it=values.begin(); it!=values.end(); ++it)
+        else if(type == 2) // delete
         {
-            cout<<" "<<*it;
+            cin>>val;
+            delete_val(val);
         }
-        cout<<endl;
-    };
-};
-
-int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    int n;
-    int action, val;
-    cin >> n;
-    MinHeap heap;
-    for (int i = 0; i < n; i++)
-    {
-        cin >> action;
-        //cout<< "action is "<<action<<", val is "<<val<<endl;
-        if (action == 1)
+        else
         {
-            cin  >> val;
-            //cout<<"add value "<<val<<endl;
-            heap.add(val);
-            //heap.print();
-        }
-        else if (action == 2)
-        {
-            cin >> val;
-            //cout<<"remove value "<<val<<endl;
-            heap.remove(val);
-            //heap.print();
-        }
-        else if (action == 3)
-        {
-            //cout<<"get the min "<<endl;
-            cout<<heap.min()<<endl;
+            cout<<heap[1]<<endl;
         }
     }
     return 0;
