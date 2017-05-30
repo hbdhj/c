@@ -23,16 +23,22 @@ Sample Output
 
 using std::cin;
 using std::vector;
+using std::endl;
+using std::cout;
 
 int main() {
-    int n;
+    int n, m;
     cin >> n;
-    vector<string> unsorted(n);
-    for (int unsorted_i = 0; unsorted_i < n; unsorted_i++) {
-       cin >> unsorted[unsorted_i];
+    vector<int> counter(101, 0);
+    for (int i = 0; i < n; i++) {
+       cin >> m;
+       if ((m <= 100)&&(m >= 0)) {
+           counter[m]++;
+       }
     }
-    // your code goes here
-    sort(unsorted.begin(), unsorted.end(), string_comp);
-    for_each(unsorted.begin(), unsorted.end(), print_str);
+    for (int i = 0; i < 100; i++) {
+       cout << counter[i] << " ";
+    }
+    cout << endl;
     return 0;
 }
