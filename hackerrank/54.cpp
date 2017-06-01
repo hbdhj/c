@@ -28,29 +28,28 @@ Sample Output
 #include <algorithm>
 #include <iostream>
 #include <string>
-#include <stack>
+#include <list>
 
 using std::cin;
-using std::stack;
+using std::list;
 using std::endl;
 using std::cout;
-
+using std::max_element;
 int main() {
     int n, t, x;
     cin >> n;
-    stack<int> s;
+    list<int> s;
     for (int i = 0; i < n; i++) {
         cin >> t;
         switch(t) {
             case 1:
-				cin >> x;
-				s.push(x);
-                break
+				s.push_back(x);
+                break;
             case 2:
-				s.pop();
+				s.pop_back();
                 break;
             case 3:
-				cout<<min_element(s.begin(), s.end());
+				cout<<*max_element(s.begin(), s.end());
                 break;
             default:
                 break;
