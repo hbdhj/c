@@ -2,7 +2,7 @@
 
 Copyright 2017 <Deng Haijun>
 
-Data Structures > Trees > Tree: Postorder Traversal 
+Data Structures > Trees > Tree: Inorder  Traversal 
 
 */
 
@@ -19,10 +19,10 @@ struct node
 */
 
 
-void postOrder(node *root) {
+void inOrder(node *root) {
     if (root) {
-        postOrder(root->left);
-        postOrder(root->right);
+        inOrder(root->left);
         cout << root->data << " ";
+        inOrder(root->right);
     }
 }
