@@ -25,36 +25,46 @@ Sample Output
 
 */
 
-#include <algorithm>
 #include <iostream>
-#include <string>
-#include <list>
+#include <vector>
+#include <cstring>
+#include <stack>
 
-using std::cin;
-using std::list;
-using std::endl;
-using std::cout;
-using std::max_element;
-int main() {
-    int n, t, x;
-    cin >> n;
-    list<int> s;
-    for (int i = 0; i < n; i++) {
-        cin >> t;
-        switch(t) {
-            case 1:
-				s.push_back(x);
-                break;
-            case 2:
-				s.pop_back();
-                break;
-            case 3:
-				cout<<*max_element(s.begin(), s.end());
-                break;
-            default:
-                break;
-       }
+using namespace std;
+
+int main()
+{
+    stack<pair<int,int> > ele, maxi;
+    int n, i = 1;
+    cin>>n;
+    while(i <= n) {
+        int t, v;
+        pair<int, int> p1, p2;
+        cin>>t;
+        if(t == 1) {
+            cin>>v;
+            ele.push(make_pair(v, i));
+            if(maxi.size() == 0) {
+                maxi.push(make_pair(v, i));
+            }
+            else {
+                p1 = maxi.top();
+                if(p1.first < v) {
+                    maxi.push(make_pair(v, i));
+                }
+            }
+        } else if(t == 2) {
+            p1 = ele.top();
+            ele.pop();
+            p2 = maxi.top();
+            if(p1.first == p2.first && p1.second == p2.second) {
+                maxi.pop();
+            }
+        } else {
+            p1 = maxi.top();
+            cout<<p1.first<<endl;
+        }
+        i++;
     }
-
     return 0;
 }
