@@ -44,11 +44,21 @@ struct node {
     node* right;
 };
 
-void LevelOrder(node * root)
-{
-    queue(node*) nodeQueue;
-    
-  
+void levelOrder(node * root) {
+    queue<node*> nodeQueue;
+    if (root)
+        nodeQueue.push(root);
+    while (nodeQueue.size()) {
+        node* toCheck = nodeQueue.front();
+        if (toCheck) {
+            cout << toCheck->data << " ";
+            if (toCheck->left)
+                nodeQueue.push(toCheck->left);
+            if (toCheck->right)
+                nodeQueue.push(toCheck->right);
+        }
+        nodeQueue.pop();
+    }
 }
 
 
@@ -57,6 +67,8 @@ int main() {
     vector<node*> treeNodes(treeSize, NULL);
     for (int i =0; i < treeSize; i++) {
         treeNodes[i] = new node();
+        treeNodes[i]->left = NULL;
+        treeNodes[i]->right = NULL;
     }
     treeNodes[0]->data = 1;
     treeNodes[0]->right = treeNodes[1];
@@ -70,7 +82,7 @@ int main() {
     treeNodes[4]->data = 6;
     treeNodes[5]->data = 4;
 
-    top_view(treeNodes[0]);
+    levelOrder(treeNodes[0]);
 
     for (int i =0; i < treeSize; i++) {
         delete treeNodes[i];
