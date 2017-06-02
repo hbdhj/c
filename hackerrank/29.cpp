@@ -51,10 +51,10 @@ Sample Output:3
 using namespace std;
 
 int lonelyinteger(vector < int > a) {
-	int ret = 0;
-	for(int _a_i=0; _a_i<a.size(); _a_i++) 
-		ret ^= a[_a_i];
-	return ret;
+    int ret = 0;
+    for(int _a_i=0; _a_i<a.size(); _a_i++) 
+        ret ^= a[_a_i];
+    return ret;
 }
 int main() {
     int res;

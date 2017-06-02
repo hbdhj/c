@@ -34,27 +34,27 @@ Sample Output
 using namespace std;
 
 void printVector(vector <int>  ar) {
-	for(int arr_i = 0; arr_i < ar.size(); arr_i++){
-		cout<<ar[arr_i]<<" ";
-	}
-	cout<<endl;
+    for(int arr_i = 0; arr_i < ar.size(); arr_i++){
+        cout<<ar[arr_i]<<" ";
+    }
+    cout<<endl;
 }
 
 void insertionSort(vector <int>  ar) {
     int shift = 0;
     for(int chk_i = 1; chk_i<ar.size(); chk_i++) {
-		int chk = ar[chk_i];
-	    int cmp_i = chk_i;
-	    while(((cmp_i--)>0)&&(ar[cmp_i]>chk)){
-		    ar[cmp_i+1] = ar[cmp_i];
-		}
-	    if (chk_i!=(cmp_i+1))
-		{
-			ar[cmp_i+1]=chk;
-			shift+=(chk_i-cmp_i-1);
-        }		
-	}
-	cout<<shift<<endl;
+        int chk = ar[chk_i];
+        int cmp_i = chk_i;
+        while(((cmp_i--)>0)&&(ar[cmp_i]>chk)){
+            ar[cmp_i+1] = ar[cmp_i];
+        }
+        if (chk_i!=(cmp_i+1))
+        {
+            ar[cmp_i+1]=chk;
+            shift+=(chk_i-cmp_i-1);
+        }        
+    }
+    cout<<shift<<endl;
 }
 
 int main(void) {

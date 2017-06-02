@@ -35,16 +35,16 @@ using namespace std;
  * Complete the function below.
  */
 int maxXor(int l, int r) {
-	int max = 0;
-	for (int i=l; i<=r; i++)
-	{
-		for (int j=l; j<=r; j++)
-		{
-			if (max<(i^j))
-				max=i^j;
-		}	
-	}	
-	return max;
+    int max = 0;
+    for (int i=l; i<=r; i++)
+    {
+        for (int j=l; j<=r; j++)
+        {
+            if (max<(i^j))
+                max=i^j;
+        }    
+    }    
+    return max;
 }
 
 int main() {

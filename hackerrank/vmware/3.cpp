@@ -2,17 +2,17 @@
 using namespace std;
 class A {
 public:
-	A(){}
+    A(){}
 };
 
 void foo() {
-	throw new A;
+    throw new A;
 }
 
 int main() {
-	try {
-		foo();
-	} catch (A& x) {
-		cout<<"here"<<endl;
-	}
+    try {
+        foo();
+    } catch (A& x) {
+        cout<<"here"<<endl;
+    }
 }

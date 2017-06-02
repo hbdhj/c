@@ -32,29 +32,29 @@ Sample Output
 using namespace std;
 
 void printVector(vector <int>  ar) {
-	for(int arr_i = 0; arr_i < ar.size(); arr_i++){
-		cout<<ar[arr_i]<<" ";
-	}
-	cout<<endl;
+    for(int arr_i = 0; arr_i < ar.size(); arr_i++){
+        cout<<ar[arr_i]<<" ";
+    }
+    cout<<endl;
 }
 
 void partition(vector <int>  ar) {
     int l=0;
     int r=ar.size()-1;
-	int p=ar[0];
-	while(l<r)
-	{
-		while(l<r&&ar[r]>=p)
-			r--;
-		if(l < r)
-			ar[l++] = ar[r];
-		while(l<r&&ar[l]<=p)
-			l++;
-		if(l < r)
-		    ar[r--] = ar[l];
-		ar[l] = p;
-	}
-	printVector(ar);
+    int p=ar[0];
+    while(l<r)
+    {
+        while(l<r&&ar[r]>=p)
+            r--;
+        if(l < r)
+            ar[l++] = ar[r];
+        while(l<r&&ar[l]<=p)
+            l++;
+        if(l < r)
+            ar[r--] = ar[l];
+        ar[l] = p;
+    }
+    printVector(ar);
 }
 
 int main(void) {

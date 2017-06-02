@@ -41,27 +41,27 @@ void printVector(int*  ar, int start, int end) {
 void quick_sort(int*  ar, int ll, int rr) {
     if (ll < rr)  
     {
-		int l=ll;
-		int r=rr;
-		int p=ar[ll];
-		while(l<r)
-		{
-			while(l<r&&ar[r]>=p)
-				r--;
-			if(l < r)
-				ar[l++] = ar[r];
-			while(l<r&&ar[l]<=p)
-				l++;
-			if(l < r)
-				ar[r--] = ar[l];
-		}
-		ar[l] = p;
-		
-		printVector(ar, ll, rr);
+        int l=ll;
+        int r=rr;
+        int p=ar[ll];
+        while(l<r)
+        {
+            while(l<r&&ar[r]>=p)
+                r--;
+            if(l < r)
+                ar[l++] = ar[r];
+            while(l<r&&ar[l]<=p)
+                l++;
+            if(l < r)
+                ar[r--] = ar[l];
+        }
+        ar[l] = p;
+        
+        printVector(ar, ll, rr);
 
-		quick_sort(ar, ll, l - 1);
+        quick_sort(ar, ll, l - 1);
         quick_sort(ar, l + 1, rr);
-	}
+    }
 }
 
 int main(void) {
