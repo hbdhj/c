@@ -21,12 +21,6 @@ Sample Output
 
 1 2 5 3 6 4
 
-
-
-*/
-
-/* you only have to complete the function given below.  
-Node is defined as  
 */
 
 #include <iostream>
