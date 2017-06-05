@@ -22,7 +22,14 @@ Sample Output
 using namespace std;
 
 vector<int> array_left_rotation(vector<int> a, int n, int k) {
-    
+    vector<int> ret(n);
+	for(int i=0; i<n; i++) {
+		if (i+k<n)
+			ret[i]=a[i+k];
+		else
+			ret[i]=a[i+k-n];
+	}
+	return ret;
 }
 
 int main(){
