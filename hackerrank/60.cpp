@@ -23,10 +23,6 @@ Sample Output
 No
 */
 
-/* you only have to complete the function given below.  
-Node is defined as  
-*/
-
 #include "./common.h"
 
 bool ransom_note(vector<string> magazine, vector<string> ransom) {
