@@ -1,4 +1,5 @@
 /*
+Copyright 2017 <Deng Haijun>
 
 Security > Functions Security > Bijective Functions
 
@@ -13,14 +14,7 @@ YES
 
 */
 
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include <set>
-
-using namespace std;
+#include "./common.h"
 
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
@@ -28,10 +22,9 @@ int main() {
     set<int> x;
     set<int>::iterator it;
     bool uniq = true;
-    cin>>n;
-    while(n--)
-    {
-        cin>>k;
+    cin >> n;
+    while (n--) {
+        cin >> k;
         it = x.find(k);
         if (it == x.end())
             x.insert(it, k);
@@ -39,8 +32,8 @@ int main() {
             uniq = false;
     }
     if (uniq)
-        cout<<"YES"<<endl;
+        cout << "YES" << endl;
     else
-        cout<<"NO"<<endl;
+        cout << "NO" << endl;
     return 0;
 }

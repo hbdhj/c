@@ -8,10 +8,14 @@ Copyright 2017 <Deng Haijun>
 #include <map>
 #include <string>
 #include <sstream>
+#include <set>
 
 using std::cout;
 using std::endl;
 using std::vector;
+using std::cin;
+using std::set;
+using std::map;
 
 struct ListNode {
     int val;
@@ -128,3 +132,4 @@ ListNode* listWalk(ListNode *head, int n) {
     return p;
 }
 #endif  // GITHUB_C_HACKERRANK_COMMON_H_
+
