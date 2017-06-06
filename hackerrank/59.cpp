@@ -25,7 +25,7 @@ Sample Output
 /* you only have to complete the function given below.  
 Node is defined as  
 */
-
+/*
 #include <iostream>
 #include <vector>
 
@@ -38,14 +38,19 @@ struct Node {
     Node* left;
     Node* right;
 };
+*/
+#include "./common.h"
 
-bool checkBST(node *root) {
+typedef TreeNode Node;
+#define data val
+
+bool checkBST(Node *root) {
     if (root) {
         if (root->left)
-            if (root->left->data>=root->data)
+            if (root->left->data >= root->data)
                 return false;
         if (root->right)
-            if (root->right->data<=root->data)
+            if (root->right->data <= root->data)
                 return false;
         return checkBST(root->left) && checkBST(root->right);
     }
@@ -53,9 +58,9 @@ bool checkBST(node *root) {
 }
 
 int main() {
-    vector<node*> treeNodes(7, NULL);
+    /*vector<Node*> treeNodes(7, NULL);
     for (int i =0; i < 7; i++) {
-        treeNodes[i] = new node();
+        treeNodes[i] = new Node();
     }
     treeNodes[0]->data = 4;
     treeNodes[0]->left = treeNodes[1];
@@ -69,16 +74,19 @@ int main() {
     treeNodes[3]->data = 1;
     treeNodes[4]->data = 3;
     treeNodes[5]->data = 5;
-    treeNodes[6]->data = 7;
+    treeNodes[6]->data = 7;*/
+    int vals[] = {1, 2, 3, 4, 5, 6, 7};
+    Node* root = createTreeFromArray(vals, sizeof(vals)/sizeof(int));
 
-    if(checkBST(treeNodes[0])) {
+    if (checkBST(root)) {
         cout << "Yes" <<endl;
     } else {
         cout << "No" <<endl;
     }
-
+/*
     for (int i =0; i < 7; i++) {
         delete treeNodes[i];
     }
+*/
     return 0;
 }
