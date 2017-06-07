@@ -9,6 +9,8 @@ Copyright 2017 <Deng Haijun>
 #include <string>
 #include <sstream>
 #include <set>
+#include <stdio.h>
+#include <algorithm>
 
 using std::cout;
 using std::endl;
@@ -16,6 +18,7 @@ using std::vector;
 using std::cin;
 using std::set;
 using std::map;
+using std::sort;
 
 struct ListNode {
     int val;
