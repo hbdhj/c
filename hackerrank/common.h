@@ -11,10 +11,11 @@ Copyright 2017 <Deng Haijun>
 #include <set>
 #include <stdio.h>
 #include <algorithm>
-#include <unordered_map>
 #include <queue>
-#include <unordered_set>
+// #include <unordered_map>   // only for c++11
+// #include <unordered_set>   // only for c++11
 #include <vector>
+#include <utility>
 
 using std::cout;
 using std::endl;
@@ -22,10 +23,11 @@ using std::vector;
 using std::cin;
 using std::set;
 using std::map;
+using std::pair;
 using std::sort;
 using std::queue;
-using std::unordered_set;
-using std::unordered_map;
+// using std::unordered_set;
+// using std::unordered_map;
 using std::priority_queue;
 
 struct ListNode {
