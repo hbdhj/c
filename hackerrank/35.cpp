@@ -1,32 +1,23 @@
 /*
+Copyright 2017 <Deng Haijun>
+
 Breadth First Search: Shortest Reach
+
 */
 
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include <queue>
-#include <unordered_map>
-#include <unordered_set>
+#include "./common.h"
 
-using namespace std;
+const int64 DIST_MAX = -1;
 
-const long DIST_MAX = -1;
+vector<int64> dist;
 
-vector<long> dist;
-
-struct Comp
-{
-    int operator() (const int &v1, const int &v2)
-    {
+struct Comp {
+    int operator() (const int &v1, const int &v2) {
         return dist[v1] > dist[v2];
     }
 };
 
-int main()
-{
+int main() {
     int t; cin >> t;
     while (t--) {
         unordered_map<int, unordered_set<int>> g;

@@ -1,20 +1,14 @@
 /*
+Copyright 2017 <Deng Haijun>
 The Coin Change Problem
 */
 
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include <cstring>
-
-using namespace std;
+#include "./common.h"
 
 #define MAX_N 256
 #define MAX_M 64
 
-long long f[MAX_N];
+int64 f[MAX_N];
 int c[MAX_M];
 int m, n;
 

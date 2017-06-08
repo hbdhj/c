@@ -32,8 +32,8 @@ int main() {
         value_total += wi * xis[i];
         weight_total += wi;
     }
-    
-    printf("%.1f\n", float(value_total) /weight_total);
-    
+
+    printf("%.1f\n", static_cast<float>(value_total) /weight_total);
+
     return 0;
 }

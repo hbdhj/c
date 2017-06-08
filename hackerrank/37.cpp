@@ -1,17 +1,14 @@
 /*
+Copyright 2017 <Deng Haijun>
+
 Stock Maximize
 */
 
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-using namespace std;
+#include "./common.h"
 
 #define MAX_N 50008
 
-long long share[MAX_N];
+int64 share[MAX_N];
 bool sell[MAX_N];
 
 int main() {
@@ -19,9 +16,9 @@ int main() {
     int T, N;
     cin >> T;
     while (T--) {
-        long long max_share = 0;
-        long long profit = 0;
-        long long cnt = 0;
+        int64 max_share = 0;
+        int64 profit = 0;
+        int64 cnt = 0;
         cin >> N;
         for (int i = 0; i < N; i++)
             cin >> share[i];

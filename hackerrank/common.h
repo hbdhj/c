@@ -11,6 +11,10 @@ Copyright 2017 <Deng Haijun>
 #include <set>
 #include <stdio.h>
 #include <algorithm>
+#include <unordered_map>
+#include <queue>
+#include <unordered_set>
+#include <vector>
 
 using std::cout;
 using std::endl;
@@ -19,6 +23,10 @@ using std::cin;
 using std::set;
 using std::map;
 using std::sort;
+using std::queue;
+using std::unordered_set;
+using std::unordered_map;
+using std::priority_queue;
 
 struct ListNode {
     int val;
