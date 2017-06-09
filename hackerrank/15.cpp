@@ -42,8 +42,8 @@ int main() {
         int r_s = s-a[0];
         bool found = false;
         for(int a_i=0; a_i<n; a_i++) {
-            lc += a[i-1];
-            rc -= a[i];
+            //lc += a[i-1];
+            //rc -= a[i];
             if (l_s==r_s) {
                 found = true;
                 break;

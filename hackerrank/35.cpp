@@ -7,9 +7,9 @@ Breadth First Search: Shortest Reach
 
 #include "./common.h"
 
-const int64 DIST_MAX = -1;
+const long long DIST_MAX = -1;
 
-vector<int64> dist;
+vector<long long> dist;
 
 struct Comp {
     int operator() (const int &v1, const int &v2) {
