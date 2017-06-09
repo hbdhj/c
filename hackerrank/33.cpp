@@ -1,5 +1,7 @@
 /*
 
+Copyright 2017 <Deng Haijun>
+
 Lower Bound-STL
 
 Sample Input
@@ -20,29 +22,23 @@ Sample Output
 
 */
 
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-using namespace std;
-
+#include "./common.h"
 
 int main() {
     int n, y, q;
-    cin>>n;
+    cin >> n;
     vector<int> x(n);
-    for(int i=0;i<n;i++){
-        cin>>x[i];
+    for (int i = 0; i < n; i++) {
+        cin >> x[i];
     }
-    cin>>q;
-    for(int i=0;i<q;i++){
-        cin>>y;
-        std::vector<int>::iterator low=std::lower_bound (x.begin(), x.end(), y);
-        if ((*low)==y)
-            cout<<"Yes "<<(low-x.begin()+1)<<endl;
+    cin >> q;
+    for (int i = 0; i < q; i++) {
+        cin >> y;
+        vector<int>::iterator low = std::lower_bound(x.begin(), x.end(), y);
+        if ((*low) == y)
+            cout << "Yes " << (low-x.begin()+1) << endl;
         else
-            cout<<"No "<<(low-x.begin()+1)<<endl;
+            cout << "No " << (low-x.begin()+1) << endl;
     }
 
     return 0;
