@@ -4,8 +4,7 @@ Copyright 2017 <Deng Haijun>
 Arrays - DS
 */
 
-#include <cstdio>
-#include <vector>
+#include "./common.h"
 
 using std::vector;
 

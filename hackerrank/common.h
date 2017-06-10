@@ -3,20 +3,26 @@ Copyright 2017 <Deng Haijun>
 */
 #ifndef GITHUB_C_HACKERRANK_COMMON_H_
 #define GITHUB_C_HACKERRANK_COMMON_H_
+
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <sys/types.h>
+
 #include <iostream>
 #include <vector>
 #include <map>
 #include <string>
 #include <sstream>
 #include <set>
-#include <stdio.h>
 #include <algorithm>
 #include <queue>
-// #include <unordered_map>   // only for c++11
-// #include <unordered_set>   // only for c++11
 #include <vector>
 #include <utility>
-
+#if (__STDC_VERSION >= 201112L)
+#include <unordered_map>   // only for c++11
+#include <unordered_set>   // only for c++11
+#endif
 using std::cout;
 using std::endl;
 using std::vector;
@@ -26,9 +32,13 @@ using std::map;
 using std::pair;
 using std::sort;
 using std::queue;
-// using std::unordered_set;
-// using std::unordered_map;
+#if (__STDC_VERSION >= 201112L)
+using std::unordered_set;
+using std::unordered_map;
+#endif
 using std::priority_queue;
+using std::lower_bound;
+using std::string;
 
 struct ListNode {
     int val;

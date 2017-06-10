@@ -18,10 +18,7 @@ Sample Output
 */
 
 
-#include <iostream>
-
-using std::out;
-using std::endl;
+#include "./common.h"
 
 int main() {
     int n, px, py, qx, qy;

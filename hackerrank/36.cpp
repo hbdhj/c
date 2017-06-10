@@ -8,7 +8,7 @@ The Coin Change Problem
 #define MAX_N 256
 #define MAX_M 64
 
-int64 f[MAX_N];
+long long f[MAX_N];
 int c[MAX_M];
 int m, n;
 
