@@ -25,7 +25,8 @@ int main() {
     cin >> l >> s1 >> s2 >> q;
     while (q--) {
         cin >> qi;
-        printf("%.10f\n", (double(l) - sqrt(double(qi)))*sqrt(2.0)/(s2>s1?(s2-s1):(s1-s2)));
+        printf("%.10f\n", (static_cast<double>(l) - sqrt(static_cast<double>(qi)))
+                          *sqrt(2.0)/(s2 > s1?(s2-s1):(s1-s2)));
     }
     return 0;
 }
