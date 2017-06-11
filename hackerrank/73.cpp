@@ -16,19 +16,19 @@ Sample Output 0
 
 #include "./common.h"
 
-int getMaxMonsters(int n, int hit, int t, vector < int > h){
+int getMaxMonsters(int n, int hit, int t, vector < int > h) {
     // Complete this function
     sort(h.begin(), h.end());
     int c = 0;
     int i = 0;
-    while(t&&i<n) {
+    while (t && i < n) {
         if (((h[i] + hit - 1)/hit) <= t) {
             t -= (h[i] + hit - 1)/hit;
             c++;
             i++;
-        }
-        else
+        } else {
             t = 0;
+        }
     }
     return c;
 }
@@ -39,7 +39,7 @@ int main() {
     int t;
     cin >> n >> hit >> t;
     vector<int> h(n);
-    for(int h_i = 0; h_i < n; h_i++){
+    for (int h_i = 0; h_i < n; h_i++) {
        cin >> h[h_i];
     }
     int result = getMaxMonsters(n, hit, t, h);
