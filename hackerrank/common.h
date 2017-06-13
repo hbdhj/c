@@ -39,6 +39,7 @@ using std::unordered_map;
 using std::priority_queue;
 using std::lower_bound;
 using std::string;
+using std::min;
 
 struct ListNode {
     int val;

@@ -36,57 +36,38 @@ Sample Output
 
 */
 
-int twinArrays(vector <int> ar1, vector <int> ar2){
+#include "./common.h"
+
+int twinArrays(vector <int> ar1, vector <int> ar2) {
     // Complete this function
-    int m1 = 100001;
-    int m2 = 100001;
-    int n1 = 100001;
-    int n2 = 100001;
-    int i1, i2;
-    int j1, j2;
-    for (int i = 0; i<ar1.size(); i++) {
-        if (ar1[i]<m2) {
-            m2 = ar1[i];
-            i2 = i;
-        }
-        if (m2<m1) {
-            int tmp = m1;
-            m1 = m2;
-            m2 = m1;
-            tmp = i1;
-            i1 = i2;
-            i2 = i1;
-        }
+    vector<pair<int, int> > ar_pos1(ar1.size());
+    vector<pair<int, int> > ar_pos2(ar2.size());
+    for (int i = 0; i < ar1.size(); i++) {
+        ar_pos1[i].first = ar1[i];
+        ar_pos1[i].second = i;
     }
-    for (int i = 0; i<ar2.size(); i++) {
-        if (ar2[i]<n2) {
-            n2 = ar2[i];
-            j2 = i;
-        }
-        if (n2<n1) {
-            int tmp = n1;
-            n1 = n2;
-            n2 = n1;
-            tmp = j1;
-            j1 = j2;
-            j2 = j1;
-        }
+    for (int i = 0; i < ar2.size(); i++) {
+        ar_pos2[i].first = ar2[i];
+        ar_pos2[i].second = i;
     }
-    if (i1!=j1)
-        return m1+n1;
+    sort(ar_pos1.begin(), ar_pos1.end());
+    sort(ar_pos2.begin(), ar_pos2.end());
+    if (ar_pos1[0].second != ar_pos2[0].second)
+        return ar_pos1[0].first+ar_pos2[0].first;
     else
-        return min(m2+n1, n2+m1);
+        return min(ar_pos1[1].first + ar_pos2[0].first,
+                   ar_pos1[0].first + ar_pos2[1].first);
 }
 
 int main() {
     int n;
     cin >> n;
     vector<int> ar1(n);
-    for(int ar1_i = 0; ar1_i < n; ar1_i++){
+    for (int ar1_i = 0; ar1_i < n; ar1_i++) {
        cin >> ar1[ar1_i];
     }
     vector<int> ar2(n);
-    for(int ar2_i = 0; ar2_i < n; ar2_i++){
+    for (int ar2_i = 0; ar2_i < n; ar2_i++) {
        cin >> ar2[ar2_i];
     }
     int result = twinArrays(ar1, ar2);
