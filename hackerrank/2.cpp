@@ -1,4 +1,6 @@
 /*
+Copyright 2017 <Deng Haijun>
+
 Simple Array Sum
 
 Sample Input:
@@ -16,14 +18,15 @@ Sample Output:
 #include <assert.h>
 #include <limits.h>
 #include <stdbool.h>
+#include <vector>
 
-int main(){
+int main() {
     int n;
     int ret = 0;
-    scanf("%d",&n);
-    int arr[n];
-    for(int arr_i = 0; arr_i < n; arr_i++){
-        scanf("%d",&arr[arr_i]);
+    scanf("%d", &n);
+    vector<int> arr(n);
+    for (int arr_i = 0; arr_i < n; arr_i++) {
+        scanf("%d", &arr[arr_i]);
         ret += arr[arr_i];
     }
     printf("%d\n", ret);
