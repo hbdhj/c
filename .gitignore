@@ -9,3 +9,6 @@ DERIVED/
 
 #ignore java .class
 *.class
+
+#ignore hello
+hello
