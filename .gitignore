@@ -4,6 +4,9 @@
 *.autotools
 *.cproject
 *.project
+*.info
+*.gcda
+*.gcno
 
 DERIVED/
 

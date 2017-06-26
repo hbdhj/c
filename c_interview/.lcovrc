@@ -1,0 +1,3 @@
+genhtml_hi_limit=40
+genhtml_med_limit=70
+genhtml_nav_resolution=4
