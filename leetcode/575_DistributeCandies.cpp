@@ -14,22 +14,21 @@ public:
             if (candies[i]!=candies[i-1])
                 diff++;
         }
-        //cout<<"diff = "<<diff<<"candies.size()/2 = "<<candies.size()/2<<endl;
         return candies.size()/2>diff?diff:candies.size()/2;
     }
 };
 
 int main()
 {
-    int myints[] = {1,1,2,2,3,3};
-    vector<int> v1 (myints, myints + sizeof(myints) / sizeof(int) );
     Solution s;
+    int myints1[] = {1,1,2,2,3,3};
+    vector<int> v1 (myints1, myints1 + sizeof(myints1) / sizeof(int) );
     cout<<"result = "<<s.distributeCandies(v1)<<endl;
     int myints2[] = {1,1,2,3};
     vector<int> v2 (myints2, myints2 + sizeof(myints2) / sizeof(int) );
     cout<<"result = "<<s.distributeCandies(v2)<<endl;
-    int myints2[] = {0,0,0,0,2,3};
-    vector<int> v2 (myints2, myints2 + sizeof(myints2) / sizeof(int) );
-    cout<<"result = "<<s.distributeCandies(v2)<<endl;
+    int myints3[] = {0,0,0,0,2,3};
+    vector<int> v3 (myints3, myints3 + sizeof(myints3) / sizeof(int) );
+    cout<<"result = "<<s.distributeCandies(v3)<<endl;
     return 0;
 }
