@@ -2,10 +2,67 @@
 #include <stdlib.h>
 //#include <unistd.h>
 
+struct S1 {
+	int i;
+	char ch1;
+	char ch2;
+};
+
+struct S2 {
+	char ch1;
+	int i;
+	char ch2;
+};
+
+union U1 {
+	struct S1 S11;
+	struct S2 S21;
+};
+
+struct S3 {
+	char a[13];
+};
+
+struct S4 {
+	int i;
+	U1 u;
+};
+
+#pragma pack(1)
+struct S5 {
+	int i;
+	char ch1;
+	char ch2;
+};
+#pragma pack()
+
+struct EmptyS1 {
+	
+};
+
+class EmptyS2 {
+	
+};
+
+union U2 {
+	char a[13];
+	int b;
+	EmptyS1 es1;
+};
+
+#pragma pack(1)
+union U3 {
+	char a[13];
+	int b;
+	EmptyS1 es1;
+};
+#pragma pack()
+
 class A {
 private:
     int a1;
     char a2;
+    char a3;
 };
 
 class B : public A{
@@ -73,7 +130,17 @@ class J {
 int main(int argc, char** argv)
 {
     char c[10];
-    printf("sizeof(char) = %lu\n", sizeof(char));
+    printf("sizeof(S1) = %lu\n", sizeof(S1));
+    printf("sizeof(S2) = %lu\n", sizeof(S2));
+    printf("sizeof(S3) = %lu\n", sizeof(S3));
+    printf("sizeof(S4) = %lu\n", sizeof(S4));
+    printf("sizeof(S5) = %lu\n", sizeof(S5));
+    printf("sizeof(U1) = %lu\n", sizeof(U1));
+    printf("sizeof(U2) = %lu\n", sizeof(U2));
+    printf("sizeof(U3) = %lu\n", sizeof(U3));
+    printf("sizeof(EmptyS1) = %lu\n", sizeof(EmptyS1));
+	printf("sizeof(EmptyS2) = %lu\n", sizeof(EmptyS2));
+	printf("sizeof(char) = %lu\n", sizeof(char));
     printf("sizeof(int) = %lu\n", sizeof(int));
     printf("sizeof(double) = %lu\n", sizeof(double));
     printf("sizeof(char c[10]) = %lu\n", sizeof(c));
