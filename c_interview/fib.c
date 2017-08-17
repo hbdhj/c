@@ -38,7 +38,7 @@ int fib_v3(int n) {
 	}
 }
 
-// time O(1) space (1)
+// time O(n) space (1)
 int fib_v4(int n) {
 	if (n < 1)
 		return 0;
@@ -73,7 +73,7 @@ int max_fib() {
 	return i;
 }
 
-// time O(1) space (1)
+// time O(n) space (1)
 int fib_v5(int n) {
 	if (n < 1 || n > 46)
 		return 0;
@@ -92,12 +92,24 @@ int fib_v5(int n) {
 	}
 }
 
+int fib_nums[] = {1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, 1346269, 2178309, 3524578, 5702887, 9227465, 14930352, 24157817, 39088169, 63245986, 102334155, 165580141, 267914296, 433494437, 701408733, 1134903170, 1836311903};
+
+// time O(1) space (1)
+int fib_v6(int n) {
+	if (n < 1 || n > 46)
+		return 0;
+	else{
+		return fib_nums[n-1];
+	}
+}
+
 int main(int argc, char** argv) {
 	printf("fib_v1(3) = %d\n", fib_v1(3));
 	printf("fib_v2(4) = %d\n", fib_v2(4));
 	printf("fib_v3(5) = %d\n", fib_v3(5));
 	printf("fib_v4(6) = %d\n", fib_v4(6));
 	printf("fib_v5(7) = %d\n", fib_v5(7));
+	printf("fib_v6(8) = %d\n", fib_v6(8));
 	printf("sizeof(int) = %d\n", sizeof(int));
 	int max_int = 0x7fffffff;
 	int max_int_1 = max_int +  1;
