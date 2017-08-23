@@ -1,12 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
 template <typename T> 
-function(T &t){
-    t.print()
+void function(T &t){
+    t.print();
 }
 
 class myclass{
 public:
     void print(){
-        printf("xxxxxxxxxxxxxxxxxxx");
+        cout<<"class myclass method print"<<endl;
     }
 };
 

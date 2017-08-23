@@ -1,10 +1,20 @@
-template<typename T>
+#include <iostream>
 
+using namespace std;
+
+class myclass{
+public:
+    void print(){
+        cout<<"class myclass method print"<<endl;
+    }
+};
+
+template<typename T>
 class Test{
 public:
-	T t;
-	void run(){
-		t.print();
+    T t;
+    void run(){
+        t.print();
     }
 };
 
