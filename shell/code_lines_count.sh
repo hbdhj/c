@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd /home/hdeng/Code/github/
 cloc --csv . > cloc_result.xml
 
 echo "// update at `date`" > codeline_data.js
