@@ -2,7 +2,7 @@
 
 #ps -eo pid,ppid,vsz,rss,wchan,stat,time,args --cols 512 | head -1 > $2
 date > $2
-while
+while :
 do
     sleep 1
     echo "===========================================================" >> $2
