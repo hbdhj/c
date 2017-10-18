@@ -11,9 +11,9 @@ HACKERRANK_TARGETS := $(foreach n,$(HACKERRANK_SRCS),$(n).o)
 all: $(HACKERRANK_TARGETS)
 
 $(HACKERRANK_TARGETS): $(HACKERRANK_SRCS)
-	@echo "building exec with shared lib"
-	$(CC) -o $@ $(HACKERRANK_SRCS) $(CFLAGS)
+    @echo "building exec with shared lib"
+    $(CC) -o $@ $(HACKERRANK_SRCS) $(CFLAGS)
 
 .PHONY : clean
 clean: 
-	@rm -rf $(HACKERRANK_TARGETS)
+    @rm -rf $(HACKERRANK_TARGETS)
