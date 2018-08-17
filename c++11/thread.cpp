@@ -2,44 +2,38 @@
 // compile command: g++ --std=c++11 -pthread thread.cpp
 #include <iostream>       // std::cout
 #include <thread>         // std::thread
-#include <chrono>         
- 
+#include <chrono>
+
 using namespace std;
 
-void foo() 
-{
+void foo() {
     int timer = 10;
-    while(timer)
-    {
+    while (timer) {
         timer--;
-        cout<<"foo timer = "<<timer<<endl;
+        cout << "foo timer = " << timer << endl;
         this_thread::sleep_for(chrono::seconds(1));
     }
 }
 
-void bar(int x)
-{
+void bar(int x) {
     int timer = 10;
-    while(timer)
-    {
+    while (timer) {
         timer--;
-        cout<<"bar timer = "<<timer<<endl;
+        cout << "bar timer = " << timer << endl;
         this_thread::sleep_for(chrono::seconds(1));
     }
 }
 
-int main() 
-{
-    thread first (foo);     // spawn new thread that calls foo()
-    thread second (bar,0);  // spawn new thread that calls bar(0)
+int main() {
+    thread first(foo);     // spawn new thread that calls foo()
+    thread second(bar, 0);  // spawn new thread that calls bar(0)
 
     cout << "main, foo and bar now execute concurrently...\n";
 
     int timer = 10;
-    while(timer)
-    {
+    while (timer) {
         timer--;
-        cout<<"main timer = "<<timer<<endl;
+        cout << "main timer = " << timer << endl;
         this_thread::sleep_for(chrono::seconds(1));
     }
     // synchronize threads:

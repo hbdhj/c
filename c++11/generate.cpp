@@ -10,29 +10,29 @@ int RandomNumber () { return (std::rand()%100); }
 
 // class generator:
 struct c_unique {
-  int current;
-  c_unique() {current=0;}
-  int operator()() {return ++current;}
+    int current;
+    c_unique() {current = 0;}
+    int operator()() {return ++current;}
 } UniqueNumber;
 
-int main () {
-  std::srand ( unsigned ( std::time(0) ) );
+int main() {
+    std::srand(unsigned(std::time(0) ) );
 
-  std::vector<int> myvector (8);
+    std::vector<int> myvector(8);
 
-  std::generate (myvector.begin(), myvector.end(), RandomNumber);
+    std::generate(myvector.begin(), myvector.end(), RandomNumber);
 
-  std::cout << "myvector contains:";
-  for (std::vector<int>::iterator it=myvector.begin(); it!=myvector.end(); ++it)
-    std::cout << ' ' << *it;
-  std::cout << '\n';
+    std::cout << "myvector contains:";
+    for (std::vector<int>::iterator it = myvector.begin(); it != myvector.end(); ++it)
+        std::cout << ' ' << *it;
+    std::cout << '\n';
 
-  std::generate (myvector.begin(), myvector.end(), UniqueNumber);
+    std::generate(myvector.begin(), myvector.end(), UniqueNumber);
 
-  std::cout << "myvector contains:";
-  for (std::vector<int>::iterator it=myvector.begin(); it!=myvector.end(); ++it)
-    std::cout << ' ' << *it;
-  std::cout << '\n';
- 
+    std::cout << "myvector contains:";
+    for (std::vector<int>::iterator it = myvector.begin(); it != myvector.end(); ++it)
+        std::cout << ' ' << *it;
+    std::cout << '\n';
+
   return 0;
 }
