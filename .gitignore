@@ -67,3 +67,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Rust gitignore
+target/
+Cargo.lock
+**/*.rs.bk
