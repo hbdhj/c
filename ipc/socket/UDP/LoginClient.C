@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
     sprintf(buf, "<LoginQuery xmlns=\"http://www.jdsu.com/loginserver\" schemaVersion=\"1.0\"><LoginQueryRequest><Username>%s</Username></LoginQueryRequest></LoginQuery>", account.c_str());
 	printf("the buf is %s", buf); 
     
-	/*struct sockaddr_in si_other;
+	struct sockaddr_in si_other;
     int s, i, slen=sizeof(si_other);
     
     if ((s=socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP))==-1)
@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
     memset((char *) &si_other, 0, sizeof(si_other));
     si_other.sin_family = AF_INET;
     si_other.sin_port = htons(port);
-    if (inet_aton(server_ip, &si_other.sin_addr)==0) {
+    if (inet_aton(server_ip.c_str(), &si_other.sin_addr)==0) {
         fprintf(stderr, "inet_aton() failed\n");
         exit(1);
     }
@@ -71,9 +71,9 @@ int main(int argc, char *argv[])
     printf("Sending packet %d\n", i);
     sprintf(buf, "<LoginQuery xmlns=\"http://www.jdsu.com/loginserver\" schemaVersion=\"1.0\"><LoginQueryRequest><Username>%s</Username></LoginQueryRequest></LoginQuery>", account.c_str());
 	printf("the buf is %d", buf); 
-    if (sendto(s, buf, BUFLEN, 0, &si_other, slen)==-1)
+    if (sendto(s, buf, BUFLEN, 0, (struct sockaddr *)&si_other, slen)==-1)
         diep("sendto()");
     
-    close(s);*/
+    close(s);
     return 0;
 }
